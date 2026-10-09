@@ -1,0 +1,67 @@
+/* Action buttons remain visible on touch screens, including before a tap. */
+#fgu-diary-design {
+ --button-glass:linear-gradient(150deg,#ffffff24 0%,#ffffff0c 30%,#00000038 64%,#ffffff0d 100%);
+ --button-edge:#ffffff38;--button-ink:var(--fd-text);
+ --button-shadow:inset 0 1px 0 #ffffff36,inset 0 -1px 0 #00000066,0 6px 18px #00000038;
+}
+#fgu-diary-design[data-theme=light] {
+ --button-glass:linear-gradient(150deg,#ffffffdc,#ffffff70 38%,#00000007 68%,#ffffffa0);
+ --button-edge:#00000026;
+ --button-shadow:inset 0 1px 0 #ffffff,inset 0 -1px 0 #00000009,0 4px 14px #0000000d;
+}
+#fgu-diary-design :is(.fd-icon-button,.week-tools button:not(.week-calendar),.lesson-settings-toggle) {--button-radius:50%}
+#fgu-diary-design :is(.identity-button,.rating-card,.note-preview,.faculty-card) {--button-radius:20px}
+#fgu-diary-design .fd-bottom-nav button {--button-radius:22px}
+#fgu-diary-design .week button {--button-radius:19px}
+#fgu-diary-design :is(.lesson-settings-action,.fd-lesson-name,.fd-teacher-link) {--button-radius:10px}
+#fgu-diary-design :is(.danger,.event-remove,.delete-button,.is-destructive) {--button-ink:#ffb3b3}
+#fgu-diary-design[data-theme=light] :is(.danger,.event-remove,.delete-button,.is-destructive) {--button-ink:#9f1239}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]) {
+ --button-surface:var(--button-glass);--control-edge:var(--button-edge);--control-shadow:var(--button-shadow);
+ background:var(--button-surface);color:var(--button-ink,var(--fd-text));
+ border:1px solid var(--control-edge);border-radius:var(--button-radius,16px);box-shadow:var(--control-shadow);
+ backdrop-filter:none;-webkit-backdrop-filter:none;
+ transition:transform .16s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease;
+ touch-action:manipulation;
+}
+#fgu-diary-design[data-theme] #back {background:var(--button-surface,transparent);border-color:var(--control-edge,transparent);box-shadow:var(--control-shadow,none);color:var(--fd-text)}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) summary {padding:12px;box-sizing:border-box}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) .fd-primary {font-weight:600}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(.fd-lesson-name,.fd-teacher-link,.lesson-settings-action,.week-calendar,.week button:not(.active),.fd-bottom-nav button:not([aria-current=page])) {
+ --button-surface:transparent;--control-edge:transparent;--control-shadow:none;
+ background:var(--button-surface);border-color:var(--control-edge);box-shadow:var(--control-shadow);
+}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is([aria-pressed=true],[aria-current=page],.fd-selected,.fd-date.today,.week button.active,[aria-expanded=true]) {
+ --button-surface:var(--button-glass);--control-edge:var(--button-edge);--control-shadow:var(--button-shadow);
+ background:var(--button-surface);color:var(--button-ink,var(--fd-text));border-color:var(--control-edge);box-shadow:var(--control-shadow);
+ backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]):focus-visible {
+ --button-surface:var(--button-glass);--control-edge:var(--button-edge);--control-shadow:var(--button-shadow);
+ background:var(--button-surface);border-color:var(--control-edge);box-shadow:var(--control-shadow);
+ outline:2px solid var(--fd-text);outline-offset:3px;
+ backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]):is(:active,.is-pressing):not(:disabled):not([aria-disabled=true]) {
+ --button-surface:var(--button-glass);--control-edge:var(--button-edge);--control-shadow:var(--button-shadow);
+ transform:translateY(2px) scale(1.035);background:var(--button-surface);border-color:var(--control-edge);box-shadow:var(--control-shadow);
+ backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+}
+#fgu-diary-design :is(button,a.fd-primary,a.fd-secondary,[role=button]) svg {transition:transform .2s ease}
+@media (any-hover:hover) and (any-pointer:fine) {
+ #fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]):hover:not(:disabled):not([aria-disabled=true]) {
+  --button-surface:var(--button-glass);--control-edge:var(--button-edge);--control-shadow:var(--button-shadow);
+  transform:translateY(-1px) scale(1.015);background:var(--button-surface);border-color:var(--control-edge);box-shadow:var(--control-shadow);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+ }
+ #fgu-diary-design :is(button,a.fd-primary,a.fd-secondary,[role=button]):hover:not(:disabled) svg {transform:translateY(-1px) scale(1.08)}
+ #fgu-diary-design .lesson-settings-toggle:hover[aria-expanded=false] svg {transform:rotate(20deg) scale(1.08)}
+ #fgu-diary-design .lesson-settings-toggle[aria-expanded=true] svg {transform:rotate(120deg)}
+ #fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]):is(:active,.is-pressing):not(:disabled):not([aria-disabled=true]) {transform:translateY(2px) scale(1.035)}
+}
+@media (prefers-reduced-motion:reduce) {
+ #fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]) {transition:none}
+ #fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,summary,[role=button]):is(:hover,:active,.is-pressing):not(:disabled):not([aria-disabled=true]) {transform:none}
+ #fgu-diary-design :is(button,a.fd-primary,a.fd-secondary,[role=button]) svg {transition:none}
+ #fgu-diary-design[data-theme][data-page]:not([data-page=""]) :is(button,a.fd-primary,a.fd-secondary,[role=button]):hover svg {transform:none}
+}

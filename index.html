@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Демонстрация учебного дневника в дизайне systemfgu: расписание, материалы и дедлайны.">
+  <meta name="theme-color" content="#080808">
+  <title>Systemafgu · Учебный дневник</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/midiary-logo.svg">
+  <script src="assets/js/theme-init.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/live.css">
+  <link rel="stylesheet" href="assets/css/refined.css">
+  <link rel="stylesheet" href="assets/css/midiary.css">
+  <link rel="stylesheet" href="assets/css/faculty-themes.css">
+  <link rel="stylesheet" href="assets/css/button-interactions.css">
+  <link rel="stylesheet" href="assets/css/navigation.css">
+  <link rel="stylesheet" href="assets/css/demo.css">
+  <script src="assets/js/demo-data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#screen">Перейти к содержимому</a>
+  <div id="fgu-diary-design" data-faculty="fgu" data-page="day">
+    <header class="fd-telegram">
+      <button id="back" class="fd-icon-button" type="button" aria-label="Вернуться к сегодняшнему расписанию" title="Сегодня">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h15"/></svg>
+      </button>
+      <div class="fd-telegram-title">
+        <div class="brand-capsule">Midiary</div>
+        <span id="faculty-title">Факультет государственного управления</span>
+      </div>
+      <div class="header-actions">
+        <button id="theme" class="fd-icon-button" type="button" aria-label="Включить светлую тему">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="icon-moon" d="M20.5 14A8.6 8.6 0 0 1 10 3.5 8.6 8.6 0 1 0 20.5 14Z"/></svg>
+        </button>
+      </div>
+    </header>
+    <div class="demo-identity">
+      <button id="profile" class="identity-row identity-button" type="button" aria-label="Открыть настройки демонстрации">
+        <span class="identity-avatar" aria-hidden="true">ДС</span>
+        <span class="identity-copy"><strong>Демо-студент</strong><span>Учебный дневник</span></span>
+        <span class="identity-group" id="group-label">ФГУ · 107пб</span>
+      </button>
+      <span class="demo-pill">Демо</span>
+    </div>
+    <main id="screen" class="fd-stage" tabindex="-1"></main>
+    <nav class="fd-bottom-nav" id="nav" aria-label="Основная навигация">
+      <button type="button" data-page="day" aria-current="page">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle class="icon-sun-disc" cx="12" cy="12" r="4"/><path class="icon-sun-rays" d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        <span>Сегодня</span>
+      </button>
+      <button type="button" data-page="teachers">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="icon-cap" d="m2 8 10-5 10 5-10 5-10-5Z"/><path d="M6 11v6c4 3 8 3 12 0v-6"/><path class="icon-tassel" d="M22 8v8"/></svg>
+        <span>Преподаватели</span>
+      </button>
+      <button type="button" data-page="materials">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="icon-folder" d="M3 8V6a2 2 0 0 1 2-2h4l2 3h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8Z"/></svg>
+        <span>Материалы</span>
+      </button>
+      <button type="button" data-page="deadlines">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path class="icon-clock-hands" d="M12 7v5l3 2"/></svg>
+        <span>Дедлайны</span>
+      </button>
+    </nav>
+    <footer class="demo-footer">Учебные данные вымышлены</footer>
+    <dialog id="lesson-dialog" aria-labelledby="dialog-title"></dialog>
+    <div id="status" class="demo-toast" role="status" aria-live="polite"></div>
+  </div>
+  <noscript><p class="no-script">Для демонстрации расписания включите JavaScript в браузере.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,397 @@
+/* Liquid Glass. Opaque fallbacks preserve readability without backdrop-filter. */
+html {min-height:100%;background:#edf2fa}
+html[data-fgu-theme="light"] body,body {background:#edf2fa;background-image:radial-gradient(ellipse at 8% 5%,#c9dffa 0,transparent 48%),radial-gradient(ellipse at 94% 40%,#e4dcf6 0,transparent 48%),radial-gradient(ellipse at 20% 100%,#d2e8e6 0,transparent 48%);background-attachment:fixed}
+html[data-fgu-theme="dark"] body {background-color:#101827;background-image:radial-gradient(ellipse at 4% 4%,#203956 0,transparent 50%),radial-gradient(ellipse at 98% 42%,#2b2547 0,transparent 48%),radial-gradient(ellipse at 20% 100%,#143336 0,transparent 48%)}
+#fgu-diary-design,#fgu-diary-design[data-theme="light"] {
+ --fd-bg:#edf2fa;--fd-surface:rgba(255,255,255,.62);--fd-text:#202e43;--fd-muted:#5c6c82;
+ --fd-accent:#245fc6;--fd-accent-text:#fff;--fd-accent-soft:rgba(65,119,226,.10);--fd-line:rgba(64,90,126,.13);
+ --fd-border:rgba(255,255,255,.86);--fd-header:rgba(249,252,255,.75);
+ --glass-shadow:0 8px 32px rgba(43,66,107,.07),inset 0 1px 0 rgba(255,255,255,.9);
+ --glass-inset:inset 0 1px 0 rgba(255,255,255,.8);--glass-input:rgba(255,255,255,.65);--glass-opaque:#f5f8fe;
+ --glass-selected:linear-gradient(145deg,#4385e6,#245dc3);--glass-highlight:rgba(255,255,255,.5);
+ box-sizing:border-box;max-width:880px;min-height:100dvh;padding:18px 20px 124px;background:transparent;color:var(--fd-text);font-family:"Golos Text",system-ui,sans-serif;
+}
+#fgu-diary-design[data-theme="dark"] {
+ --fd-bg:#101827;--fd-surface:rgba(35,49,69,.74);--fd-text:#eef4ff;--fd-muted:#b0bed2;
+ --fd-accent:#aacbff;--fd-accent-text:#fff;--fd-accent-soft:rgba(119,169,248,.16);--fd-line:rgba(193,213,246,.14);
+ --fd-border:rgba(204,223,255,.19);--fd-header:rgba(26,39,58,.8);
+ --glass-shadow:0 10px 32px rgba(0,0,0,.17),inset 0 1px 0 rgba(223,237,255,.12);
+ --glass-inset:inset 0 1px 0 rgba(223,237,255,.13);--glass-input:rgba(17,29,47,.66);--glass-opaque:#1c2b41;
+ --glass-selected:linear-gradient(145deg,#3d77c9,#285ba7);--glass-highlight:rgba(184,211,255,.10);
+}
+#fgu-diary-design .fd-telegram {position:sticky;top:calc(12px + env(safe-area-inset-top,0px));z-index:30;grid-template-columns:56px 1fr 48px;min-height:80px;height:auto;gap:12px;padding:10px 14px;border:1px solid var(--fd-border);border-radius:28px;background:var(--fd-header);box-shadow:var(--glass-shadow);backdrop-filter:blur(24px) saturate(155%);-webkit-backdrop-filter:blur(24px) saturate(155%)}
+#fgu-diary-design .fd-telegram-title {font-size:17px;letter-spacing:-.4px;font-weight:600}
+#fgu-diary-design .fd-telegram-title span {font-size:10px;font-weight:400;letter-spacing:.2px;margin-top:5px;color:var(--fd-muted)}
+#fgu-diary-design .fd-icon-button {width:46px;height:46px;border-radius:50%;border:1px solid var(--fd-border);background:var(--fd-surface);color:var(--fd-text);box-shadow:var(--glass-inset);padding:0}
+#fgu-diary-design #back {width:56px;height:56px;min-height:56px;background:var(--fd-surface);box-shadow:var(--glass-shadow)}
+#fgu-diary-design #back svg {width:30px;height:30px;stroke-width:2}
+#fgu-diary-design #back:disabled {opacity:.38}
+#fgu-diary-design #theme svg {width:21px;height:21px}
+#fgu-diary-design .fd-stage {min-height:70dvh;overflow:visible}
+#fgu-diary-design .fd-detail-page {padding:28px 14px 36px}
+#fgu-diary-design h1 {font-size:clamp(32px,5vw,43px);font-weight:600;letter-spacing:-1.5px;line-height:1.14;margin:8px 0 26px}
+#fgu-diary-design h2 {font-size:20px;font-weight:600;letter-spacing:-.55px;margin:26px 0 14px}
+#fgu-diary-design[data-theme] :is(h1,h2,h3,p,label,small,time,li,strong,summary) {color:var(--fd-text)}
+#fgu-diary-design[data-theme] :is(.muted,.fd-file-metadata,.week-caption,.eyebrow,.login-intro) {color:var(--fd-muted)}
+#fgu-diary-design .muted {font-size:13px;line-height:1.7}
+#fgu-diary-design .identity-row {display:flex;align-items:center;gap:12px;margin:0 0 32px}
+#fgu-diary-design .identity-avatar {display:grid;place-items:center;width:42px;height:42px;flex-shrink:0;border-radius:50%;background:var(--fd-surface);border:1px solid var(--fd-border);box-shadow:var(--glass-inset);font-size:12px;font-weight:600;color:var(--fd-accent)}
+#fgu-diary-design .identity-copy {display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+#fgu-diary-design .identity-copy strong {font-size:12px;font-weight:500;overflow-wrap:anywhere}
+#fgu-diary-design .identity-copy span {font-size:10px;color:var(--fd-muted)}
+#fgu-diary-design .identity-group {padding:7px 12px;border:1px solid var(--fd-border);border-radius:30px;background:var(--fd-surface);font-size:11px;white-space:nowrap}
+#fgu-diary-design .eyebrow {font-size:10px;font-weight:600;letter-spacing:2px;margin:14px 0 9px}
+#fgu-diary-design .week-tools {display:flex;align-items:center;justify-content:space-between;gap:8px;margin:8px 0 12px}
+#fgu-diary-design .week-caption {font-size:12px;text-align:center;font-variant-numeric:tabular-nums}
+#fgu-diary-design .week-tools button {width:52px;height:52px;flex:0 0 52px;padding:0;border-radius:50%;background:var(--fd-surface);border:1px solid var(--fd-border);box-shadow:var(--glass-shadow);color:var(--fd-text)}
+#fgu-diary-design .week-tools button svg {width:28px;height:28px;stroke-width:2}
+#fgu-diary-design .week {gap:6px;margin:0 0 28px;padding:8px;border:1px solid var(--fd-border);border-radius:26px;background:var(--fd-surface);box-shadow:var(--glass-shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+#fgu-diary-design .week button {position:relative;min-height:70px;padding:10px 1px;border-radius:19px;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px}
+#fgu-diary-design .week button small {font-size:10px;font-weight:400;color:var(--fd-muted)}
+#fgu-diary-design .week button strong {font-size:20px;font-weight:500}
+#fgu-diary-design .week button.active {background:var(--glass-selected);box-shadow:0 4px 12px rgba(36,95,198,.23),inset 0 1px 1px rgba(255,255,255,.4)}
+#fgu-diary-design .week button.active :is(small,strong) {color:#fff}
+#fgu-diary-design .week button[aria-current="date"]::after {content:"";position:absolute;bottom:5px;width:3px;height:3px;background:var(--fd-accent);border-radius:50%}
+#fgu-diary-design .week button.active::after {background:#fff}
+#fgu-diary-design .section-heading {display:flex;align-items:center;gap:10px;margin:0 2px 14px}
+#fgu-diary-design .section-heading h2 {font-size:18px;margin:0}
+#fgu-diary-design .lesson-count {font-size:11px;color:var(--fd-muted);font-variant-numeric:tabular-nums}
+#fgu-diary-design .fd-lesson-card {border:1px solid var(--fd-border);border-radius:26px;background:linear-gradient(130deg,var(--glass-highlight),transparent 60%),var(--fd-surface);padding:23px 24px 0;margin:14px 0;box-shadow:var(--glass-shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+#fgu-diary-design .fd-lesson-card>.muted {font-size:12px;margin:13px 0 3px;font-variant-numeric:tabular-nums}
+#fgu-diary-design .fd-lesson-name {padding:4px 0 7px;font-size:22px;font-weight:600;letter-spacing:-.65px;line-height:1.35;min-height:44px}
+#fgu-diary-design[data-theme] .fd-teacher-link {color:var(--fd-muted);font-size:13px;padding:6px 0 14px;line-height:1.5}
+#fgu-diary-design .homework-preview {font-size:13px;color:var(--fd-muted);padding:15px 24px;margin:4px -24px 0;border-top:1px solid var(--fd-line)}
+#fgu-diary-design .homework-preview.has-homework {background:var(--fd-accent-soft);color:var(--fd-text)}
+#fgu-diary-design .lesson-badge {border:1px solid var(--fd-line);border-radius:8px;padding:4px 8px;font-size:10px;font-weight:500;letter-spacing:.2px}
+#fgu-diary-design .lesson-badge.lecture {background:rgba(91,149,242,.12);color:#285da1;border-color:rgba(91,149,242,.15)}
+#fgu-diary-design .lesson-badge.seminar {background:rgba(143,107,215,.12);color:#7143a9;border-color:rgba(143,107,215,.17)}
+#fgu-diary-design .lesson-badge.practice {background:rgba(45,151,115,.12);color:#286e59;border-color:rgba(45,151,115,.18)}
+#fgu-diary-design[data-theme="dark"] .lesson-badge.lecture {color:#b4d3ff}
+#fgu-diary-design[data-theme="dark"] .lesson-badge.seminar {color:#ddc1ff}
+#fgu-diary-design[data-theme="dark"] .lesson-badge.practice {color:#a4e4ca}
+#fgu-diary-design .empty-state {padding:38px 24px;text-align:center;border-radius:26px;background:var(--fd-surface);border:1px solid var(--fd-border);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .empty-state>svg {width:36px;height:36px;color:var(--fd-accent)}
+#fgu-diary-design .empty-state h2 {margin:12px 0 8px}
+#fgu-diary-design .fd-input {border:1px solid var(--fd-line);border-radius:17px;background:var(--glass-input);color:var(--fd-text);min-height:52px;padding:14px 16px;box-shadow:var(--glass-inset)}
+#fgu-diary-design[data-theme] :is(input,textarea)::placeholder {color:var(--fd-muted);opacity:1}
+#fgu-diary-design .fd-textarea {min-height:150px;line-height:1.65;resize:vertical}
+#fgu-diary-design form>.fd-input+ .fd-input {margin-top:12px}
+#fgu-diary-design .fd-primary,#fgu-diary-design .fd-secondary {border-radius:17px;min-height:50px;font-size:14px;font-weight:500;padding:13px 17px}
+#fgu-diary-design .fd-primary {color:#fff;background:var(--glass-selected);border:1px solid rgba(126,172,243,.4);box-shadow:0 5px 14px rgba(31,87,174,.15),inset 0 1px 0 rgba(255,255,255,.25)}
+#fgu-diary-design .fd-secondary {border:1px solid var(--fd-border);background:var(--fd-surface);color:var(--fd-accent);box-shadow:var(--glass-inset)}
+#fgu-diary-design a.fd-primary {display:block;text-align:center;text-decoration:none}
+#fgu-diary-design summary {cursor:pointer;min-height:44px}
+#fgu-diary-design .fd-hw-editor {border:1px solid var(--fd-border);border-radius:20px;background:var(--fd-surface);padding:3px 18px;margin-top:20px;box-shadow:var(--glass-inset)}
+#fgu-diary-design[data-theme] .fd-hw-editor summary {font-size:13px;color:var(--fd-accent);padding:14px 0}
+#fgu-diary-design .fd-hw-editor[open] {padding-bottom:16px}
+#fgu-diary-design :is(.more-row,.onboarding-hint,.note-preview) {display:block;width:100%;text-align:left;border:1px solid var(--fd-border);border-radius:20px;padding:18px;background:var(--fd-surface);box-shadow:var(--glass-shadow);color:var(--fd-text);font-size:14px;margin:12px 0}
+#fgu-diary-design .onboarding-hint {color:var(--fd-accent)}
+#fgu-diary-design .note-preview {display:flex;gap:6px}
+#fgu-diary-design .notes-list {border-color:var(--fd-line)}
+#fgu-diary-design .notes-back {border:0;border-radius:14px;background:var(--fd-surface);color:var(--fd-accent);padding:10px 14px;margin-bottom:14px}
+#fgu-diary-design .material-tabs {padding:5px;border:1px solid var(--fd-border);border-radius:21px;background:var(--fd-surface);gap:3px}
+#fgu-diary-design .material-tabs button {min-height:44px;min-width:max-content;padding:10px 13px;font-size:12px;flex:1;border-radius:16px}
+#fgu-diary-design .material-tabs .fd-secondary {background:transparent;border-color:transparent;box-shadow:none;color:var(--fd-muted)}
+#fgu-diary-design .fd-calendar-month {margin:22px 0;padding:18px;border:1px solid var(--fd-border);border-radius:26px;background:var(--fd-surface);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .fd-calendar-month h2 {margin:0 0 18px;text-transform:capitalize}
+#fgu-diary-design .fd-month-grid {gap:5px}
+#fgu-diary-design .fd-month-grid>span {text-align:center;font-size:11px;color:var(--fd-muted);padding-bottom:8px}
+#fgu-diary-design .fd-date {background:transparent;border-radius:14px}
+#fgu-diary-design .fd-date.today {background:var(--glass-selected);color:#fff;box-shadow:0 3px 9px rgba(36,95,198,.17)}
+#fgu-diary-design .fd-bottom-nav {position:fixed;z-index:40;left:14px;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));width:auto;max-width:600px;display:flex;margin:auto;padding:7px;gap:4px;border:1px solid var(--fd-border);border-radius:29px;background:var(--fd-header);box-shadow:0 12px 42px rgba(28,49,84,.16),var(--glass-inset);backdrop-filter:blur(28px) saturate(165%);-webkit-backdrop-filter:blur(28px) saturate(165%);overflow:visible}
+#fgu-diary-design .fd-bottom-nav button {display:flex;flex:1;min-width:0;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:10px 2px;border-radius:22px;background:transparent;color:var(--fd-muted);font-size:10px;line-height:1.3}
+#fgu-diary-design .fd-bottom-nav button svg {width:23px;height:23px;stroke-width:1.7}
+#fgu-diary-design .fd-bottom-nav button span {font-size:10px}
+#fgu-diary-design .fd-bottom-nav button[aria-current="page"] {background:var(--fd-accent-soft);color:var(--fd-accent);box-shadow:var(--glass-inset);font-weight:600}
+#fgu-diary-design #status:not(:empty) {margin:14px 0 0;padding:14px 18px;background:var(--glass-opaque);border:1px solid var(--fd-line);border-radius:18px;font-size:13px}
+#fgu-diary-design .fd-transition-track {display:block;position:sticky;top:calc(94px + env(safe-area-inset-top,0px));height:2px;margin:0 26px;z-index:31;background:transparent}
+#fgu-diary-design.is-loading .fd-transition-track span {transform:scaleX(.65);opacity:.8;animation:glass-progress 1.2s ease-in-out infinite}
+#fgu-diary-design .login-page {max-width:480px;margin:40px auto 0;text-align:center}
+#fgu-diary-design .login-page .eyebrow {font-size:9px;letter-spacing:1.6px}
+#fgu-diary-design .login-page h1 {white-space:pre-line;font-size:39px;margin-bottom:18px}
+#fgu-diary-design .login-intro {font-size:14px;line-height:1.8;max-width:310px;margin:auto}
+#fgu-diary-design .login-page form {text-align:left;margin:32px 0 14px;padding:24px;border-radius:27px;border:1px solid var(--fd-border);background:var(--fd-surface);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .login-page .fd-label {font-size:12px;margin:0 0 10px}
+#fgu-diary-design .login-page .fd-crest-wrap {width:112px;height:112px;padding:14px;box-shadow:0 10px 26px rgba(28,66,124,.18)}
+#fgu-diary-design .login-page .fd-crest-wrap::before {inset:-5px}
+#fgu-diary-design .login-page> .fd-secondary {margin:14px 0}
+#fgu-diary-design[data-page="deadlines"] .fd-lesson-card {padding-bottom:22px}
+#fgu-diary-design :is(button,a,input,textarea,select,summary):focus-visible {outline:3px solid var(--fd-accent);outline-offset:4px}
+@keyframes glass-progress {0%,100%{transform:translateX(-45%) scaleX(.3)}50%{transform:translateX(45%) scaleX(.3)}}
+@media(hover:hover) {
+ #fgu-diary-design :is(.fd-secondary,.fd-icon-button,.more-row,.note-preview):hover {background:var(--glass-opaque)}
+ #fgu-diary-design .fd-primary:hover {filter:brightness(1.08)}
+ #fgu-diary-design .week button:not(.active):hover {background:var(--fd-accent-soft)}
+}
+@media(prefers-reduced-motion:no-preference) {
+ #fgu-diary-design button {transition:background .18s,transform .18s,box-shadow .18s}
+ #fgu-diary-design button:active:not(:disabled) {transform:scale(.97)}
+ #fgu-diary-design .fd-stage>section {animation:glass-enter .22s ease-out}
+ @keyframes glass-enter {from{opacity:.45;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+}
+@media(prefers-reduced-motion:reduce) {#fgu-diary-design * {animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {#fgu-diary-design :is(.fd-telegram,.fd-bottom-nav,.fd-lesson-card,.week) {background:var(--glass-opaque)}}
+@media(prefers-reduced-transparency:reduce) {#fgu-diary-design {--fd-surface:var(--glass-opaque);--fd-header:var(--glass-opaque);--glass-input:var(--glass-opaque)}#fgu-diary-design * {backdrop-filter:none!important;-webkit-backdrop-filter:none!important}}
+@media(min-width:720px) {
+ #fgu-diary-design[data-theme] {padding-top:24px}
+ #fgu-diary-design .fd-detail-page {padding:34px 44px 48px}
+ #fgu-diary-design .fd-telegram {padding:10px 18px}
+ #fgu-diary-design .fd-lesson-card {padding:25px 28px 0}
+ #fgu-diary-design .homework-preview {margin-left:-28px;margin-right:-28px;padding-left:28px;padding-right:28px}
+}
+@media(max-width:480px) {
+ #fgu-diary-design[data-theme] {padding:10px 12px 124px}
+ #fgu-diary-design .fd-telegram {top:calc(8px + env(safe-area-inset-top,0px));padding:9px 10px;gap:8px;border-radius:27px}
+ #fgu-diary-design .fd-detail-page {padding:26px 4px 32px}
+ #fgu-diary-design .fd-telegram-title {font-size:15px}
+ #fgu-diary-design .fd-telegram-title span {font-size:8px}
+ #fgu-diary-design .identity-copy span {font-size:9px}
+ #fgu-diary-design .identity-row {gap:9px;margin-bottom:28px}
+ #fgu-diary-design .week {gap:3px;padding:6px;border-radius:24px}
+ #fgu-diary-design .week button {min-height:66px;border-radius:18px}
+ #fgu-diary-design .fd-lesson-card {padding:19px 19px 0}
+ #fgu-diary-design .homework-preview {margin-left:-19px;margin-right:-19px;padding-left:19px;padding-right:19px}
+ #fgu-diary-design .fd-lesson-name {font-size:20px}
+ #fgu-diary-design .fd-calendar-month {padding:14px 8px}
+ #fgu-diary-design .fd-month-grid {gap:2px}
+ #fgu-diary-design .fd-bottom-nav {left:12px;right:12px;gap:1px;padding:6px}
+ #fgu-diary-design .fd-bottom-nav button span {font-size:9px}
+ #fgu-diary-design .login-page {margin-top:22px}
+ #fgu-diary-design .login-page h1 {font-size:35px}
+}
+@media(display-mode:standalone) {body {padding-top:env(safe-area-inset-top)}#fgu-diary-design[data-theme] {padding-bottom:calc(124px + env(safe-area-inset-bottom))}}
+
+/* Navigation and controls remain legible on the light glass surface. */
+#fgu-diary-design[data-theme="light"] {--fd-muted:#47566d;--glass-selected:linear-gradient(145deg,#2b66bf,#174990)}
+#fgu-diary-design[data-theme="light"] :is(.fd-icon-button,.fd-secondary,.week-tools button) {color:#172f50;background:linear-gradient(145deg,rgba(225,235,249,.96),rgba(194,211,234,.88));border-color:rgba(41,69,109,.36);box-shadow:0 3px 10px rgba(25,51,87,.10),inset 0 1px 0 rgba(255,255,255,.85)}
+#fgu-diary-design[data-theme="light"] #back {background:linear-gradient(145deg,#e1ebf9,#c2d3ea);color:#172f50;border-color:rgba(41,69,109,.36)}
+#fgu-diary-design[data-theme="light"] .week button:not(.active) {color:#172f50;background:rgba(202,216,236,.5)}
+#fgu-diary-design .identity-button {width:100%;padding:10px 12px;min-height:64px;text-align:left;border-radius:20px;border:1px solid var(--fd-line);background:var(--fd-surface);color:var(--fd-text);box-shadow:var(--glass-inset);cursor:pointer}
+#fgu-diary-design .identity-button .identity-copy strong {text-decoration:underline;text-decoration-color:var(--fd-line);text-underline-offset:4px}
+#fgu-diary-design .fd-bottom-nav {max-width:760px;gap:1px;padding:6px}
+#fgu-diary-design .fd-bottom-nav button {flex:1 1 0;min-width:44px;min-height:60px;padding:9px 0}
+#fgu-diary-design .fd-bottom-nav button span {font-size:clamp(8px,2.3vw,10px);white-space:nowrap;letter-spacing:-.2px}
+#fgu-diary-design .event-form {display:grid;gap:14px;padding-top:12px}
+#fgu-diary-design .event-form .fd-label {display:grid;gap:7px;margin:0;min-width:0}
+#fgu-diary-design .event-form .fd-input {width:100%;min-width:0;box-sizing:border-box}
+#fgu-diary-design .event-form [hidden] {display:none}
+#fgu-diary-design .event-card {padding-bottom:22px}
+#fgu-diary-design .event-card .event-title {margin:14px 0;font-size:22px}
+#fgu-diary-design .event-remove {margin-top:14px}
+#fgu-diary-design :is(.event-description,.schedule-clarification) {white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6}
+#fgu-diary-design .schedule-clarification {padding:16px;border-radius:18px;border:1px solid var(--fd-line);background:var(--fd-surface)}
+@media(min-width:600px) {#fgu-diary-design .event-form {grid-template-columns:1fr 1fr}#fgu-diary-design .event-form :is(p,button) {grid-column:1/-1}}
+
+/* All startup assets are served from the diary's own domain. */
+#fgu-diary-design [hidden] {display:none!important}
+#fgu-diary-design .header-logout {width:auto;flex:0 0 auto;min-height:44px;padding:10px 12px;border-radius:18px;font-size:12px;white-space:nowrap}
+#fgu-diary-design .fd-telegram-title {min-width:0;overflow-wrap:anywhere}
+#fgu-diary-design .fd-telegram {display:flex}
+#fgu-diary-design .fd-telegram-title {flex:1}
+#fgu-diary-design .fd-telegram .fd-icon-button {flex-shrink:0}
+#fgu-diary-design .upload-progress {padding:16px;margin-top:12px;border:1px solid var(--fd-line);border-radius:18px;background:var(--fd-surface);width:100%;box-sizing:border-box}
+#fgu-diary-design .upload-progress progress {display:block;width:100%;height:10px;accent-color:var(--fd-accent);border:0;border-radius:10px;overflow:hidden;margin:10px 0}
+#fgu-diary-design .upload-progress progress::-webkit-progress-bar {background:var(--fd-line);border-radius:10px}
+#fgu-diary-design .upload-progress progress::-webkit-progress-value {background:var(--fd-accent);border-radius:10px}
+#fgu-diary-design .upload-progress.is-active progress {animation:upload-pulse 1.2s ease-in-out infinite}
+#fgu-diary-design .upload-progress p {margin:4px 0;font-size:13px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+#fgu-diary-design .file-toolbar {position:sticky;top:calc(100px + env(safe-area-inset-top,0px));z-index:20;display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px;border:1px solid var(--fd-border);border-radius:20px;background:var(--glass-opaque);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .file-toolbar :is(button,a) {margin:0;min-height:44px;padding:11px 14px}
+#fgu-diary-design .file-viewer :is(h1,p) {overflow-wrap:anywhere}
+#fgu-diary-design .file-content {width:100%;min-width:0;margin:18px 0;overflow:auto}
+#fgu-diary-design .file-content :is(img,video,canvas) {display:block;max-width:100%;height:auto;margin:auto;border-radius:12px}
+#fgu-diary-design .file-content audio {width:100%}
+#fgu-diary-design .file-content pre {white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.6}
+#fgu-diary-design .pdf-controls {display:flex;align-items:center;justify-content:center;gap:12px;margin:14px 0}
+#fgu-diary-design .pdf-controls span {font-variant-numeric:tabular-nums;font-size:13px}
+#fgu-diary-design .pdf-controls span {flex:0 0 auto;white-space:nowrap}
+#fgu-diary-design .pdf-controls button {width:48px;flex:0 0 48px;margin:0}
+@keyframes upload-pulse {50%{opacity:.5}}
+@media(max-width:380px) {#fgu-diary-design .fd-telegram-title span{display:none}#fgu-diary-design .fd-telegram-title{font-size:12px}#fgu-diary-design .header-logout{padding:10px 8px}#fgu-diary-design .fd-telegram{gap:6px}}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design .upload-progress.is-active progress{animation:none}}
+
+#fgu-diary-design[data-page="file"] .fd-bottom-nav {display:none}
+#fgu-diary-design .fd-stage>.file-viewer {animation:none}
+#fgu-diary-design .file-viewer {position:fixed;z-index:45;inset:calc(102px + env(safe-area-inset-top,0px)) 0 0;max-width:880px;margin:0 auto;padding:0!important;display:flex;flex-direction:column;background:var(--glass-opaque);border-radius:24px 24px 0 0;box-shadow:0 -5px 30px rgba(30,50,80,.12);overflow:hidden}
+#fgu-diary-design .file-toolbar {position:relative;top:auto;flex-shrink:0;display:flex;flex-wrap:nowrap;gap:12px;margin:0;border-radius:24px 24px 0 0;padding:12px 16px}
+#fgu-diary-design .file-toolbar button {width:auto;flex-shrink:0;font-size:14px}
+#fgu-diary-design .reader-caption {font-size:12px;color:var(--fd-muted)}
+#fgu-diary-design .file-scroller {flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:24px 16px calc(24px + env(safe-area-inset-bottom,0px));scrollbar-gutter:stable}
+#fgu-diary-design .file-scroller>h1 {font-size:25px;margin-bottom:12px}
+#fgu-diary-design .document-page {background:#fff;color:#20252d;border:1px solid #d8dee7;border-radius:14px;padding:22px;box-shadow:0 4px 16px rgba(20,35,60,.06);font-size:16px;line-height:1.65;overflow-wrap:anywhere}
+#fgu-diary-design[data-theme] .document-page :is(p,div,span,strong,b,em,i,li,td,th,pre,blockquote,h1,h2,h3,h4,h5,h6) {color:inherit;font-family:inherit}
+#fgu-diary-design .document-page :is(p,pre) {white-space:pre-wrap;font-size:16px;margin:0 0 14px;line-height:1.65}
+#fgu-diary-design .document-page h1 {font-size:25px;line-height:1.3;letter-spacing:normal;margin:20px 0 12px}
+#fgu-diary-design .document-page h2 {font-size:21px;line-height:1.4;letter-spacing:normal;margin:20px 0 10px}
+#fgu-diary-design .document-page h3 {font-size:18px;line-height:1.4;margin:16px 0 8px}
+#fgu-diary-design .document-page table {border-collapse:collapse;width:100%;table-layout:fixed;margin:16px 0}
+#fgu-diary-design .document-page :is(td,th) {border:1px solid #b7c1d0;padding:8px;vertical-align:top;overflow-wrap:anywhere;font-size:14px}
+#fgu-diary-design .document-page img {max-width:100%;height:auto;margin:12px auto;object-fit:contain}
+#fgu-diary-design .document-page blockquote {border-left:3px solid #9baec8;margin-left:0;padding-left:14px}
+#fgu-diary-design[data-theme="dark"] .document-page {color:#edf2fa;background:#233247;border-color:#41526b}
+#fgu-diary-design[data-theme="dark"] .document-page :is(td,th) {border-color:#65788f}
+@media(max-width:380px){#fgu-diary-design .reader-caption{font-size:10px}#fgu-diary-design .file-toolbar{gap:8px;padding:10px}#fgu-diary-design .document-page{padding:16px}#fgu-diary-design .file-scroller{padding:18px 10px}}
+
+#fgu-diary-design[data-page="file"] :is(.fd-telegram,.fd-transition-track,#status) {visibility:hidden}
+#fgu-diary-design .file-viewer {inset:0;max-width:none;width:100%;height:100dvh;margin:0;border-radius:0;z-index:100;box-shadow:none}
+#fgu-diary-design .file-toolbar {border-radius:0;padding:calc(10px + env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 10px max(12px,env(safe-area-inset-left,0px));min-height:64px;box-sizing:border-box}
+#fgu-diary-design .file-toolbar .reader-caption {flex:1;min-width:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-size:13px}
+#fgu-diary-design .file-toolbar .reader-fullscreen {width:44px;padding:6px;font-size:24px;line-height:1}
+#fgu-diary-design .reader-navigation {display:grid;grid-template-columns:40px minmax(96px,160px) 72px 40px;justify-content:center;align-items:center;gap:8px;flex:none;margin:0;padding:8px 12px;border-bottom:1px solid var(--fd-line);background:var(--glass-opaque)}
+#fgu-diary-design .reader-navigation button {width:100%;min-height:40px;margin:0;padding:8px;border-radius:12px;font-size:13px}
+#fgu-diary-design .reader-page-label {display:flex;gap:8px;justify-content:center;align-items:center;min-width:0;margin:0}
+#fgu-diary-design .reader-page-number {box-sizing:border-box;width:52px;min-width:0;height:40px;text-align:center;border:1px solid var(--fd-line);border-radius:10px;font-size:16px;color:var(--fd-text);background:var(--fd-surface);font-variant-numeric:tabular-nums}
+#fgu-diary-design .reader-page-total {font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--fd-muted)}
+#fgu-diary-design .reader-page-error {grid-column:1/-1;text-align:center;font-size:12px;color:var(--fd-text)}
+#fgu-diary-design .reader-page-error:empty {display:none}
+#fgu-diary-design .file-scroller {padding:12px max(12px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))}
+#fgu-diary-design .file-scroller>h1,#fgu-diary-design .file-scroller>h1+p {display:none}
+#fgu-diary-design .file-scroller>p[role="status"] {font-size:11px;margin:0 0 6px}
+#fgu-diary-design .file-scroller>p[role="status"]:empty {display:none}
+#fgu-diary-design .file-content {margin:0;max-width:1400px;margin-inline:auto}
+#fgu-diary-design .paged-scroller {display:flex;flex-direction:column;overflow:hidden}
+#fgu-diary-design .paged-content {flex:1;min-height:0;overflow:hidden;max-width:960px}
+#fgu-diary-design .document-paginated {height:100%;box-sizing:border-box;overflow:hidden;margin:0}
+#fgu-diary-design .document-viewport {height:100%;width:100%;overflow:hidden}
+#fgu-diary-design .document-flow {height:100%;width:100%;column-fill:auto;column-count:auto;column-gap:32px;overflow:visible}
+#fgu-diary-design .document-flow img {max-height:100%;max-width:100%;object-fit:contain;break-inside:avoid}
+#fgu-diary-design .document-flow :is(p,pre,table,tbody,tr,td,th) {break-inside:auto}
+#fgu-diary-design .document-flow table {margin-top:0}
+#fgu-diary-design .file-viewer:fullscreen {background:var(--glass-opaque);color:var(--fd-text)}
+#fgu-diary-design .reader-bookmark-bar {position:relative;display:flex;flex:none;align-items:center;flex-wrap:wrap;justify-content:center;gap:8px;padding:8px 12px;border-bottom:1px solid var(--fd-line);background:var(--glass-opaque);z-index:3}
+#fgu-diary-design .reader-bookmark-bar>.fd-secondary {width:auto;margin:0;padding:9px 10px;min-height:40px;font-size:12px;border-radius:12px;text-decoration:none;box-sizing:border-box}
+#fgu-diary-design .reader-bookmarks {position:static;margin:0;border:0;padding:0}
+#fgu-diary-design .reader-bookmarks summary {font-size:12px;cursor:pointer;padding:10px 4px;white-space:nowrap;color:var(--fd-text)}
+#fgu-diary-design .reader-bookmark-list {position:absolute;top:100%;left:12px;right:12px;max-height:45dvh;overflow:auto;background:var(--glass-opaque);box-shadow:var(--glass-shadow);border:1px solid var(--fd-line);border-radius:14px;padding:8px;z-index:10}
+#fgu-diary-design .reader-bookmark-row {display:flex;gap:8px;margin:4px 0}
+#fgu-diary-design .reader-bookmark-row button:first-child {flex:1;min-width:0;text-align:left;white-space:normal;overflow-wrap:anywhere;font-size:13px;margin:0;padding:10px}
+#fgu-diary-design .reader-bookmark-row button:last-child {width:40px;flex:none;margin:0;padding:8px;font-size:20px}
+#fgu-diary-design .reader-bookmark-message {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-width:380px){#fgu-diary-design .file-toolbar button:first-child{font-size:12px;padding:8px}#fgu-diary-design .file-toolbar{gap:8px}#fgu-diary-design .reader-navigation{gap:6px;grid-template-columns:36px minmax(80px,140px) 68px 36px}}
+
+/* Native fullscreen and book page transitions. Keep vertical reading/pinch zoom available. */
+#fgu-diary-design .file-viewer:fullscreen {width:100vw;height:100dvh;max-width:none}
+#fgu-diary-design .file-toolbar {padding-top:calc(10px + max(env(safe-area-inset-top,0px),var(--tg-safe-area-inset-top,0px)) + var(--tg-content-safe-area-inset-top,0px));padding-right:max(12px,var(--tg-content-safe-area-inset-right,0px),env(safe-area-inset-right,0px))}
+#fgu-diary-design .reader-swipe-surface {touch-action:pan-y pinch-zoom}
+#fgu-diary-design .reader-turn-sheet {position:absolute;overflow:hidden;pointer-events:none;z-index:6;background:var(--fd-surface,#fff);box-shadow:8px 0 24px #0004;backface-visibility:hidden;will-change:transform,opacity}
+#fgu-diary-design .reader-turn-sheet::after {content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0002,transparent 16%,transparent 65%,#0002 90%,#fff5);pointer-events:none}
+#fgu-diary-design .reader-turn-sheet[data-direction="previous"]::after {transform:scaleX(-1)}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design .reader-turn-sheet{display:none}}
+
+/* The page keeps the full viewport; opening controls overlays it without repagination. */
+#fgu-diary-design .reader-tools-toggle,#fgu-diary-design .reader-floating-close {display:none}
+#fgu-diary-design .reader-immersive {background:var(--fd-surface,#fff)}
+#fgu-diary-design .reader-immersive .file-scroller {position:absolute;inset:0;padding:0;min-height:0;margin:0}
+#fgu-diary-design .reader-immersive .file-content {height:100%;width:100%;max-width:none;margin:0}
+#fgu-diary-design .reader-immersive .document-paginated {border:0;border-radius:0;box-shadow:none;padding:calc(56px + max(env(safe-area-inset-top,0px),var(--tg-safe-area-inset-top,0px))) max(14px,env(safe-area-inset-right,0px)) calc(14px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px));}
+#fgu-diary-design .reader-immersive .pdf-canvas {padding-top:calc(56px + env(safe-area-inset-top,0px));padding-bottom:env(safe-area-inset-bottom,0px)}
+#fgu-diary-design .reader-immersive .file-scroller>p[role="status"] {position:absolute;bottom:8px;left:12px;right:12px;z-index:4;background:var(--glass-opaque);border-radius:10px;padding:4px;pointer-events:none}
+#fgu-diary-design .reader-immersive .paged-scroller>p[role="status"] {display:none}
+#fgu-diary-design .reader-immersive .file-toolbar {position:absolute;left:0;right:0;top:0;z-index:12;padding-left:64px;padding-right:64px;flex-wrap:wrap}
+#fgu-diary-design .reader-immersive .reader-bookmark-bar {position:absolute;left:0;right:0;top:var(--reader-toolbar-height,74px);z-index:11;margin:0;background:var(--glass-opaque)}
+#fgu-diary-design .reader-immersive .reader-navigation {position:absolute;left:0;right:0;top:calc(var(--reader-toolbar-height,74px) + var(--reader-actions-height,100px));z-index:10}
+#fgu-diary-design .reader-immersive:not(.reader-tools-open)>:is(.file-toolbar,.reader-bookmark-bar,.reader-navigation) {visibility:hidden;pointer-events:none}
+#fgu-diary-design .reader-immersive .reader-tools-toggle,#fgu-diary-design .reader-immersive .reader-floating-close {display:block;position:absolute;z-index:25;top:calc(8px + max(env(safe-area-inset-top,0px),var(--tg-safe-area-inset-top,0px)) + var(--tg-content-safe-area-inset-top,0px));width:40px;min-height:40px;margin:0;padding:0;border-radius:50%;font-size:22px;opacity:.8}
+#fgu-diary-design .reader-tools-toggle {left:max(8px,env(safe-area-inset-left,0px))}
+#fgu-diary-design .reader-floating-close {right:max(8px,env(safe-area-inset-right,0px))}
+#fgu-diary-design .reader-fullscreen-message {position:absolute;z-index:40;top:calc(64px + env(safe-area-inset-top,0px));left:12px;right:12px;max-width:560px;margin:auto;padding:18px;border:1px solid var(--fd-border);border-radius:18px;background:var(--glass-opaque);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .reader-fullscreen-message p {font-size:14px;line-height:1.5;margin:0 0 12px}
+
+#fgu-diary-design .reader-floating-download {display:none}
+#fgu-diary-design .reader-immersive .reader-bookmark-bar>.reader-download {display:none}
+#fgu-diary-design .reader-immersive .reader-tools-toggle {width:86px;font-size:14px}
+#fgu-diary-design .reader-immersive .reader-floating-download {display:flex;align-items:center;justify-content:center;position:absolute;z-index:25;top:calc(8px + max(env(safe-area-inset-top,0px),var(--tg-safe-area-inset-top,0px)) + var(--tg-content-safe-area-inset-top,0px));left:50%;transform:translateX(-50%);width:112px;height:40px;min-height:40px;box-sizing:border-box;margin:0;padding:0 12px;border-radius:20px;font-size:14px;text-decoration:none}
+#fgu-diary-design .reader-immersive .file-toolbar {padding-top:calc(58px + max(env(safe-area-inset-top,0px),var(--tg-safe-area-inset-top,0px)) + var(--tg-content-safe-area-inset-top,0px));padding-left:12px;padding-right:12px}
+#fgu-diary-design .reader-loading {position:absolute;z-index:28;left:20px;right:20px;top:40%;max-width:420px;margin:auto;padding:20px;background:var(--glass-opaque);border:1px solid var(--fd-border);border-radius:22px;box-shadow:var(--glass-shadow);pointer-events:none}
+#fgu-diary-design .reader-loading p {margin:0 0 10px;font-size:14px;line-height:1.4}
+#fgu-diary-design .reader-loading .reader-loading-bytes {margin:10px 0 0;font-variant-numeric:tabular-nums;color:var(--fd-muted)}
+#fgu-diary-design .reader-loading progress {display:block;width:100%;height:8px;border:0;border-radius:12px;overflow:hidden;accent-color:var(--fd-accent)}
+#fgu-diary-design .reader-loading progress::-webkit-progress-bar {background:var(--fd-line)}
+#fgu-diary-design .reader-loading progress::-webkit-progress-value {background:var(--fd-accent)}
+#fgu-diary-design .reader-loading progress:indeterminate {background:linear-gradient(90deg,var(--fd-line) 25%,var(--fd-accent) 50%,var(--fd-line) 75%);background-size:200% 100%;animation:reader-loading-run 1.3s linear infinite}
+#fgu-diary-design .reader-loading progress:indeterminate::-webkit-progress-bar {background:transparent}
+@keyframes reader-loading-run {to{background-position:-200% 0}}
+#fgu-diary-design .reader-scale {display:flex;align-items:center;justify-content:center;gap:10px;flex-basis:100%;padding:6px 0;color:var(--fd-text);font-size:13px}
+#fgu-diary-design .reader-scale button {width:40px;min-height:40px;margin:0;padding:0;font-size:17px}
+#fgu-diary-design .reader-scale output {min-width:48px;text-align:center;font-variant-numeric:tabular-nums}
+#fgu-diary-design .document-paginated {font-size:var(--reader-text-size,16px)}
+#fgu-diary-design .document-paginated :is(p,pre,li,td,th) {font-size:var(--reader-text-size,16px)}
+#fgu-diary-design .document-paginated h1 {font-size:calc(var(--reader-text-size,16px)*1.56)}
+#fgu-diary-design .document-paginated h2 {font-size:calc(var(--reader-text-size,16px)*1.31)}
+#fgu-diary-design .document-paginated h3 {font-size:calc(var(--reader-text-size,16px)*1.13)}
+#fgu-diary-design .reader-pdf-zoomed {touch-action:pan-x pan-y pinch-zoom}
+#fgu-diary-design .reader-pdf-zoomed .file-content {overflow:auto}
+#fgu-diary-design .reader-pdf-zoomed .pdf-canvas {width:max-content;min-width:100%}
+#fgu-diary-design .reader-pdf-zoomed canvas {max-width:none}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design .reader-loading progress:indeterminate {animation:none}}
+
+#fgu-diary-design .rating-filter {display:flex;align-items:center;gap:10px;margin:12px 0;font-size:14px}
+#fgu-diary-design .rating-filter input {width:20px;height:20px;flex:none}
+#fgu-diary-design .rating-list {display:grid;gap:12px}
+#fgu-diary-design .rating-card {display:flex;gap:12px;align-items:center;text-align:left;width:100%;padding:18px 14px;margin:0;border:1px solid var(--fd-border);border-radius:26px;background:var(--fd-surface);color:var(--fd-text);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .rating-avatar {display:inline-flex;justify-content:center;align-items:center;width:46px;height:46px;border-radius:50%;background:#1769d9;color:#fff;font-size:18px;font-weight:700;flex:none}
+#fgu-diary-design .rating-rank {color:var(--fd-muted);font-size:13px}
+#fgu-diary-design .rating-card-body {display:grid;gap:8px;flex:1;min-width:0;overflow-wrap:anywhere}
+#fgu-diary-design .rating-card-stats {display:grid;gap:8px;font-size:11px;text-align:right}
+#fgu-diary-design .rating-stars {color:#9a6500;font-weight:700}
+#fgu-diary-design[data-theme="dark"] .rating-stars {color:#ffda32}
+#fgu-diary-design .rating-recommend {color:#167640;font-size:12px;margin-left:8px}
+#fgu-diary-design[data-theme="dark"] .rating-recommend {color:#52d782}
+#fgu-diary-design :is(.rating-overview,.review-card,.review-form) {padding:22px 18px;margin:18px 0;border-radius:28px;border:1px solid var(--fd-border);background:var(--fd-surface);box-shadow:var(--glass-shadow)}
+#fgu-diary-design .rating-overview h2 {font-size:22px}
+#fgu-diary-design .rating-metric {display:grid;grid-template-columns:125px 1fr 28px;gap:10px;align-items:center;font-size:12px;margin:12px 0}
+#fgu-diary-design .rating-metric meter {width:100%;height:14px;accent-color:#efc727}
+#fgu-diary-design .review-comment {white-space:pre-wrap;overflow-wrap:anywhere;padding:16px;background:var(--glass-input);border-radius:18px}
+#fgu-diary-design .review-criterion {font-size:14px}
+#fgu-diary-design .review-stars {border:0;padding:0;display:flex;gap:9px;margin:18px 0}
+#fgu-diary-design .review-stars legend {font-size:14px;margin-bottom:8px}
+#fgu-diary-design .review-stars label {position:relative;margin:0;cursor:pointer}
+#fgu-diary-design .review-stars input {position:absolute;opacity:0;width:1px;height:1px}
+#fgu-diary-design .review-stars span {font-size:32px;color:var(--fd-muted);display:block;padding:2px}
+#fgu-diary-design .review-stars input:checked+span {color:#dcac00;text-shadow:0 0 1px currentColor}
+#fgu-diary-design .review-stars label:has(~label input:checked) span {color:#dcac00}
+#fgu-diary-design .review-stars input:focus-visible+span {outline:2px solid var(--fd-accent);border-radius:8px}
+@media(max-width:380px){#fgu-diary-design .rating-card {gap:8px;padding:14px 10px}#fgu-diary-design .rating-card-stats{font-size:10px}#fgu-diary-design .rating-metric{grid-template-columns:110px 1fr 25px}}
+
+#fgu-diary-design .reader-notice {position:absolute;z-index:45;bottom:calc(16px + env(safe-area-inset-bottom,0px));left:16px;right:16px;max-width:620px;margin:auto;padding:14px 18px;border-radius:18px;background:var(--glass-opaque);border:1px solid var(--fd-border);box-shadow:var(--glass-shadow);font-size:14px;pointer-events:none}
+#fgu-diary-design .pdf-reading-modes {display:flex;gap:8px;flex-basis:100%;justify-content:center}
+#fgu-diary-design .pdf-reading-modes button {width:auto;margin:4px;padding:8px 18px;font-size:13px}
+#fgu-diary-design .pdf-reading-modes button[aria-pressed="true"] {background:var(--fd-accent);color:white}
+#fgu-diary-design .reader-original-mode .reader-scale {display:none}
+#fgu-diary-design .reader-immersive .pdf-reading-page {padding:calc(56px + env(safe-area-inset-top,0px)) 0 16px;box-sizing:border-box;min-height:100%}
+#fgu-diary-design .reader-immersive .pdf-text-page {border:0;border-radius:0;margin:0;box-shadow:none;padding:14px 18px}
+#fgu-diary-design .pdf-text-page p {font-size:var(--reader-text-size,18px);line-height:1.65;white-space:normal;overflow-wrap:anywhere}
+#fgu-diary-design .reader-immersive .file-content:has(.pdf-reading-page) {height:auto;overflow:visible}
+
+#fgu-diary-design .week-tools .week-calendar {flex:1;width:auto;min-width:0;min-height:52px;border-radius:20px;padding:8px;font-size:12px;line-height:1.45;font-variant-numeric:tabular-nums}
+#fgu-diary-design .web-push-settings {margin-top:24px;padding:20px 16px;border:1px solid var(--fd-border);border-radius:26px;background:var(--fd-surface)}
+#fgu-diary-design .push-install-help {font-size:15px;line-height:1.65}
+#fgu-diary-design .push-device-controls {display:grid;gap:8px}
+#fgu-diary-design .push-device-controls button {margin:0}
+#fgu-diary-design .push-preferences {margin-top:20px}
+#fgu-diary-design .fd-bottom-nav button[data-page="ratings"] span {font-size:clamp(7px,2vw,10px);letter-spacing:-.45px}
+
+/* Faculty selection and shared spreadsheet preview. */
+#fgu-diary-design .faculty-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0 28px}
+#fgu-diary-design .faculty-card{display:flex;flex-direction:column;align-items:center;gap:12px;padding:22px 12px;border:1px solid var(--border,#9aaec8);border-radius:26px;color:inherit;background:rgba(115,151,200,.12);font:inherit;cursor:pointer;min-width:0}
+#fgu-diary-design .faculty-card[aria-pressed=true]{border:2px solid #368ef5;background:rgba(46,132,237,.2);box-shadow:0 8px 28px rgba(17,90,179,.12)}
+#fgu-diary-design .faculty-card img{height:108px;width:108px;object-fit:contain}
+#fgu-diary-design .faculty-card[data-faculty=hist] img{box-sizing:border-box;padding:6px;border-radius:14px;background:#fff}
+#fgu-diary-design .faculty-card span{font-size:12px;line-height:1.4;text-align:center}
+#fgu-diary-design .faculty-card strong{font-size:21px}
+#fgu-diary-design .university-credit{display:block;text-align:center;font-size:11px;line-height:1.5;margin:24px 0;color:inherit;opacity:.65}
+#fgu-diary-design .study-group-form .fd-label,#fgu-diary-design .import-form .fd-label{display:block;margin:16px 0}
+#fgu-diary-design .study-group-form [hidden]{display:none!important}
+#fgu-diary-design .import-preview-scroll{overflow:auto;max-width:100%;margin:20px 0;border:1px solid rgba(128,148,177,.4);border-radius:16px}
+#fgu-diary-design .import-preview{border-collapse:collapse;width:100%;font-size:13px;min-width:560px}
+#fgu-diary-design .import-preview td,#fgu-diary-design .import-preview th{padding:12px;text-align:left;border-bottom:1px solid rgba(128,148,177,.3)}
+#fgu-diary-design .import-preview th{background:rgba(58,133,226,.15)}
+#fgu-diary-design .import-errors{padding-left:22px;line-height:1.6;color:#b34726}
+#fgu-diary-design[data-theme=dark] .import-errors{color:#ffb39e}
+#fgu-diary-design .fd-lesson-card[tabindex]{cursor:pointer}
+#fgu-diary-design .fd-lesson-card[tabindex]:focus-visible{outline:3px solid #368ef5;outline-offset:3px}
+
+/* Use the official MSU sign unchanged, without the former FGU badge behind it. */
+#fgu-diary-design :is(.login-page,.fd-splash) .fd-crest-wrap{width:144px;height:144px;padding:0;background:transparent;box-shadow:0 12px 30px rgba(27,17,93,.16)}
+#fgu-diary-design :is(.login-page,.fd-splash) .fd-crest-wrap::before,#fgu-diary-design :is(.login-page,.fd-splash) .fd-crest-wrap::after{display:none}
+#fgu-diary-design :is(.login-page,.fd-splash) .fd-crest{width:100%;height:100%;object-fit:contain;background:transparent;border-radius:50%}

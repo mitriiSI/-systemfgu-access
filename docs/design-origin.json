@@ -1,0 +1,78 @@
+{
+  "source_project": "systemfgu",
+  "captured_on": "2026-10-09",
+  "files": [
+    {
+      "source": "static/style.css",
+      "path": "assets/css/style.css",
+      "source_sha256": "d8dbe445e15f866ea8b502c890bdcf67de4428f572b2f440961dc1b4c6365cbe",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/live.css",
+      "path": "assets/css/live.css",
+      "source_sha256": "17aee782c0be833dce1834ce2ba6834bb79ab9e837ada7f248b9e21dd1044599",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/refined.css",
+      "path": "assets/css/refined.css",
+      "source_sha256": "404453615cb3a1cc980aae4aeb4e88c0b0fba01b8551b2f9b1a1930eaed80926",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/midiary.css",
+      "path": "assets/css/midiary.css",
+      "source_sha256": "08c54fe1de851111d6330d9a33ab365c3da5881d9f27aa5203722ba9d38b483d",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/faculty-themes.css",
+      "path": "assets/css/faculty-themes.css",
+      "source_sha256": "780f6e5eca8fdd38437990e3543c74c44536024f23174e87a9d41b6bef810645",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/button-interactions.css",
+      "path": "assets/css/button-interactions.css",
+      "source_sha256": "0723491c2451e3d86a2b0259f269256cf160a7dd91b437abfa5385319b5531e9",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/navigation.css",
+      "path": "assets/css/navigation.css",
+      "source_sha256": "fb8320d57a97720a3864486fa7233d2b674f921d712bde06eb31f79709726a7e",
+      "change": "Relative image paths and normalized line endings."
+    },
+    {
+      "source": "static/midiary-logo.svg",
+      "path": "assets/img/midiary-logo.svg",
+      "source_sha256": "fdc80da9243a4a4bfaa9b6a8168976c29bcc3b2dee3530d9470877e16afa6439",
+      "change": "None."
+    },
+    {
+      "source": "static/fgu-politics.svg",
+      "path": "assets/img/fgu-politics.svg",
+      "source_sha256": "5c206de6fb39236fb18fbc17f19a809e969343c2b4b2777edba91752d5e72f85",
+      "change": "None."
+    },
+    {
+      "source": "static/geo-maps.svg",
+      "path": "assets/img/geo-maps.svg",
+      "source_sha256": "2d41eab6afcf572dbcf2758aa612422854c879bb7c8a75b4e29afb34a69b1caa",
+      "change": "None."
+    },
+    {
+      "source": "static/ffl-languages.svg",
+      "path": "assets/img/ffl-languages.svg",
+      "source_sha256": "0dde41827cfef5145252e45505d1dbe6932bcbea993aa510d746eb044657a82c",
+      "change": "None."
+    },
+    {
+      "source": "static/fgp-globe.svg",
+      "path": "assets/img/fgp-globe.svg",
+      "source_sha256": "332c3b150c6ec93c63cb62ad6c8d32ffe69f7ae3028b5a18c573aa15d2be3a44",
+      "change": "None."
+    }
+  ]
+}

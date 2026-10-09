@@ -1,0 +1,81 @@
+/* Standalone demo layout. The original systemfgu styles are loaded above. */
+html { font-size: 16px; }
+body { margin: 0; min-width: 280px; }
+.skip-link { position: fixed; left: 16px; top: -100px; z-index: 1000; padding: 14px 18px; border-radius: 12px; background: #fff; color: #111; }
+.skip-link:focus { top: 16px; }
+#fgu-diary-design { width: 100%; max-width: 880px; }
+#fgu-diary-design .fd-stage { height: auto; min-height: 50dvh; }
+#fgu-diary-design .fd-telegram-title > span { font-size: .75rem; line-height: 1.5; text-wrap: balance; }
+#fgu-diary-design .fd-detail-page { padding: 20px 14px 30px; }
+#fgu-diary-design .demo-identity { display: flex; align-items: center; gap: 12px; margin: 16px 2px 8px; }
+#fgu-diary-design .identity-row { margin: 0; min-width: 0; flex: 1; }
+#fgu-diary-design .identity-copy strong { font-size: .875rem; }
+#fgu-diary-design .identity-copy span { font-size: .75rem; }
+#fgu-diary-design .identity-group { font-size: .875rem; white-space: normal; }
+#fgu-diary-design .demo-pill { color: var(--fd-muted); border: 1px solid var(--fd-line); border-radius: 999px; padding: 6px 10px; font-size: .75rem; }
+#fgu-diary-design .eyebrow { font-size: .75rem; letter-spacing: .12em; }
+#fgu-diary-design h1 { text-transform: none; }
+#fgu-diary-design h1::first-letter { text-transform: uppercase; }
+#fgu-diary-design .week button small { font-size: .875rem; }
+#fgu-diary-design .week button strong { font-size: 1.25rem; }
+#fgu-diary-design .demo-date-input { width: 100%; max-width: 190px; min-width: 0; min-height: 44px; padding: 8px 10px; color: var(--fd-text); background: var(--glass-input); border: 1px solid var(--fd-line); border-radius: 14px; font: inherit; }
+#fgu-diary-design .day-calendar-controls { gap: 10px; }
+#fgu-diary-design .lesson-count { font-size: .875rem; }
+#fgu-diary-design .fd-lesson-meta { gap: 12px; flex-wrap: wrap; }
+#fgu-diary-design .fd-lesson-meta time { font-size: 1rem; color: var(--fd-text); }
+#fgu-diary-design .lesson-badge { font-size: .875rem; }
+#fgu-diary-design .fd-lesson-card .fd-lesson-name { text-align: left; line-height: 1.4; margin: 8px 0; padding: 4px 0; }
+#fgu-diary-design .fd-teacher-link { display: block; width: fit-content; max-width: 100%; padding: 4px 0 8px; font-size: .875rem; text-align: left; }
+#fgu-diary-design .fd-lesson-room { margin-top: 0; font-size: .875rem; line-height: 1.5; }
+#fgu-diary-design .homework-preview { font-size: 1rem; line-height: 1.6; margin-top: 16px; }
+#fgu-diary-design .muted, #fgu-diary-design .fd-file-metadata { font-size: .875rem; line-height: 1.6; color: var(--fd-muted); }
+#fgu-diary-design .fd-bottom-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 800px; width: calc(100% - 24px); left: 12px; right: 12px; overflow: visible; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); }
+#fgu-diary-design .fd-bottom-nav button { min-width: 0; min-height: 70px; padding: 8px 4px; }
+#fgu-diary-design .fd-bottom-nav button span { font-size: .875rem; white-space: normal; overflow-wrap: anywhere; line-height: 1.3; letter-spacing: 0; }
+#fgu-diary-design .demo-footer { padding: 0 14px 14px; text-align: center; font-size: .75rem; color: var(--fd-muted); }
+#fgu-diary-design .demo-teacher, #fgu-diary-design .demo-deadline, #fgu-diary-design .demo-settings { padding-bottom: 24px; }
+#fgu-diary-design .demo-teacher .identity-avatar { width: 52px; height: 52px; margin-bottom: 12px; font-size: 1rem; }
+#fgu-diary-design .demo-teacher h2, #fgu-diary-design .demo-deadline h2 { margin-top: 12px; }
+#fgu-diary-design .demo-teacher p, #fgu-diary-design .demo-deadline p { margin: 8px 0; }
+#fgu-diary-design .demo-deadline time { display: block; margin-top: 16px; }
+#fgu-diary-design .demo-complete { display: flex; align-items: center; gap: 12px; min-height: 44px; margin-top: 12px; cursor: pointer; font-size: 1rem; }
+#fgu-diary-design .demo-complete input { width: 22px; height: 22px; margin: 0; flex: none; }
+#fgu-diary-design .is-done h2 { text-decoration: line-through; color: var(--fd-muted); }
+#fgu-diary-design .material-tabs { flex-wrap: wrap; overflow: visible; }
+#fgu-diary-design .material-tabs button { font-size: .875rem; flex: 1 1 auto; }
+#fgu-diary-design .unified-file { text-decoration: none; transition: border-color .15s ease; }
+#fgu-diary-design .unified-file:hover { border-color: var(--fd-accent); }
+#fgu-diary-design a:focus-visible { outline: 2px solid var(--fd-text); outline-offset: 4px; }
+#fgu-diary-design .demo-file-heading { display: flex; gap: 12px; align-items: flex-start; }
+#fgu-diary-design .demo-file-heading svg { margin-top: 3px; }
+#fgu-diary-design .demo-settings p { margin: 16px 0 0; }
+#fgu-diary-design #lesson-dialog { box-sizing: border-box; width: min(560px, calc(100% - 32px)); max-height: calc(100dvh - 40px); overflow-y: auto; padding: 26px; background: var(--glass-opaque); color: var(--fd-text); border: 1px solid var(--fd-border); border-radius: 26px; box-shadow: var(--glass-shadow); }
+#fgu-diary-design #lesson-dialog::backdrop { background: #0008; backdrop-filter: blur(8px); }
+#fgu-diary-design .dialog-top { display: flex; align-items: flex-start; gap: 18px; margin-bottom: 14px; }
+#fgu-diary-design .dialog-top h2 { flex: 1; margin: 0; font-size: 1.375rem; }
+#fgu-diary-design .dialog-top .fd-icon-button { flex: none; }
+#fgu-diary-design .demo-homework-form { margin-top: 24px; }
+#fgu-diary-design .demo-homework-form label { font-size: 1rem; }
+#fgu-diary-design .demo-homework-form p { margin-top: 10px; }
+#fgu-diary-design #status.demo-toast { position: fixed; z-index: 100; bottom: calc(112px + env(safe-area-inset-bottom, 0px)); left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 40px); padding: 14px 18px; border: 1px solid var(--fd-border); border-radius: 16px; background: var(--glass-opaque); color: var(--fd-text); box-shadow: var(--glass-shadow); font-size: .875rem; line-height: 1.5; }
+#fgu-diary-design #status:empty { display: none; }
+.no-script { padding: 24px; color: #777; font: 1rem/1.6 system-ui, sans-serif; }
+@media (max-width: 599px) {
+  #fgu-diary-design { padding: 12px 10px 120px; }
+  #fgu-diary-design .fd-detail-page { padding-left: 4px; padding-right: 4px; }
+  #fgu-diary-design h1 { font-size: clamp(1.75rem, 7vw, 2.375rem); letter-spacing: -.04em; }
+  #fgu-diary-design .identity-button { padding: 10px; gap: 8px; flex-wrap: wrap; }
+  #fgu-diary-design .identity-copy { min-width: 100px; }
+  #fgu-diary-design .fd-telegram-title > span { font-size: .75rem; }
+  #fgu-diary-design .fd-lesson-name { font-size: 1.25rem; }
+  #fgu-diary-design .day-calendar-controls > svg { display: none; }
+  #fgu-diary-design .demo-identity { gap: 6px; }
+  #fgu-diary-design .demo-pill { padding: 4px 7px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #fgu-diary-design *, #fgu-diary-design *::before, #fgu-diary-design *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+@media (forced-colors: active) {
+  body::before { display: none; }
+  #fgu-diary-design #lesson-dialog::backdrop { backdrop-filter: none; }
+}
