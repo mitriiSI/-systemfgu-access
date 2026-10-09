@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/Glass-HQ/liquid-glass",
+  "commit": "8795d30e2519e7e33b26e19281b9ad26b5eed229",
+  "version": "0.0.1",
+  "dependencies": {
+    "@lisse/core": "0.7.2",
+    "@vgpu/core": "0.5.0",
+    "@vgpu/wgsl": "0.5.0",
+    "vgpu": "0.5.0"
+  },
+  "renderer": "WebGPU/WGSL and explicit DOM content"
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Midiary</title>
+  <script src="/static/theme-init.js?v=39"></script>
+  <link rel="manifest" href="/static/manifest.webmanifest?v=39">
+  <link rel="icon" type="image/png" sizes="192x192" href="/static/midiary-icon-192.png">
+  <link rel="apple-touch-icon" href="/static/midiary-icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Midiary">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#080808">
+  <link rel="stylesheet" href="/static/style.css?v=39">
+  <link rel="stylesheet" href="/static/live.css?v=39">
+  <link rel="stylesheet" href="/static/refined.css?v=39">
+  <script src="/static/vendor/telegram-web-app.js?v=39" defer></script>
+  <script src="/static/install.js?v=39" defer></script>
+<link rel="stylesheet" href="/static/midiary.css?v=39">
+<script src="/static/i18n.js?v=20261008-share-1" defer></script>
+<script src="/static/midiary.js?v=20261009-navigation-3" defer></script>
+<script src="/static/content-translation.js?v=39" defer></script>
+<link rel="stylesheet" href="/static/privacy.css?v=39">
+<script src="/static/privacy.js?v=39" defer></script>
+<link rel="stylesheet" href="/static/admin-access.css?v=39">
+<script src="/static/admin-access.js?v=20261008-ui-1" defer></script>
+<script src="/static/subscriptions.js?v=39" defer></script>
+<script src="/static/lesson-history.js?v=39" defer></script>
+<link rel="stylesheet" href="/static/faculty-themes.css?v=20261008-ui-1">
+<link rel="stylesheet" href="/static/lesson-controls.css?v=20261008-share-1">
+<link rel="stylesheet" href="/static/button-interactions.css?v=20261008-ui-1">
+<link rel="stylesheet" href="/static/onboarding.css?v=39">
+<link rel="stylesheet" href="/static/profile.css?v=20261008-share-1">
+<link rel="stylesheet" href="/static/admin-users.css?v=20261008-share-1">
+<link rel="stylesheet" href="/static/admin-channels.css?v=20261008-share-1">
+<link rel="stylesheet" href="/static/vendor/liquid-glass/styles.css?v=20261009-glass-1">
+<link rel="stylesheet" href="/static/liquid-glass.css?v=20261009-glass-1">
+<link rel="stylesheet" href="/static/navigation.css?v=20261009-comparison-2">
+<link rel="stylesheet" href="/static/group-comparison.css?v=20261009-points-simple-1">
+<link rel="stylesheet" href="/static/history-points.css?v=20261009-points-simple-1">
+</head>
+<body>
+<a class="skip-link" href="#screen">Перейти к содержимому</a>
+<div id="fgu-diary-design">
+  <script>document.getElementById('fgu-diary-design').dataset.theme=document.documentElement.dataset.fguTheme;</script>
+  <header class="fd-telegram">
+    <button id="back" class="fd-icon-button" type="button" aria-label="Назад" title="Назад" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h15"/></svg></button>
+    <div class="fd-telegram-title"><button class="brand-capsule" type="button" aria-label="Вернуться к сегодняшнему расписанию" data-no-translate>Midiary</button><span>Ваше расписание</span></div>
+    <div class="header-actions">
+      <button id="theme" class="fd-icon-button" type="button" aria-label="Сменить тему"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14A8.6 8.6 0 0 1 10 3.5 8.6 8.6 0 1 0 20.5 14Z"/></svg></button>
+      <button id="header-help" class="fd-icon-button profile-tour" type="button" aria-label="Знакомство с расписанием" title="Знакомство с расписанием" hidden><b class="icon-question">?</b></button>
+      <button id="logout" class="fd-secondary header-logout" type="button" aria-label="Выйти из аккаунта" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H5v16h4"/><path class="icon-exit-arrow" d="m14 8 4 4-4 4m-4-4h8"/></svg><span>Выйти</span></button>
+    </div>
+    <div class="header-identity" hidden>
+      <button id="header-profile" class="identity-row identity-button" type="button" aria-label="Открыть профиль"></button>
+      <button id="header-group" class="identity-group" type="button" aria-label="Факультет и группа"></button>
+    </div>
+  </header>
+  <div class="fd-transition-track" aria-hidden="true"><span></span></div>
+  <div id="status" role="status" aria-live="polite"></div>
+  <main id="screen" class="fd-stage" tabindex="-1">
+    <section class="fd-splash"><h1>Midiary</h1><div class="fd-crest-wrap"><img class="fd-crest" src="/static/midiary-logo.svg" alt="Midiary"></div><div class="fd-loading-block"><div class="fd-loading-label">Загрузка расписания</div><div class="fd-loading-track"><span></span></div></div></section>
+  </main>
+  <nav class="fd-bottom-nav" id="nav" aria-label="Основная навигация" hidden>
+    <button type="button" data-page="history-points"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 3v18h17"/><path class="icon-points-bars" d="M8 17v-5m5 5V8m5 9V5"/></svg><span data-no-translate>Баллы</span></button>
+    <button type="button" data-page="ratings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="icon-cap" d="m2 8 10-5 10 5-10 5-10-5Z"/><path d="M6 11v6c4 3 8 3 12 0v-6"/><path class="icon-tassel" d="M22 8v8"/></svg><span>Преподаватели</span></button>
+    <button type="button" data-page="materials"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="icon-folder" d="M3 8V6a2 2 0 0 1 2-2h4l2 3h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8Z"/></svg><span>Учебные материалы</span></button>
+    <button type="button" data-page="deadlines"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path class="icon-clock-hands" d="M12 7v5l3 2"/></svg><span>Дедлайны</span></button>
+  </nav>
+<footer id="legal-footer" aria-label="Документы сервиса"></footer>
+</div>
+<script src="/static/features.js?v=20261009-navigation-3" defer></script>
+<script src="/static/lesson-controls.js?v=20261009-points-1" defer></script>
+<script src="/static/reader-pages.js?v=39" defer></script>
+<script src="/static/document-reader.js?v=20261007-security-1" defer></script>
+<script src="/static/transfers.js?v=39" defer></script>
+<script src="/static/downloads.js?v=20261008-share-1" defer></script>
+<script src="/static/max-app.js?v=20261008-ui-1" defer></script>
+<script src="/static/university.js?v=20261009-comparison-2" defer></script>
+<script src="/static/schedule-import.js?v=20261007-security-1" defer></script>
+<script src="/static/messenger-login.js?v=20261007-auth-2" defer></script>
+<script src="/static/button-interactions.js?v=20261009-navigation-3" defer></script>
+<script src="/static/onboarding.js?v=20261009-points-1" defer></script>
+<script src="/static/subgroups.js?v=20261009-navigation-3" defer></script>
+<script src="/static/profile.js?v=20261009-comparison-member-1" defer></script>
+<script src="/static/admin-users.js?v=20261008-share-1" defer></script>
+<script src="/static/admin-channels.js?v=20261008-share-1" defer></script>
+<script src="/static/group-comparison.js?v=20261009-points-simple-1" defer></script>
+<script src="/static/history-points.js?v=20261009-points-simple-1" defer></script>
+<script src="/static/day-navigation.js?v=20261009-points-1" defer></script>
+<script src="/static/app.js?v=20261009-points-simple-1" defer></script>
+<script type="module" src="/static/vendor/liquid-glass/liquid-glass.js?v=20261009-navigation-3"></script>
+</body>
+</html>

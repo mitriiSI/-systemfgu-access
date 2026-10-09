@@ -1,0 +1,16 @@
+//#region src/dom/map-encoder.worker.ts?worker&inline
+var e = "(function(){let e=/* @__PURE__ */ new Int32Array(256);for(let t=0;t<256;t++){let n=t;for(let e=0;e<8;e++)n=n&1?3988292384^n>>>1:n>>>1;e[t]=n}function t(t,n=0,r=t.length){let i=-1;for(let a=n;a<r;a++)i=e[(i^t[a])&255]^i>>>8;return(i^-1)>>>0}function n(e){let t=1,n=0;for(let r=0;r<e.length;){let i=Math.min(e.length,r+3800);for(;r<i;r++)t+=e[r],n+=t;t%=65521,n%=65521}return(n<<16|t)>>>0}function r(e){let t=Math.max(1,Math.ceil(e.length/65535)),r=new Uint8Array(2+e.length+t*5+4);r[0]=120,r[1]=1;let i=2;for(let n=0;n<t;n++){let a=n*65535,o=Math.min(65535,e.length-a);r[i++]=+(n===t-1),r[i++]=o&255,r[i++]=o>>>8,r[i++]=~o&255,r[i++]=~o>>>8&255,r.set(e.subarray(a,a+o),i),i+=o}let a=n(e);return r[i++]=a>>>24,r[i++]=a>>>16&255,r[i++]=a>>>8&255,r[i++]=a&255,r}async function i(e){if(typeof CompressionStream>`u`)return r(e);try{let t=new Blob([e]).stream().pipeThrough(new CompressionStream(`deflate`));return new Uint8Array(await new Response(t).arrayBuffer())}catch{return r(e)}}function a(e,n){let r=new Uint8Array(12+n.length),i=new DataView(r.buffer);i.setUint32(0,n.length);for(let t=0;t<4;t++)r[4+t]=e.charCodeAt(t);return r.set(n,8),i.setUint32(8+n.length,t(r,4,8+n.length)),r}async function o(e,t,n,r=e*4){let o=e*4,s=new Uint8Array((o+1)*t);for(let e=0;e<t;e++){let t=e*r,i=e*(o+1);s[i]=1;for(let e=0;e<4;e++)s[i+1+e]=n[t+e];for(let e=4;e<o;e++)s[i+1+e]=n[t+e]-n[t+e-4]&255}let c=/* @__PURE__ */ new Uint8Array(13),l=new DataView(c.buffer);l.setUint32(0,e),l.setUint32(4,t),c[8]=8,c[9]=6,c[10]=0,c[11]=0,c[12]=0;let u=await i(s),d=[new Uint8Array([137,80,78,71,13,10,26,10]),a(`IHDR`,c),a(`IDAT`,u),a(`IEND`,/* @__PURE__ */ new Uint8Array)],f=new Uint8Array(d.reduce((e,t)=>e+t.length,0)),p=0;for(let e of d)f.set(e,p),p+=e.length;return f}let s=`ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/`;function c(e){let t=``,n=e.length-e.length%3;for(let r=0;r<n;r+=3){let n=e[r]<<16|e[r+1]<<8|e[r+2];t+=s[n>>>18]+s[n>>>12&63]+s[n>>>6&63]+s[n&63]}if(e.length-n===1){let r=e[n]<<16;t+=s[r>>>18]+s[r>>>12&63]+`==`}else if(e.length-n===2){let r=e[n]<<16|e[n+1]<<8;t+=s[r>>>18]+s[r>>>12&63]+s[r>>>6&63]+`=`}return t}async function l(e,t,n,r){return`data:image/png;base64,${c(await o(e,t,n,r))}`}function u(e,t,n,r){let i=t*4,a=r===void 0?[[0,t]]:[[0,t],[0,r],[r,t-2*r],[t-r,r]];return Promise.all(Array.from({length:4},(t,r)=>{let o=r*n*i;return Promise.all(a.map(([t,r])=>l(r,n,e.subarray(o+t*4,o+n*i),i)))}))}let d=Promise.resolve();self.onmessage=({data:{id:e,pixels:t,width:n,height:r,cap:i}})=>{d=d.then(async()=>{try{self.postMessage({id:e,planes:await u(t,n,r,i)})}catch(t){self.postMessage({id:e,error:String(t)})}})}})();", t = typeof self < "u" && self.Blob && new Blob(["(self.URL || self.webkitURL).revokeObjectURL(self.location.href);", e], { type: "text/javascript;charset=utf-8" });
+function n(n) {
+	let r;
+	try {
+		if (r = t && (self.URL || self.webkitURL).createObjectURL(t), !r) throw "";
+		let e = new Worker(r, { name: n?.name });
+		return e.addEventListener("error", () => {
+			(self.URL || self.webkitURL).revokeObjectURL(r);
+		}), e;
+	} catch {
+		return new Worker("data:text/javascript;charset=utf-8," + encodeURIComponent(e), { name: n?.name });
+	}
+}
+//#endregion
+export { n as default };

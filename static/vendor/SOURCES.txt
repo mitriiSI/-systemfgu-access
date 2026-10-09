@@ -1,0 +1,3 @@
+Telegram Web App SDK: https://telegram.org/js/telegram-web-app.js
+PDF.js 5.4.624: https://github.com/mozilla/pdf.js/releases/tag/v5.4.624
+PDF.js Apache-2.0 license: pdfjs/LICENSE

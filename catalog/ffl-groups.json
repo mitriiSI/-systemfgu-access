@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "ffl:ebad8045a62b2bbbe88ecb89",
+    "faculty": "ffl",
+    "source_id": "ffl:ebad8045a62b2bbbe88ecb89",
+    "name": "1 англ. преподавание",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:b5e01efa25ca0430f11f9cef",
+    "faculty": "ffl",
+    "source_id": "ffl:b5e01efa25ca0430f11f9cef",
+    "name": "1 англ. перевод",
+    "level": "Специалитет",
+    "course": 1,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:f7b19a9f7aef68f321474de5",
+    "faculty": "ffl",
+    "source_id": "ffl:f7b19a9f7aef68f321474de5",
+    "name": "2 англ. перевод",
+    "level": "Специалитет",
+    "course": 1,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:a81c923e70f5fcf0722faab8",
+    "faculty": "ffl",
+    "source_id": "ffl:a81c923e70f5fcf0722faab8",
+    "name": "3 англ. перевод",
+    "level": "Специалитет",
+    "course": 1,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:3e40496cc24b5d45f3fdef2e",
+    "faculty": "ffl",
+    "source_id": "ffl:3e40496cc24b5d45f3fdef2e",
+    "name": "101",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:c1dca79d811c634d209d6715",
+    "faculty": "ffl",
+    "source_id": "ffl:c1dca79d811c634d209d6715",
+    "name": "102",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:b7659923cf634b49b07dfc44",
+    "faculty": "ffl",
+    "source_id": "ffl:b7659923cf634b49b07dfc44",
+    "name": "103",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:fd4d6efe9645d247bcb35d30",
+    "faculty": "ffl",
+    "source_id": "ffl:fd4d6efe9645d247bcb35d30",
+    "name": "К-101",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Отделение культурологии",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:fb382260506f80a1a8b9dfdf",
+    "faculty": "ffl",
+    "source_id": "ffl:fb382260506f80a1a8b9dfdf",
+    "name": "К-102",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Отделение культурологии",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:276ad1c4f55a0a1af1f3daff",
+    "faculty": "ffl",
+    "source_id": "ffl:276ad1c4f55a0a1af1f3daff",
+    "name": "1 англ. преподавание",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:237326e98d16859d3d1b0488",
+    "faculty": "ffl",
+    "source_id": "ffl:237326e98d16859d3d1b0488",
+    "name": "1 англ. перевод",
+    "level": "Специалитет",
+    "course": 2,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:7cc60c06277b189d6eb1f1d7",
+    "faculty": "ffl",
+    "source_id": "ffl:7cc60c06277b189d6eb1f1d7",
+    "name": "2 англ. перевод",
+    "level": "Специалитет",
+    "course": 2,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:0d83e061343309019c11a216",
+    "faculty": "ffl",
+    "source_id": "ffl:0d83e061343309019c11a216",
+    "name": "3 англ. перевод",
+    "level": "Специалитет",
+    "course": 2,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:9e8cf1190cd5ee71a7bb5c89",
+    "faculty": "ffl",
+    "source_id": "ffl:9e8cf1190cd5ee71a7bb5c89",
+    "name": "201",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:637579d7c160754b66cea5a4",
+    "faculty": "ffl",
+    "source_id": "ffl:637579d7c160754b66cea5a4",
+    "name": "202",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:7f69b2cd91b9f35ed20ce694",
+    "faculty": "ffl",
+    "source_id": "ffl:7f69b2cd91b9f35ed20ce694",
+    "name": "203",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:394f7f6b471843d693c4fd57",
+    "faculty": "ffl",
+    "source_id": "ffl:394f7f6b471843d693c4fd57",
+    "name": "204",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:87e8afe1196ede59d6d189b1",
+    "faculty": "ffl",
+    "source_id": "ffl:87e8afe1196ede59d6d189b1",
+    "name": "1 англ. препод.",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:92f3c5623450300a2389d0e1",
+    "faculty": "ffl",
+    "source_id": "ffl:92f3c5623450300a2389d0e1",
+    "name": "2 англ. препод.",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:8e57f73e1888e13b7dc3a1a9",
+    "faculty": "ffl",
+    "source_id": "ffl:8e57f73e1888e13b7dc3a1a9",
+    "name": "3 англ. Препод.",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:e63db9f8c1f2dd3e26af02fc",
+    "faculty": "ffl",
+    "source_id": "ffl:e63db9f8c1f2dd3e26af02fc",
+    "name": "4 нем. Препод.",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:b174f04e0edd3f7f30b72cb6",
+    "faculty": "ffl",
+    "source_id": "ffl:b174f04e0edd3f7f30b72cb6",
+    "name": "5 франц. Препод.",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:bd4416dae22ffcbfe93f4eb9",
+    "faculty": "ffl",
+    "source_id": "ffl:bd4416dae22ffcbfe93f4eb9",
+    "name": "1 англ. перевод",
+    "level": "Специалитет",
+    "course": 3,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:d8acfc1be277ad407f4ebd04",
+    "faculty": "ffl",
+    "source_id": "ffl:d8acfc1be277ad407f4ebd04",
+    "name": "2 англ. перевод",
+    "level": "Специалитет",
+    "course": 3,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:71b6e3abbde1f27e2b361497",
+    "faculty": "ffl",
+    "source_id": "ffl:71b6e3abbde1f27e2b361497",
+    "name": "301",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:bae090fe7b73cdba57982f84",
+    "faculty": "ffl",
+    "source_id": "ffl:bae090fe7b73cdba57982f84",
+    "name": "302",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:513b3f28c6dd8ad370c74c34",
+    "faculty": "ffl",
+    "source_id": "ffl:513b3f28c6dd8ad370c74c34",
+    "name": "К-301",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Отделение культурологии",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:c7a04f741a0089ae0223e704",
+    "faculty": "ffl",
+    "source_id": "ffl:c7a04f741a0089ae0223e704",
+    "name": "1 англ. преподавания",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:7722799a1252c2289f7bcbb5",
+    "faculty": "ffl",
+    "source_id": "ffl:7722799a1252c2289f7bcbb5",
+    "name": "2 англ. преподавания",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:c0f148c364c51474a11755b0",
+    "faculty": "ffl",
+    "source_id": "ffl:c0f148c364c51474a11755b0",
+    "name": "3 фр. преподавания",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение лингвистики и межкультурной коммуникации",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:50637d1c5663b3ff6cd97f0a",
+    "faculty": "ffl",
+    "source_id": "ffl:50637d1c5663b3ff6cd97f0a",
+    "name": "1 англ. перевод",
+    "level": "Специалитет",
+    "course": 4,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:79fbb645ff59714aec0d2ae2",
+    "faculty": "ffl",
+    "source_id": "ffl:79fbb645ff59714aec0d2ae2",
+    "name": "2 англ. перевод",
+    "level": "Специалитет",
+    "course": 4,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:9d7fda05ee7e34eb895d4a38",
+    "faculty": "ffl",
+    "source_id": "ffl:9d7fda05ee7e34eb895d4a38",
+    "name": "401",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:4470f57234e2b84382f073bb",
+    "faculty": "ffl",
+    "source_id": "ffl:4470f57234e2b84382f073bb",
+    "name": "402",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:ce9bb2aea5a72bcbf0c26dd0",
+    "faculty": "ffl",
+    "source_id": "ffl:ce9bb2aea5a72bcbf0c26dd0",
+    "name": "403",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение региональных исследований",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:13a12a497587db41a3f56829",
+    "faculty": "ffl",
+    "source_id": "ffl:13a12a497587db41a3f56829",
+    "name": "К-401",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение культурологии",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:aaf9ea37b5bb2a03ce6d13dc",
+    "faculty": "ffl",
+    "source_id": "ffl:aaf9ea37b5bb2a03ce6d13dc",
+    "name": "К-402",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Отделение культурологии",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:83d9afc2fe444da90e0582ba",
+    "faculty": "ffl",
+    "source_id": "ffl:83d9afc2fe444da90e0582ba",
+    "name": "1 англ. перевод",
+    "level": "Специалитет",
+    "course": 5,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:49bc66373336ca6eae0b1034",
+    "faculty": "ffl",
+    "source_id": "ffl:49bc66373336ca6eae0b1034",
+    "name": "2 англ. перевод",
+    "level": "Специалитет",
+    "course": 5,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:d30f2eb280bdded247e767d6",
+    "faculty": "ffl",
+    "source_id": "ffl:d30f2eb280bdded247e767d6",
+    "name": "1 англ. перевод",
+    "level": "Специалитет",
+    "course": 6,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:ffb4bf024dcc88f3607fff53",
+    "faculty": "ffl",
+    "source_id": "ffl:ffb4bf024dcc88f3607fff53",
+    "name": "2 англ. перевод",
+    "level": "Специалитет",
+    "course": 6,
+    "program": "Отделение перевода и переводоведения",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:b00323c422b68ab3dbec33dd",
+    "faculty": "ffl",
+    "source_id": "ffl:b00323c422b68ab3dbec33dd",
+    "name": "1 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:4defaca5552fb0b24b7005dc",
+    "faculty": "ffl",
+    "source_id": "ffl:4defaca5552fb0b24b7005dc",
+    "name": "2 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:4ab52f099424ece22421c67e",
+    "faculty": "ffl",
+    "source_id": "ffl:4ab52f099424ece22421c67e",
+    "name": "3 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:287da28a68216dd6a4d40a87",
+    "faculty": "ffl",
+    "source_id": "ffl:287da28a68216dd6a4d40a87",
+    "name": "4 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:ea7f543a8a149f93693a32ce",
+    "faculty": "ffl",
+    "source_id": "ffl:ea7f543a8a149f93693a32ce",
+    "name": "5 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:72c02af6a898c4ac49e8d4d7",
+    "faculty": "ffl",
+    "source_id": "ffl:72c02af6a898c4ac49e8d4d7",
+    "name": "6 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:449f978adc00a042a0357ec6",
+    "faculty": "ffl",
+    "source_id": "ffl:449f978adc00a042a0357ec6",
+    "name": "7 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:dd3d5f5036bbeb30984cd3ee",
+    "faculty": "ffl",
+    "source_id": "ffl:dd3d5f5036bbeb30984cd3ee",
+    "name": "8 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:53d6bae2a98c86af83fbd00b",
+    "faculty": "ffl",
+    "source_id": "ffl:53d6bae2a98c86af83fbd00b",
+    "name": "9 группа",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:05956c17b18d99c9a2640fa0",
+    "faculty": "ffl",
+    "source_id": "ffl:05956c17b18d99c9a2640fa0",
+    "name": "Регионоведение России (иностранные студенты)",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "Регионоведение России (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:11c36469d8e481a0b34ef76d",
+    "faculty": "ffl",
+    "source_id": "ffl:11c36469d8e481a0b34ef76d",
+    "name": "1 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:fd94cc61ba5d7e3c6bd10102",
+    "faculty": "ffl",
+    "source_id": "ffl:fd94cc61ba5d7e3c6bd10102",
+    "name": "2 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:4038fed55113c96db791fd55",
+    "faculty": "ffl",
+    "source_id": "ffl:4038fed55113c96db791fd55",
+    "name": "3 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:3691b2f70a7f034abc8db53c",
+    "faculty": "ffl",
+    "source_id": "ffl:3691b2f70a7f034abc8db53c",
+    "name": "4 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:ec6a3a6b8f1499f29fbb5e86",
+    "faculty": "ffl",
+    "source_id": "ffl:ec6a3a6b8f1499f29fbb5e86",
+    "name": "5 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:b273182e1309f9f0722b16e0",
+    "faculty": "ffl",
+    "source_id": "ffl:b273182e1309f9f0722b16e0",
+    "name": "6 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:ef98012a5440b80e40ae1709",
+    "faculty": "ffl",
+    "source_id": "ffl:ef98012a5440b80e40ae1709",
+    "name": "7 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:738b0a82b6b3445d1a4eb93b",
+    "faculty": "ffl",
+    "source_id": "ffl:738b0a82b6b3445d1a4eb93b",
+    "name": "8 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:111643e387f97d75fb1f133d",
+    "faculty": "ffl",
+    "source_id": "ffl:111643e387f97d75fb1f133d",
+    "name": "9 группа",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:608dcb558b9cad1b3b47d07f",
+    "faculty": "ffl",
+    "source_id": "ffl:608dcb558b9cad1b3b47d07f",
+    "name": "Регионоведение России (иностранные студенты)",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "Регионоведение России (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:d3895d429775b4bd02bc8a46",
+    "faculty": "ffl",
+    "source_id": "ffl:d3895d429775b4bd02bc8a46",
+    "name": "1 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:89a9aaee456455d8ada40575",
+    "faculty": "ffl",
+    "source_id": "ffl:89a9aaee456455d8ada40575",
+    "name": "2 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:210f10625486c00b609a3c47",
+    "faculty": "ffl",
+    "source_id": "ffl:210f10625486c00b609a3c47",
+    "name": "3 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:1fbfbeabf1d26c7d2da80bf6",
+    "faculty": "ffl",
+    "source_id": "ffl:1fbfbeabf1d26c7d2da80bf6",
+    "name": "4 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:d198a731817c9f7de2d90dbf",
+    "faculty": "ffl",
+    "source_id": "ffl:d198a731817c9f7de2d90dbf",
+    "name": "5 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:47c6efe2cdd4d75b7414a811",
+    "faculty": "ffl",
+    "source_id": "ffl:47c6efe2cdd4d75b7414a811",
+    "name": "6 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:270277c5c3bc146d14e60363",
+    "faculty": "ffl",
+    "source_id": "ffl:270277c5c3bc146d14e60363",
+    "name": "7 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:31f0fcd69aac6b49ef729816",
+    "faculty": "ffl",
+    "source_id": "ffl:31f0fcd69aac6b49ef729816",
+    "name": "8 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:5e11a9b55ce3313b195cdc15",
+    "faculty": "ffl",
+    "source_id": "ffl:5e11a9b55ce3313b195cdc15",
+    "name": "9 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:bc69448cd8bd5c8b948f05c9",
+    "faculty": "ffl",
+    "source_id": "ffl:bc69448cd8bd5c8b948f05c9",
+    "name": "10 группа",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:cb7f2900f0d5c508818bd793",
+    "faculty": "ffl",
+    "source_id": "ffl:cb7f2900f0d5c508818bd793",
+    "name": "1 группа",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:13f5df19b81a3b9b1cc0bebc",
+    "faculty": "ffl",
+    "source_id": "ffl:13f5df19b81a3b9b1cc0bebc",
+    "name": "2 группа",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:da8e22183ebe66bdd00935b6",
+    "faculty": "ffl",
+    "source_id": "ffl:da8e22183ebe66bdd00935b6",
+    "name": "3 группа",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:50d20d84c14bc79c31674d46",
+    "faculty": "ffl",
+    "source_id": "ffl:50d20d84c14bc79c31674d46",
+    "name": "4 группа",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:bf83a1dce8d6bb5a9fc042b6",
+    "faculty": "ffl",
+    "source_id": "ffl:bf83a1dce8d6bb5a9fc042b6",
+    "name": "5 группа",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:fa804a7248b8fabe5869037d",
+    "faculty": "ffl",
+    "source_id": "ffl:fa804a7248b8fabe5869037d",
+    "name": "6 группа",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "Лингвистика (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:205fdf7810bcc24d77390bee",
+    "faculty": "ffl",
+    "source_id": "ffl:205fdf7810bcc24d77390bee",
+    "name": "ИИ в обучении иностранным языкам АНГЛИЙСКИЙ",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:9c394bfc8002e0cc947a6577",
+    "faculty": "ffl",
+    "source_id": "ffl:9c394bfc8002e0cc947a6577",
+    "name": "Обучение иностранным языкам в высшей школе и корпоративной среде АНГЛИЙСКИЙ",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:171c76961af971a5c199cea4",
+    "faculty": "ffl",
+    "source_id": "ffl:171c76961af971a5c199cea4",
+    "name": "Обучение иностранным языкам в высшей школе и корпоративной среде ИСПАНСКИЙ",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:b8a54d15f94dfe18ba778778",
+    "faculty": "ffl",
+    "source_id": "ffl:b8a54d15f94dfe18ba778778",
+    "name": "Коммуникативные коды в современном межкультурном пространстве",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:cb94f04eae499dab92376c99",
+    "faculty": "ffl",
+    "source_id": "ffl:cb94f04eae499dab92376c99",
+    "name": "Русский язык (иностранные студенты)",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:3478c1404eecd40a15248a56",
+    "faculty": "ffl",
+    "source_id": "ffl:3478c1404eecd40a15248a56",
+    "name": "Русский и французский языки и культуры (иностранные студенты)",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:de7490ecb2aea5e5950539cf",
+    "faculty": "ffl",
+    "source_id": "ffl:de7490ecb2aea5e5950539cf",
+    "name": "Регионоведение России",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Регионоведение (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:ec924c8a57607664c56e0395",
+    "faculty": "ffl",
+    "source_id": "ffl:ec924c8a57607664c56e0395",
+    "name": "Зарубежное регионоведение",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Регионоведение (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:69b09ad0ce2ef969c38520f8",
+    "faculty": "ffl",
+    "source_id": "ffl:69b09ad0ce2ef969c38520f8",
+    "name": "1 группа",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Регионоведение России (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:8ba978f419fd58eca48ca7d4",
+    "faculty": "ffl",
+    "source_id": "ffl:8ba978f419fd58eca48ca7d4",
+    "name": "2 группа",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Регионоведение России (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:967a1c43ce3b97580e996f3d",
+    "faculty": "ffl",
+    "source_id": "ffl:967a1c43ce3b97580e996f3d",
+    "name": "Культурология (интегрированная)",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "Культурология (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:cc2d889e7a9039941b005654",
+    "faculty": "ffl",
+    "source_id": "ffl:cc2d889e7a9039941b005654",
+    "name": "Политика/ дипломатия",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:aae9ccff5eb33309c7b8f25d",
+    "faculty": "ffl",
+    "source_id": "ffl:aae9ccff5eb33309c7b8f25d",
+    "name": "Обучение ИЯ в высшей школе и корпоративной среде АНГЛИЙСКИЙ",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:482cf4eb49d2d55e1ce9f5f7",
+    "faculty": "ffl",
+    "source_id": "ffl:482cf4eb49d2d55e1ce9f5f7",
+    "name": "Обучение ИЯ в высшей школе и корпоративной среде НЕМЕЦКИЙ",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:1b0800c05aeb6d3dc791d878",
+    "faculty": "ffl",
+    "source_id": "ffl:1b0800c05aeb6d3dc791d878",
+    "name": "Обучение ИЯ в высшей школе и корпоративной среде ИСПАНСКИЙ",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:45157e6153a107fc59e7ab5a",
+    "faculty": "ffl",
+    "source_id": "ffl:45157e6153a107fc59e7ab5a",
+    "name": "МП Коммуникативные коды в современном межкультурном пространстве",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:492d3d0f47271306baa63057",
+    "faculty": "ffl",
+    "source_id": "ffl:492d3d0f47271306baa63057",
+    "name": "Искусственный интеллект для анализа текстов и генерации речи",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:f14ec8866cc1d7e7545a3de0",
+    "faculty": "ffl",
+    "source_id": "ffl:f14ec8866cc1d7e7545a3de0",
+    "name": "Русский язык (иностранные студенты)",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:1bad52a3570b4ebe1de7efd5",
+    "faculty": "ffl",
+    "source_id": "ffl:1bad52a3570b4ebe1de7efd5",
+    "name": "Русский и французский языки и культуры (иностранные студенты)",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Лингвистика (внешняя) (российские и иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:a3ddfc2e770dd68be17816fa",
+    "faculty": "ffl",
+    "source_id": "ffl:a3ddfc2e770dd68be17816fa",
+    "name": "Регионоведение России",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Регионоведение (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:5183b26e6f11cd90437ed62d",
+    "faculty": "ffl",
+    "source_id": "ffl:5183b26e6f11cd90437ed62d",
+    "name": "Зарубежное регионоведение",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Регионоведение (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:296817499b85529d5b4963f4",
+    "faculty": "ffl",
+    "source_id": "ffl:296817499b85529d5b4963f4",
+    "name": "1 группа",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Регионоведение России (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:47093952bd8b26e94aecbf93",
+    "faculty": "ffl",
+    "source_id": "ffl:47093952bd8b26e94aecbf93",
+    "name": "2 группа",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Регионоведение России (иностранные студенты)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:5b635a816d62b7e4a9a7b55d",
+    "faculty": "ffl",
+    "source_id": "ffl:5b635a816d62b7e4a9a7b55d",
+    "name": "Культурология (интегрированная)",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "Культурология (интегрированная)",
+    "source": "excel"
+  },
+  {
+    "id": "ffl:d61be61c090f58561b90516c",
+    "faculty": "ffl",
+    "source_id": "ffl:d61be61c090f58561b90516c",
+    "name": "Вечернее отделение",
+    "level": "Магистратура",
+    "course": 3,
+    "program": "Вечернее отделение",
+    "source": "excel"
+  }
+]

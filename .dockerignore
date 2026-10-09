@@ -1,0 +1,15 @@
+.env
+.env.*
+data/
+.git/
+.codex/
+.agents/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+tests/
+*.log

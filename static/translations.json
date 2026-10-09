@@ -1,0 +1,3486 @@
+{
+  "Сегодня": [
+    "Today",
+    "今天"
+  ],
+  "Преподаватели": [
+    "Teachers",
+    "教师"
+  ],
+  "Учебные материалы": [
+    "Study materials",
+    "学习资料"
+  ],
+  "Дедлайны": [
+    "Deadlines",
+    "截止日期"
+  ],
+  "Выйти": [
+    "Log out",
+    "退出"
+  ],
+  "Назад": [
+    "Back",
+    "返回"
+  ],
+  "Сменить тему": [
+    "Change theme",
+    "切换主题"
+  ],
+  "Основная навигация": [
+    "Main navigation",
+    "主导航"
+  ],
+  "Загрузка дневника": [
+    "Loading diary",
+    "正在加载日记"
+  ],
+  "Ваш учебный дневник": [
+    "Your study diary",
+    "你的学习日记"
+  ],
+  "Всё для учёбы. В одном месте. Вход и регистрация только по коду администратора.": [
+    "Everything for your studies in one place. Sign in or register with an administrator code.",
+    "学习所需，尽在一处。仅凭管理员提供的代码登录或注册。"
+  ],
+  "Выберите факультет": [
+    "Choose your faculty",
+    "选择院系"
+  ],
+  "Факультет государственного управления": [
+    "Faculty of Public Administration",
+    "公共管理学院"
+  ],
+  "Географический факультет": [
+    "Faculty of Geography",
+    "地理学院"
+  ],
+  "Исторический факультет": [
+    "Faculty of History",
+    "历史学院"
+  ],
+  "ФГУ": [
+    "Public Administration",
+    "公共管理"
+  ],
+  "Геофак": [
+    "Geography",
+    "地理"
+  ],
+  "Истфак": [
+    "History",
+    "历史"
+  ],
+  "Код доступа": [
+    "Access code",
+    "访问码"
+  ],
+  "Войти": [
+    "Sign in",
+    "登录"
+  ],
+  "Регистрация по приглашению": [
+    "Register with an invitation",
+    "邀请注册"
+  ],
+  "Имя и фамилия": [
+    "First and last name",
+    "姓名"
+  ],
+  "Код приглашения": [
+    "Invitation code",
+    "邀请码"
+  ],
+  "Зарегистрироваться": [
+    "Register",
+    "注册"
+  ],
+  "Получите одноразовый код у администратора. Он действует 7 дней.": [
+    "Ask the administrator for a one-use code. It is valid for 7 days.",
+    "请向管理员索取一次性邀请码，有效期为7天。"
+  ],
+  "Ваш факультет и группа": [
+    "Your faculty and group",
+    "你的院系和班级"
+  ],
+  "Расписание, ДЗ и материалы общие для группы. Личные записи и дополнительные занятия остаются вашими.": [
+    "Schedule, homework and materials are shared with your group. Personal notes and extra classes are yours.",
+    "课表、作业和资料在班级内共享。个人笔记和额外课程仅供你自己使用。"
+  ],
+  "Загружаем группы…": [
+    "Loading groups…",
+    "正在加载班级…"
+  ],
+  "Уровень обучения": [
+    "Degree level",
+    "培养层次"
+  ],
+  "Курс": [
+    "Year",
+    "年级"
+  ],
+  "Направление": [
+    "Programme",
+    "专业"
+  ],
+  "Группа": [
+    "Group",
+    "班级"
+  ],
+  "Бакалавриат": [
+    "Bachelor's degree",
+    "本科"
+  ],
+  "Магистратура": [
+    "Master's degree",
+    "硕士"
+  ],
+  "Специалитет": [
+    "Specialist degree",
+    "专家学位"
+  ],
+  "Аспирантура": [
+    "Doctoral studies",
+    "博士"
+  ],
+  "Общее": [
+    "General",
+    "通用"
+  ],
+  "Открыть дневник": [
+    "Open diary",
+    "打开日记"
+  ],
+  "Выберите курс и группу. Расписание загрузится из источника факультета.": [
+    "Choose your year and group. The schedule will be loaded from the faculty source.",
+    "选择年级和班级，系统将从院系来源加载课表。"
+  ],
+  "Выберите группу": [
+    "Choose a group",
+    "选择班级"
+  ],
+  "Вернуться в мой дневник": [
+    "Return to my diary",
+    "返回我的日记"
+  ],
+  "Расписание из Excel": [
+    "Schedule from Excel",
+    "从Excel导入课表"
+  ],
+  "Импорт в общее расписание группы": [
+    "Import into the shared schedule for group",
+    "导入班级共享课表"
+  ],
+  ". Каждая строка — одно занятие. Поддерживаются .xlsx и .xls, до 5 МБ.": [
+    ". One class per row. Supports .xlsx and .xls, up to 5 MB.",
+    "。每行一节课。支持.xlsx和.xls，最大5 MB。"
+  ],
+  "Скачать шаблон Excel": [
+    "Download Excel template",
+    "下载Excel模板"
+  ],
+  "Файл расписания": [
+    "Schedule file",
+    "课表文件"
+  ],
+  "Лист, столбцы и период": [
+    "Sheet, columns and date range",
+    "工作表、列和日期范围"
+  ],
+  "Лист Excel": [
+    "Excel sheet",
+    "Excel工作表"
+  ],
+  "Строка заголовков": [
+    "Header row",
+    "标题行"
+  ],
+  "Начало периода (для дней недели)": [
+    "Start date (for weekdays)",
+    "开始日期（按星期导入）"
+  ],
+  "Конец периода (для дней недели)": [
+    "End date (for weekdays)",
+    "结束日期（按星期导入）"
+  ],
+  "Проверить файл": [
+    "Check file",
+    "检查文件"
+  ],
+  "Читаем Excel и проверяем занятия…": [
+    "Reading Excel and checking classes…",
+    "正在读取Excel并检查课程…"
+  ],
+  "Дата": [
+    "Date",
+    "日期"
+  ],
+  "День недели": [
+    "Weekday",
+    "星期"
+  ],
+  "Номер пары": [
+    "Class number",
+    "课次"
+  ],
+  "Предмет": [
+    "Subject",
+    "科目"
+  ],
+  "Начало / интервал": [
+    "Start / time range",
+    "开始时间／时间段"
+  ],
+  "Окончание": [
+    "End",
+    "结束"
+  ],
+  "Преподаватель": [
+    "Teacher",
+    "教师"
+  ],
+  "Аудитория": [
+    "Room",
+    "教室"
+  ],
+  "Тип занятия": [
+    "Class type",
+    "课程类型"
+  ],
+  "Не используется": [
+    "Not used",
+    "不使用"
+  ],
+  "Найдены ошибки:": [
+    "Errors found:",
+    "发现错误："
+  ],
+  ". Исправьте файл или выбор столбцов и проверьте снова.": [
+    ". Correct the file or column selection and check again.",
+    "。请修改文件或所选列，再次检查。"
+  ],
+  "Готово к импорту:": [
+    "Ready to import:",
+    "可导入："
+  ],
+  "занятий.": [
+    "classes.",
+    "节课。"
+  ],
+  "Строка": [
+    "Row",
+    "行"
+  ],
+  "Пара": [
+    "Class",
+    "课程"
+  ],
+  "Время": [
+    "Time",
+    "时间"
+  ],
+  "Показаны первые 100 строк из": [
+    "Showing the first 100 rows of",
+    "显示前100行，共"
+  ],
+  ". Будут импортированы все проверенные занятия.": [
+    ". All validated classes will be imported.",
+    "。所有通过检查的课程均会导入。"
+  ],
+  "Заменить общее расписание только на даты из файла": [
+    "Replace the shared schedule only for dates in this file",
+    "仅替换文件所含日期的共享课表"
+  ],
+  "Добавить": [
+    "Add",
+    "添加"
+  ],
+  "занятий для всей группы": [
+    "classes for the whole group",
+    "节课，供全班使用"
+  ],
+  "Повторите проверку изменённого файла": [
+    "Check the modified file again",
+    "请重新检查修改后的文件"
+  ],
+  "Импорт завершён: добавлено": [
+    "Import complete: added",
+    "导入完成，已添加"
+  ],
+  "занятий для группы": [
+    "classes for group",
+    "节课，班级"
+  ],
+  "Без замены занятия добавятся к существующим. Личные удаления, дополнительные пары, ДЗ и материалы сохранятся.": [
+    "Without replacement, classes are added to existing ones. Personal removals, extra classes, homework and materials are preserved.",
+    "不选择替换时，课程将追加到现有课表。个人隐藏项、额外课程、作业和资料会保留。"
+  ],
+  "Источник расписания:": [
+    "Schedule source:",
+    "课表来源："
+  ],
+  "Мой ФГУ": [
+    "My FGU",
+    "My FGU"
+  ],
+  "Таблица географического факультета": [
+    "Geography faculty spreadsheet",
+    "地理学院表格"
+  ],
+  "Сайт исторического факультета": [
+    "History faculty website",
+    "历史学院网站"
+  ],
+  "Первая учебная неделя — верхняя, затем верхняя и нижняя недели чередуются.": [
+    "The first study week is the upper week; upper and lower weeks then alternate.",
+    "第一教学周为上周，之后上下周交替。"
+  ],
+  "Открыть занятие": [
+    "Open class",
+    "打开课程"
+  ],
+  "Пн": [
+    "Mon",
+    "周一"
+  ],
+  "Вт": [
+    "Tue",
+    "周二"
+  ],
+  "Ср": [
+    "Wed",
+    "周三"
+  ],
+  "Чт": [
+    "Thu",
+    "周四"
+  ],
+  "Пт": [
+    "Fri",
+    "周五"
+  ],
+  "Сб": [
+    "Sat",
+    "周六"
+  ],
+  "Вс": [
+    "Sun",
+    "周日"
+  ],
+  "СЕГОДНЯ": [
+    "TODAY",
+    "今天"
+  ],
+  "РАСПИСАНИЕ": [
+    "SCHEDULE",
+    "课表"
+  ],
+  "Расписание": [
+    "Schedule",
+    "课表"
+  ],
+  "Календарь": [
+    "Calendar",
+    "日历"
+  ],
+  "Предыдущая неделя": [
+    "Previous week",
+    "上一周"
+  ],
+  "Следующая неделя": [
+    "Next week",
+    "下一周"
+  ],
+  "Следующие месяцы": [
+    "Next months",
+    "后续月份"
+  ],
+  "Принудительно обновить и вернуть удалённые пары": [
+    "Force refresh and restore removed classes",
+    "强制刷新并恢复已隐藏的课程"
+  ],
+  "Восстанавливает удалённые вами занятия. Личные добавленные пары и отключённые повторения сохраняются.": [
+    "Restores classes you removed. Personal extra classes and disabled repeats are preserved.",
+    "恢复你隐藏的课程。个人新增课程及已关闭的重复设置会保留。"
+  ],
+  "Вернуться к сегодня": [
+    "Return to today",
+    "返回今天"
+  ],
+  "Выберите группу английского ›": [
+    "Choose your English group ›",
+    "选择英语班 ›"
+  ],
+  "Свободный день": [
+    "Free day",
+    "无课日"
+  ],
+  "В сохранённом расписании на эту дату нет занятий.": [
+    "There are no classes for this date in the saved schedule.",
+    "保存的课表中，这一天没有课程。"
+  ],
+  "Лекция": [
+    "Lecture",
+    "讲座"
+  ],
+  "Семинар": [
+    "Seminar",
+    "研讨课"
+  ],
+  "Практика": [
+    "Practical class",
+    "实践课"
+  ],
+  "Занятие": [
+    "Class",
+    "课程"
+  ],
+  "пара": [
+    "class",
+    "节课"
+  ],
+  "Преподаватель не указан": [
+    "Teacher not specified",
+    "未指定教师"
+  ],
+  "ДЗ пока не записано": [
+    "No homework yet",
+    "暂无作业"
+  ],
+  "Убрать у меня на эту дату": [
+    "Hide for me on this date",
+    "仅为我隐藏此日期的课程"
+  ],
+  "Межфакультетский курс добавьте самостоятельно: выберите «Только я» и при необходимости еженедельное повторение.": [
+    "Add your interfaculty course yourself: choose “Only me” and weekly recurrence if needed.",
+    "请自行添加跨院系课程，选择“仅我”，并按需设置每周重复。"
+  ],
+  "Добавить свою пару или событие": [
+    "Add your class or event",
+    "添加自己的课程或活动"
+  ],
+  "Добавить пару или событие": [
+    "Add a class or event",
+    "添加课程或活动"
+  ],
+  "Что добавить": [
+    "What to add",
+    "添加内容"
+  ],
+  "Дополнительная пара": [
+    "Extra class",
+    "额外课程"
+  ],
+  "Событие": [
+    "Event",
+    "活动"
+  ],
+  "Название": [
+    "Title",
+    "标题"
+  ],
+  "Дата первого занятия": [
+    "First class date",
+    "首次上课日期"
+  ],
+  "Начало (МСК)": [
+    "Start (Moscow time)",
+    "开始（莫斯科时间）"
+  ],
+  "Окончание (МСК)": [
+    "End (Moscow time)",
+    "结束（莫斯科时间）"
+  ],
+  "Место или аудитория": [
+    "Location or room",
+    "地点或教室"
+  ],
+  "Аудитория или место": [
+    "Room or location",
+    "教室或地点"
+  ],
+  "Описание": [
+    "Description",
+    "说明"
+  ],
+  "Повторение": [
+    "Recurrence",
+    "重复"
+  ],
+  "Только в эту дату": [
+    "Only on this date",
+    "仅此日期"
+  ],
+  "Каждую неделю": [
+    "Every week",
+    "每周"
+  ],
+  "Каждую неделю в этот день": [
+    "Every week on this day",
+    "每周这一天"
+  ],
+  "Кто увидит": [
+    "Visibility",
+    "可见范围"
+  ],
+  "Только я": [
+    "Only me",
+    "仅我"
+  ],
+  "Только у меня": [
+    "Only for me",
+    "仅为我"
+  ],
+  "Вся группа": [
+    "Whole group",
+    "全班"
+  ],
+  "Без номера": [
+    "No class number",
+    "不设课次"
+  ],
+  "Добавить в расписание": [
+    "Add to schedule",
+    "添加到课表"
+  ],
+  "Окончание должно быть позже начала.": [
+    "End time must be after start time.",
+    "结束时间必须晚于开始时间。"
+  ],
+  "Личные занятия не меняют расписание остальных. Еженедельное занятие повторяется с выбранной даты, пока вы его не отключите.": [
+    "Personal classes do not change other people's schedules. Weekly classes repeat from the selected date until you disable them.",
+    "个人课程不会改变他人的课表。每周课程从所选日期开始重复，直到你将其关闭。"
+  ],
+  "Общее расписание": [
+    "Shared schedule",
+    "共享课表"
+  ],
+  "Видно всей группе. Обновление расписания ФГУ сохранит эту запись.": [
+    "Visible to the whole group. FGU schedule updates preserve this entry.",
+    "全班可见。FGU课表更新会保留此记录。"
+  ],
+  "Убрать эту пару у меня": [
+    "Hide this class for me",
+    "为我隐藏这节课"
+  ],
+  "Убрать из расписания": [
+    "Remove from schedule",
+    "从课表移除"
+  ],
+  "Отключить повторение": [
+    "Disable recurrence",
+    "关闭重复"
+  ],
+  "Удалить добавленную запись": [
+    "Delete added entry",
+    "删除新增记录"
+  ],
+  "Удаление отправлено администратору на подтверждение": [
+    "Deletion sent to administrator for approval",
+    "删除请求已发送给管理员审批"
+  ],
+  "Домашнее задание": [
+    "Homework",
+    "作业"
+  ],
+  "ДЗ": [
+    "Homework",
+    "作业"
+  ],
+  "Пока не записано": [
+    "Not recorded yet",
+    "尚未记录"
+  ],
+  "Записать или изменить ДЗ": [
+    "Add or edit homework",
+    "添加或编辑作业"
+  ],
+  "Конспекты и выполненные домашние задания": [
+    "Class notes and completed homework",
+    "课堂笔记与已完成作业"
+  ],
+  "Мои пометки к ДЗ": [
+    "My homework notes",
+    "我的作业笔记"
+  ],
+  "Сохранить личную запись": [
+    "Save personal note",
+    "保存个人笔记"
+  ],
+  "Видно только тебе": [
+    "Only visible to you",
+    "仅你可见"
+  ],
+  "Сохранено": [
+    "Saved",
+    "已保存"
+  ],
+  "Сохранить": [
+    "Save",
+    "保存"
+  ],
+  "Отправить администратору": [
+    "Send to administrator",
+    "发送给管理员"
+  ],
+  "Ожидает подтверждения администратора": [
+    "Awaiting administrator approval",
+    "等待管理员审批"
+  ],
+  "Отправлено администратору на подтверждение": [
+    "Sent to administrator for approval",
+    "已发送给管理员审批"
+  ],
+  "Видно всем участникам": [
+    "Visible to all members",
+    "所有成员可见"
+  ],
+  "Общая характеристика": [
+    "Shared description",
+    "共享评价"
+  ],
+  "Общая характеристика преподавателя": [
+    "Shared teacher description",
+    "教师共享评价"
+  ],
+  "Сохранить общую характеристику": [
+    "Save shared description",
+    "保存共享评价"
+  ],
+  "Личная характеристика": [
+    "Personal description",
+    "个人评价"
+  ],
+  "Мои записи о преподавателе": [
+    "My teacher notes",
+    "我的教师笔记"
+  ],
+  "Эта характеристика появится только в ваших напоминаниях. Настройка в боте: /notifications": [
+    "This description appears only in your reminders. Bot settings: /notifications",
+    "此评价仅显示在你的提醒中。机器人设置：/notifications"
+  ],
+  "Фотография отсутствует": [
+    "No photo available",
+    "暂无照片"
+  ],
+  "Администратор отключил для вас изменение общих характеристик.": [
+    "The administrator disabled editing shared descriptions for your account.",
+    "管理员已关闭你编辑共享评价的权限。"
+  ],
+  "Права на общие характеристики": [
+    "Shared description permissions",
+    "共享评价权限"
+  ],
+  "— разрешить редактировать": [
+    "— allow editing",
+    "— 允许编辑"
+  ],
+  "Профиль": [
+    "Profile",
+    "个人资料"
+  ],
+  "Сменить факультет или группу": [
+    "Change faculty or group",
+    "更改院系或班级"
+  ],
+  "Выйти из аккаунта": [
+    "Log out",
+    "退出账号"
+  ],
+  "Английский язык": [
+    "English language",
+    "英语"
+  ],
+  "Группа английского": [
+    "English group",
+    "英语班"
+  ],
+  "Сохранить группу": [
+    "Save group",
+    "保存班级"
+  ],
+  "Дождитесь обновления расписания": [
+    "Wait for the schedule update",
+    "请等待课表更新"
+  ],
+  "Группы появятся после загрузки расписания": [
+    "Groups will appear after the schedule loads",
+    "课表加载后将显示班级"
+  ],
+  "Команды управления участниками и подтверждения изменений доступны в боте: /help": [
+    "Member management and approval commands are in the bot: /help",
+    "成员管理和修改审批命令在机器人中：/help"
+  ],
+  "Мой код доступа": [
+    "My access code",
+    "我的访问码"
+  ],
+  "Сохраните код для входа. Для уведомлений отправьте боту /link и этот код.": [
+    "Keep your sign-in code. To link notifications, send /link followed by this code to the bot.",
+    "请保存登录码。要关联通知，请向机器人发送/link及此代码。"
+  ],
+  "Код администратора задаётся командой /mycode": [
+    "Set the administrator code with /mycode",
+    "使用/mycode设置管理员代码"
+  ],
+  "Приглашения": [
+    "Invitations",
+    "邀请"
+  ],
+  "Создать код приглашения": [
+    "Create invitation code",
+    "创建邀请码"
+  ],
+  "Одноразовый код · действует 7 дней": [
+    "One-use code · valid for 7 days",
+    "一次性代码 · 有效期7天"
+  ],
+  "Напоминания о парах": [
+    "Class reminders",
+    "课程提醒"
+  ],
+  "Когда напоминать о парах": [
+    "When to remind about classes",
+    "课程提醒时间"
+  ],
+  "Когда напоминать о дедлайнах": [
+    "When to remind about deadlines",
+    "截止日期提醒时间"
+  ],
+  "В момент события": [
+    "At the event time",
+    "活动开始时"
+  ],
+  "В начале пары": [
+    "At class start",
+    "课程开始时"
+  ],
+  "В момент дедлайна": [
+    "At the deadline",
+    "截止时"
+  ],
+  "За": [
+    "Before",
+    "提前"
+  ],
+  "мин.": [
+    "min.",
+    "分钟"
+  ],
+  "За сутки": [
+    "One day before",
+    "提前一天"
+  ],
+  "За 2 суток": [
+    "Two days before",
+    "提前两天"
+  ],
+  "За час": [
+    "One hour before",
+    "提前一小时"
+  ],
+  "За 3 часа": [
+    "Three hours before",
+    "提前三小时"
+  ],
+  "За 5 минут": [
+    "5 minutes before",
+    "提前5分钟"
+  ],
+  "За 10 минут": [
+    "10 minutes before",
+    "提前10分钟"
+  ],
+  "За 15 минут": [
+    "15 minutes before",
+    "提前15分钟"
+  ],
+  "За 30 минут": [
+    "30 minutes before",
+    "提前30分钟"
+  ],
+  "Можно выбрать несколько интервалов. Уведомления приходят в Telegram.": [
+    "Choose multiple intervals. Reminders arrive in Telegram.",
+    "可以选择多个时间间隔，提醒将发送到Telegram。"
+  ],
+  "Привяжите Telegram командой /link и своим кодом доступа.": [
+    "Link Telegram with /link and your access code.",
+    "使用/link和你的访问码关联Telegram。"
+  ],
+  "Настройки сохранены.": [
+    "Settings saved.",
+    "设置已保存。"
+  ],
+  "Дедлайны ДЗ": [
+    "Homework deadlines",
+    "作业截止日期"
+  ],
+  "Дедлайн ДЗ": [
+    "Homework deadline",
+    "作业截止日期"
+  ],
+  "Добавьте срок сдачи в карточке пары.": [
+    "Add a due date in the class card.",
+    "请在课程卡片中添加截止日期。"
+  ],
+  "Сдать до": [
+    "Due by",
+    "截止于"
+  ],
+  "Срок прошёл": [
+    "Overdue",
+    "已逾期"
+  ],
+  "Мои напоминания в Telegram": [
+    "My Telegram reminders",
+    "我的Telegram提醒"
+  ],
+  "Моё напоминание в Telegram": [
+    "My Telegram reminder",
+    "我的Telegram提醒"
+  ],
+  "Не напоминать": [
+    "No reminder",
+    "不提醒"
+  ],
+  "Общий срок сдачи · московское время": [
+    "Shared due date · Moscow time",
+    "共享截止日期 · 莫斯科时间"
+  ],
+  "Срок сдачи ДЗ по Москве": [
+    "Homework due date in Moscow time",
+    "作业截止日期（莫斯科时间）"
+  ],
+  "Сохранить срок": [
+    "Save due date",
+    "保存截止日期"
+  ],
+  "Убрать дедлайн": [
+    "Remove deadline",
+    "移除截止日期"
+  ],
+  "Убрать общий дедлайн и его напоминания?": [
+    "Remove the shared deadline and its reminders?",
+    "移除共享截止日期及其提醒？"
+  ],
+  "Материалы": [
+    "Materials",
+    "资料"
+  ],
+  "Все файлы": [
+    "All files",
+    "所有文件"
+  ],
+  "Конспекты": [
+    "Class notes",
+    "课堂笔记"
+  ],
+  "Литература": [
+    "Literature",
+    "阅读资料"
+  ],
+  "Личные записи": [
+    "Personal notes",
+    "个人笔记"
+  ],
+  "Без предмета": [
+    "No subject",
+    "未指定科目"
+  ],
+  "Подборки и загрузка материалов": [
+    "Collections and material uploads",
+    "资料合集与上传"
+  ],
+  "Темы литературы и загрузка книг": [
+    "Literature topics and book uploads",
+    "阅读主题与书籍上传"
+  ],
+  "Презентации": [
+    "Presentations",
+    "演示文稿"
+  ],
+  "Проекты": [
+    "Projects",
+    "项目"
+  ],
+  "Предмет подборки": [
+    "Collection subject",
+    "合集科目"
+  ],
+  "Название подборки": [
+    "Collection title",
+    "合集名称"
+  ],
+  "Новая подборка:": [
+    "New collection:",
+    "新合集："
+  ],
+  "Создать подборку": [
+    "Create collection",
+    "创建合集"
+  ],
+  "Объединить подборки": [
+    "Merge collections",
+    "合并合集"
+  ],
+  "Объединить с другой подборкой": [
+    "Merge with another collection",
+    "与其他合集合并"
+  ],
+  "Перенести сюда все файлы выбранной подборки": [
+    "Move all selected collection files here",
+    "将所选合集的所有文件移至此处"
+  ],
+  "Перенести все файлы и убрать выбранную подборку?": [
+    "Move all files and remove the selected collection?",
+    "移动所有文件并移除所选合集？"
+  ],
+  "Тема литературы": [
+    "Literature topic",
+    "阅读主题"
+  ],
+  "Новая тема": [
+    "New topic",
+    "新主题"
+  ],
+  "Название новой темы": [
+    "New topic title",
+    "新主题名称"
+  ],
+  "Создать тему": [
+    "Create topic",
+    "创建主题"
+  ],
+  "Файлов пока нет": [
+    "No files yet",
+    "暂无文件"
+  ],
+  "Название файла": [
+    "File title",
+    "文件名称"
+  ],
+  "Прикрепить файл": [
+    "Attach file",
+    "附加文件"
+  ],
+  "Добавить файл": [
+    "Add file",
+    "添加文件"
+  ],
+  "Без подтверждения · до 100 МБ": [
+    "No approval required · up to 100 MB",
+    "无需审批 · 最大100 MB"
+  ],
+  "Мои заметки": [
+    "My notes",
+    "我的笔记"
+  ],
+  "Заметка": [
+    "Note",
+    "笔记"
+  ],
+  "Заметок пока нет": [
+    "No notes yet",
+    "暂无笔记"
+  ],
+  "Выберите заметку": [
+    "Choose a note",
+    "选择笔记"
+  ],
+  "Выберите заметку слева или создайте новую.": [
+    "Choose a note on the left or create a new one.",
+    "选择左侧笔记或创建新笔记。"
+  ],
+  "Название заметки": [
+    "Note title",
+    "笔记标题"
+  ],
+  "Текст заметки": [
+    "Note text",
+    "笔记内容"
+  ],
+  "Новая заметка · видна только вам": [
+    "New note · only visible to you",
+    "新笔记 · 仅你可见"
+  ],
+  "Изменено:": [
+    "Updated:",
+    "已更新："
+  ],
+  "Нет текста": [
+    "No text",
+    "暂无内容"
+  ],
+  "Удалить": [
+    "Delete",
+    "删除"
+  ],
+  "Удалить заметку?": [
+    "Delete note?",
+    "删除笔记？"
+  ],
+  "‹ Все заметки": [
+    "‹ All notes",
+    "‹ 所有笔记"
+  ],
+  "＋ Новая заметка": [
+    "＋ New note",
+    "＋ 新笔记"
+  ],
+  "Рейтинг преподавателей": [
+    "Teacher ratings",
+    "教师评分"
+  ],
+  "★ Рейтинг и отзывы": [
+    "★ Ratings and reviews",
+    "★ 评分与评价"
+  ],
+  "← Все преподаватели": [
+    "← All teachers",
+    "← 所有教师"
+  ],
+  "Поиск преподавателя": [
+    "Search teachers",
+    "搜索教师"
+  ],
+  "Поиск по имени…": [
+    "Search by name…",
+    "按姓名搜索…"
+  ],
+  "Сортировка рейтинга": [
+    "Sort ratings",
+    "评分排序"
+  ],
+  "По убыванию рейтинга": [
+    "Highest rating first",
+    "评分从高到低"
+  ],
+  "По возрастанию рейтинга": [
+    "Lowest rating first",
+    "评分从低到高"
+  ],
+  "По числу отзывов": [
+    "Most reviews first",
+    "评价数从多到少"
+  ],
+  "По имени": [
+    "By name",
+    "按姓名"
+  ],
+  "Только с отзывами": [
+    "With reviews only",
+    "仅显示有评价的教师"
+  ],
+  "Преподавателей:": [
+    "Teachers:",
+    "教师数："
+  ],
+  "Преподаватели не найдены.": [
+    "No teachers found.",
+    "未找到教师。"
+  ],
+  "Нет оценок": [
+    "No ratings",
+    "暂无评分"
+  ],
+  "отзывов": [
+    "reviews",
+    "条评价"
+  ],
+  "% рекомендуют": [
+    "% recommend",
+    "% 推荐"
+  ],
+  "Понятность": [
+    "Clarity",
+    "清晰度"
+  ],
+  "Компетентность": [
+    "Expertise",
+    "专业能力"
+  ],
+  "Коммуникация": [
+    "Communication",
+    "沟通能力"
+  ],
+  "Отзывы": [
+    "Reviews",
+    "评价"
+  ],
+  "Отзывов пока нет. Вы можете оставить первый.": [
+    "No reviews yet. You can leave the first one.",
+    "暂无评价。你可以发表第一条评价。"
+  ],
+  "Рекомендует": [
+    "Recommends",
+    "推荐"
+  ],
+  "Не рекомендует": [
+    "Does not recommend",
+    "不推荐"
+  ],
+  "Рекомендуете преподавателя?": [
+    "Do you recommend this teacher?",
+    "你推荐这位教师吗？"
+  ],
+  "Рекомендую": [
+    "I recommend",
+    "我推荐"
+  ],
+  "Не рекомендую": [
+    "I do not recommend",
+    "我不推荐"
+  ],
+  "Оставить отзыв": [
+    "Leave a review",
+    "发表评价"
+  ],
+  "Изменить мой отзыв": [
+    "Edit my review",
+    "编辑我的评价"
+  ],
+  "Ваш опыт: что понятно, что полезно и что можно улучшить": [
+    "Your experience: what is clear, useful, and could be improved",
+    "你的体验：哪些内容清晰、实用，哪些需要改进"
+  ],
+  "Текст отзыва": [
+    "Review text",
+    "评价内容"
+  ],
+  "Показывать моё имя": [
+    "Show my name",
+    "显示我的姓名"
+  ],
+  "Отправить отзыв": [
+    "Submit review",
+    "提交评价"
+  ],
+  "Сохранить отзыв": [
+    "Save review",
+    "保存评价"
+  ],
+  "Удалить мой отзыв": [
+    "Delete my review",
+    "删除我的评价"
+  ],
+  "Удалить отзыв": [
+    "Delete review",
+    "删除评价"
+  ],
+  "Уведомления на телефон": [
+    "Phone notifications",
+    "手机通知"
+  ],
+  "Уведомления на этом устройстве, даже когда дневник закрыт. Настройки Telegram находятся отдельно.": [
+    "Notifications on this device even when the diary is closed. Telegram settings are separate.",
+    "即使关闭日记，此设备仍可收到通知。Telegram通知另行设置。"
+  ],
+  "Включить уведомления": [
+    "Enable notifications",
+    "启用通知"
+  ],
+  "Проверить уведомление": [
+    "Test notification",
+    "测试通知"
+  ],
+  "Отключить на этом устройстве": [
+    "Disable on this device",
+    "在此设备上关闭"
+  ],
+  "Пары из моего расписания": [
+    "Classes in my schedule",
+    "我课表中的课程"
+  ],
+  "Все дедлайны группы": [
+    "All group deadlines",
+    "班级所有截止日期"
+  ],
+  "Сохранить настройки уведомлений": [
+    "Save notification settings",
+    "保存通知设置"
+  ],
+  "Эти настройки общие для ваших подключённых устройств. Удалённые пары не присылают уведомлений; личные и еженедельные занятия учитываются.": [
+    "These settings apply to all your linked devices. Hidden classes do not send notifications; personal and weekly classes are included.",
+    "这些设置适用于你关联的所有设备。隐藏的课程不会发送通知；个人和每周课程会纳入提醒。"
+  ],
+  "Нажмите кнопку и разрешите уведомления в системном окне.": [
+    "Press the button and allow notifications in the system prompt.",
+    "点击按钮，并在系统提示中允许通知。"
+  ],
+  "Разрешение на уведомления не получено.": [
+    "Notification permission was not granted.",
+    "未获得通知权限。"
+  ],
+  "Уведомления на этом устройстве включены.": [
+    "Notifications on this device are enabled.",
+    "此设备已启用通知。"
+  ],
+  "Уведомления на этом устройстве отключены.": [
+    "Notifications on this device are disabled.",
+    "此设备已关闭通知。"
+  ],
+  "Уведомления включены. Нажмите «Проверить уведомление» и затем закройте дневник, чтобы проверить получение.": [
+    "Notifications enabled. Press “Test notification” and close the diary to check delivery.",
+    "通知已启用。点击“测试通知”，然后关闭日记以检查接收情况。"
+  ],
+  "Сервис принял проверочное уведомление. Если оно не появилось, проверьте разрешения и режим «Фокусирование» на телефоне.": [
+    "The service accepted the test notification. If it does not appear, check permissions and Focus mode on your phone.",
+    "服务已接受测试通知。如未显示，请检查手机通知权限和专注模式。"
+  ],
+  "В этом браузере уведомления недоступны. На iPhone используйте приложение, добавленное на экран «Домой» из Safari.": [
+    "Notifications are unavailable in this browser. On iPhone, use the app added to the Home Screen from Safari.",
+    "此浏览器不支持通知。iPhone请使用从Safari添加到主屏幕的应用。"
+  ],
+  "На iPhone: откройте сайт в Safari → «Поделиться» → «На экран Домой». Включите «Открывать как веб-приложение», если этот переключатель есть. Запустите дневник с новой иконки и нажмите «Включить уведомления». Нужна iOS 16.4 или новее.": [
+    "On iPhone: open the site in Safari → Share → Add to Home Screen. Enable “Open as Web App” if available. Launch the new icon and press “Enable notifications”. Requires iOS 16.4 or later.",
+    "iPhone：在Safari打开网站 → 分享 → 添加到主屏幕。如有“作为网页应用打开”选项，请启用。通过新图标启动并点击“启用通知”。需要iOS 16.4或更新版本。"
+  ],
+  "Уведомления запрещены. На iPhone откройте «Настройки» → «Уведомления» → «Midiary», разрешите их и вернитесь сюда.": [
+    "Notifications are blocked. On iPhone open Settings → Notifications → Midiary, allow them and return here.",
+    "通知被禁止。iPhone请打开设置 → 通知 → Midiary，允许通知后返回。"
+  ],
+  "Подготовка просмотра…": [
+    "Preparing preview…",
+    "正在准备预览…"
+  ],
+  "Закрыть файл": [
+    "Close file",
+    "关闭文件"
+  ],
+  "← Закрыть файл": [
+    "← Close file",
+    "← 关闭文件"
+  ],
+  "Закрыть книгу": [
+    "Close book",
+    "关闭书籍"
+  ],
+  "Скачать": [
+    "Download",
+    "下载"
+  ],
+  "↓ Скачать": [
+    "↓ Download",
+    "↓ 下载"
+  ],
+  "Скачать файл в загрузки": [
+    "Download file",
+    "下载文件"
+  ],
+  "Чтение файла": [
+    "File reader",
+    "文件阅读"
+  ],
+  "Загрузка книги": [
+    "Loading book",
+    "正在加载书籍"
+  ],
+  "Загрузка книги…": [
+    "Loading book…",
+    "正在加载书籍…"
+  ],
+  "Загрузка файла": [
+    "Uploading file",
+    "正在上传文件"
+  ],
+  "Загрузка файла…": [
+    "Uploading file…",
+    "正在上传文件…"
+  ],
+  "Отменить загрузку": [
+    "Cancel upload",
+    "取消上传"
+  ],
+  "Загрузка отменена.": [
+    "Upload cancelled.",
+    "上传已取消。"
+  ],
+  "Файл передан. Сохранение на сервере…": [
+    "File transferred. Saving on server…",
+    "文件已传输，正在保存到服务器…"
+  ],
+  "Файл загружен": [
+    "File uploaded",
+    "文件已上传"
+  ],
+  "Файл сохранён. Обновите список, чтобы увидеть его.": [
+    "File saved. Refresh the list to see it.",
+    "文件已保存，请刷新列表查看。"
+  ],
+  "Время загрузки истекло. Проверьте соединение.": [
+    "Upload timed out. Check your connection.",
+    "上传超时，请检查网络连接。"
+  ],
+  "Соединение прервано. Загрузка не подтверждена.": [
+    "Connection interrupted. Upload not confirmed.",
+    "连接中断，上传未确认。"
+  ],
+  "Сервер не подтвердил сохранение. Попробуйте ещё раз.": [
+    "The server did not confirm saving. Try again.",
+    "服务器未确认保存，请重试。"
+  ],
+  "Выберите файл меньше 100 МБ.": [
+    "Choose a file smaller than 100 MB.",
+    "请选择小于100 MB的文件。"
+  ],
+  "Максимальный размер файла — 100 МБ.": [
+    "Maximum file size is 100 MB.",
+    "文件最大为100 MB。"
+  ],
+  "МБ": [
+    "MB",
+    "MB"
+  ],
+  "КБ": [
+    "KB",
+    "KB"
+  ],
+  "Во весь экран телефона": [
+    "Full phone screen",
+    "手机全屏"
+  ],
+  "Выйти из полного экрана": [
+    "Exit fullscreen",
+    "退出全屏"
+  ],
+  "Режим чтения без панелей": [
+    "Reading mode without panels",
+    "无面板阅读模式"
+  ],
+  "Показать меню чтения": [
+    "Show reader menu",
+    "显示阅读菜单"
+  ],
+  "Скрыть меню чтения": [
+    "Hide reader menu",
+    "隐藏阅读菜单"
+  ],
+  "☰ Меню": [
+    "☰ Menu",
+    "☰ 菜单"
+  ],
+  "Понятно": [
+    "Got it",
+    "知道了"
+  ],
+  "Размер текста": [
+    "Text size",
+    "文字大小"
+  ],
+  "Уменьшить": [
+    "Decrease",
+    "减小"
+  ],
+  "Увеличить": [
+    "Increase",
+    "增大"
+  ],
+  "размер текста": [
+    "text size",
+    "文字大小"
+  ],
+  "Предыдущая страница": [
+    "Previous page",
+    "上一页"
+  ],
+  "Следующая страница": [
+    "Next page",
+    "下一页"
+  ],
+  "Номер страницы": [
+    "Page number",
+    "页码"
+  ],
+  "Страница": [
+    "Page",
+    "页"
+  ],
+  "Перейти": [
+    "Go",
+    "跳转"
+  ],
+  "из": [
+    "of",
+    "共"
+  ],
+  "От 1 до": [
+    "From 1 to",
+    "从1到"
+  ],
+  "Введите страницу от 1 до": [
+    "Enter a page from 1 to",
+    "请输入页码，范围为1到"
+  ],
+  "Не удалось открыть страницу": [
+    "Could not open page",
+    "无法打开页面"
+  ],
+  "Не удалось открыть страницу. Повторите переход.": [
+    "Could not open page. Try again.",
+    "无法打开页面，请重试。"
+  ],
+  "Страницы режима чтения · нумерация зависит от размера экрана": [
+    "Reader pages · numbering depends on screen size",
+    "阅读模式页码 · 页码取决于屏幕大小"
+  ],
+  "☆ Добавить закладку": [
+    "☆ Add bookmark",
+    "☆ 添加书签"
+  ],
+  "Закладка:": [
+    "Bookmark:",
+    "书签："
+  ],
+  "Закладки (": [
+    "Bookmarks (",
+    "书签（"
+  ],
+  "Закладка сохранена": [
+    "Bookmark saved",
+    "书签已保存"
+  ],
+  "Закладка удалена": [
+    "Bookmark deleted",
+    "书签已删除"
+  ],
+  "Здесь появятся ваши закладки в этом файле.": [
+    "Your bookmarks for this file will appear here.",
+    "此文件的书签将显示在这里。"
+  ],
+  "Удалить закладку на страницу": [
+    "Delete bookmark for page",
+    "删除该页书签"
+  ],
+  "Не удалось сохранить закладку:": [
+    "Could not save bookmark:",
+    "无法保存书签："
+  ],
+  "Не удалось загрузить закладки:": [
+    "Could not load bookmarks:",
+    "无法加载书签："
+  ],
+  "Не удалось удалить закладку:": [
+    "Could not delete bookmark:",
+    "无法删除书签："
+  ],
+  "Сессия закончилась. Закройте книгу, войдите заново и сохраните закладку.": [
+    "Your session expired. Close the book, sign in again and save the bookmark.",
+    "登录已过期。请关闭书籍，重新登录并保存书签。"
+  ],
+  "Дождитесь загрузки книги.": [
+    "Wait for the book to load.",
+    "请等待书籍加载。"
+  ],
+  "Книга": [
+    "Book",
+    "书籍"
+  ],
+  "Скачивание передано браузеру. Проверьте его загрузки.": [
+    "Download handed to your browser. Check its downloads.",
+    "已将下载交给浏览器，请查看下载列表。"
+  ],
+  "Текст": [
+    "Text",
+    "文字"
+  ],
+  "Оригинал": [
+    "Original",
+    "原版"
+  ],
+  "Подготовка страницы": [
+    "Preparing page",
+    "正在准备页面"
+  ],
+  "Подготовка страниц…": [
+    "Preparing pages…",
+    "正在准备页面…"
+  ],
+  "Текст страницы": [
+    "Page text",
+    "页面文字"
+  ],
+  "В скане нет текста для изменения размера.": [
+    "The scan has no text layer to resize.",
+    "扫描件没有可调整大小的文字层。"
+  ],
+  "На этой странице нет текстового слоя: это скан или изображение. Показан оригинал; увеличение букв отдельно требует распознавания текста.": [
+    "This page is a scan or image without a text layer. The original is shown; resizing letters requires OCR.",
+    "此页为扫描件或图片，没有文字层。现显示原版，单独调整文字大小需要文字识别。"
+  ],
+  "Не удалось изменить масштаб": [
+    "Could not change text size",
+    "无法调整文字大小"
+  ],
+  "Просмотр закрыт": [
+    "Preview closed",
+    "预览已关闭"
+  ],
+  "Не удалось получить файл. Попробуйте ещё раз.": [
+    "Could not retrieve file. Try again.",
+    "无法获取文件，请重试。"
+  ],
+  "PDF защищён паролем: просмотр внутри дневника недоступен.": [
+    "This PDF is password protected and cannot be previewed in the diary.",
+    "此PDF受密码保护，无法在日记内预览。"
+  ],
+  "Показан первый 1 МБ документа.": [
+    "Showing the first 1 MB of the document.",
+    "显示文档的前1 MB。"
+  ],
+  "Для этого формата пока нет просмотра внутри дневника. Нажмите «Закрыть файл», чтобы вернуться.": [
+    "This format cannot be previewed yet. Press “Close file” to return.",
+    "此格式暂不支持预览，点击“关闭文件”返回。"
+  ],
+  "Просмотр недоступен. Нажмите «Закрыть файл», чтобы вернуться.": [
+    "Preview unavailable. Press “Close file” to return.",
+    "预览不可用，点击“关闭文件”返回。"
+  ],
+  "Этот файл не поддерживается браузером. Нажмите «Закрыть файл», чтобы вернуться.": [
+    "This file is not supported by your browser. Press “Close file” to return.",
+    "浏览器不支持此文件，点击“关闭文件”返回。"
+  ],
+  "Telegram не подтвердил полный экран. Обновите Telegram и повторите нажатие ⛶.": [
+    "Telegram did not confirm fullscreen. Update Telegram and try ⛶ again.",
+    "Telegram未确认全屏，请更新Telegram并再次点击⛶。"
+  ],
+  "Браузер не разрешил полный экран. Повторите нажатие ⛶. Если режим недоступен, откройте дневник в Chrome или добавьте его на главный экран через меню браузера.": [
+    "Your browser did not allow fullscreen. Try ⛶ again. Use Chrome or add the diary to your Home Screen if unavailable.",
+    "浏览器未允许全屏，请再次点击⛶。如仍不可用，请使用Chrome或通过浏览器菜单添加到主屏幕。"
+  ],
+  "Этот браузер не разрешил развернуть книгу на весь экран телефона. Откройте сайт в Safari → «Поделиться» → «На экран Домой», включите «Открывать как веб-приложение», если этот переключатель есть. Затем запускайте дневник с новой иконки — без панелей браузера. Системная строка телефона может остаться.": [
+    "This browser cannot expand the book to the whole phone screen. In Safari use Share → Add to Home Screen, enable “Open as Web App” if available, then launch the new icon. The phone's status bar may remain.",
+    "此浏览器无法将书籍展开至手机全屏。在Safari中选择分享 → 添加到主屏幕，如有“作为网页应用打开”请启用，然后通过新图标启动。手机状态栏可能仍会显示。"
+  ],
+  "Включить светлую тему": [
+    "Enable light theme",
+    "启用浅色主题"
+  ],
+  "Включить тёмную тему": [
+    "Enable dark theme",
+    "启用深色主题"
+  ],
+  "Открыть профиль:": [
+    "Open profile:",
+    "打开个人资料："
+  ],
+  "Не удалось выполнить действие": [
+    "Could not complete action",
+    "无法完成操作"
+  ],
+  "Нет соединения. Проверьте интернет и попробуйте ещё раз.": [
+    "No connection. Check your internet and try again.",
+    "没有连接，请检查网络后重试。"
+  ],
+  "Сервер временно недоступен. Попробуйте ещё раз.": [
+    "Server temporarily unavailable. Try again.",
+    "服务器暂时不可用，请重试。"
+  ],
+  "Ошибка сервера": [
+    "Server error",
+    "服务器错误"
+  ],
+  "Не удалось загрузить настройки:": [
+    "Could not load settings:",
+    "无法加载设置："
+  ],
+  "Войдите в дневник заново.": [
+    "Sign in to the diary again.",
+    "请重新登录日记。"
+  ],
+  "Войдите заново по коду доступа": [
+    "Sign in again with your access code",
+    "请使用访问码重新登录"
+  ],
+  "Нет доступа": [
+    "Access denied",
+    "无访问权限"
+  ],
+  "Не найдено": [
+    "Not found",
+    "未找到"
+  ],
+  "Проверьте введённые данные": [
+    "Check your input",
+    "请检查输入内容"
+  ],
+  "Данные уже существуют": [
+    "Data already exists",
+    "数据已存在"
+  ],
+  "Слишком много попыток. Попробуйте позже.": [
+    "Too many attempts. Try later.",
+    "尝试次数过多，请稍后重试。"
+  ],
+  "Код приглашения недействителен или уже использован.": [
+    "Invitation code is invalid or already used.",
+    "邀请码无效或已使用。"
+  ],
+  "Вход доступен только по коду администратора.": [
+    "Sign-in requires an administrator code.",
+    "登录需要管理员提供的代码。"
+  ],
+  "Код не найден или доступ отключён. Нужен секретный ID из команды /add, а не числовой Telegram ID. Администратор задаёт свой код командой /mycode.": [
+    "Code not found or access disabled. Use the code from /add. Administrators set their code with /mycode.",
+    "代码不存在或访问已关闭。请使用/add提供的代码。管理员通过/mycode设置自己的代码。"
+  ],
+  "Сначала выберите факультет и группу.": [
+    "Choose your faculty and group first.",
+    "请先选择院系和班级。"
+  ],
+  "Откройте дневник, чтобы посмотреть обновление.": [
+    "Open the diary to view the update.",
+    "打开日记以查看更新。"
+  ],
+  "Начало пары": [
+    "Class starts",
+    "课程开始"
+  ],
+  "Скоро пара": [
+    "Upcoming class",
+    "课程即将开始"
+  ],
+  "Дедлайн": [
+    "Deadline",
+    "截止日期"
+  ],
+  "(МСК)": [
+    "(Moscow)",
+    "(莫斯科时间)"
+  ],
+  "Начало:": [
+    "Start:",
+    "开始："
+  ],
+  "Через": [
+    "In",
+    "还有"
+  ],
+  "Сначала выберите группу на сайте.": [
+    "Choose a group on the website first.",
+    "请先在网站选择班级。"
+  ],
+  "Telegram подключён к уведомлениям Midiary.": [
+    "Telegram is linked to Midiary notifications.",
+    "Telegram已关联Midiary通知。"
+  ],
+  "Код не найден или Telegram уже привязан.": [
+    "Code not found or Telegram is already linked.",
+    "代码不存在或Telegram已关联。"
+  ],
+  "Уведомления на этом устройстве подключены.": [
+    "Notifications on this device are connected.",
+    "此设备已连接通知。"
+  ],
+  "Открой Midiary и введи код администратора. Для уведомлений отправь /link КОД_ДОСТУПА.": [
+    "Open Midiary and enter your administrator-issued code. To link notifications, send /link ACCESS_CODE.",
+    "打开Midiary并输入管理员提供的代码。要关联通知，请发送/link 访问码。"
+  ],
+  "Напоминания о парах:": [
+    "Class reminders:",
+    "课程提醒："
+  ],
+  "выключены": [
+    "disabled",
+    "已关闭"
+  ],
+  "Выбери время до начала пары. Время занятий — московское.": [
+    "Choose when to be reminded before class. Class times use Moscow time.",
+    "选择课前提醒时间，课程使用莫斯科时间。"
+  ],
+  "Личная характеристика преподавателя видна только тебе. Общая пометка администратора — всем.": [
+    "Your private teacher notes are visible only to you. Shared administrator notes are visible to everyone.",
+    "私人教师笔记仅自己可见，管理员共享备注对所有人可见。"
+  ],
+  "Выключить": [
+    "Disable",
+    "关闭"
+  ],
+  "Анонимно": [
+    "Anonymous",
+    "匿名"
+  ],
+  "Войти через Telegram": [
+    "Sign in with Telegram",
+    "通过Telegram登录"
+  ],
+  "Всё для учёбы. В одном месте. Войдите через Telegram или по коду. Регистрация — по приглашению администратора.": [
+    "Everything for your studies in one place. Sign in with Telegram or an access code. Registration requires an administrator invitation.",
+    "学习所需，尽在一处。通过Telegram或访问码登录。注册需要管理员邀请码。"
+  ],
+  "Подтвердить вход в Telegram": [
+    "Confirm sign-in in Telegram",
+    "在Telegram确认登录"
+  ],
+  "Откройте бота и подтвердите вход.": [
+    "Open the bot and confirm sign-in.",
+    "打开机器人并确认登录。"
+  ],
+  "Для регистрации нужен код приглашения администратора.": [
+    "An administrator invitation code is required to register.",
+    "注册需要管理员邀请码。"
+  ],
+  "Telegram подтверждён. Для регистрации нужен код приглашения администратора.": [
+    "Telegram confirmed. An administrator invitation code is required to register.",
+    "Telegram身份已确认。注册需要管理员邀请码。"
+  ],
+  "Файл готов. Нажмите «Скачать», чтобы выбрать приложение или папку.": [
+    "File ready. Tap Download to choose an app or folder.",
+    "文件已准备好。点击“下载”选择应用或文件夹。"
+  ],
+  "Файл передан в выбранное приложение.": [
+    "File sent to the selected app.",
+    "文件已发送到所选应用。"
+  ],
+  "Выбор отменён. Файл готов к скачиванию.": [
+    "Selection cancelled. The file is ready to download.",
+    "选择已取消。文件可供下载。"
+  ],
+  "Загрузка…": [
+    "Downloading…",
+    "正在下载…"
+  ],
+  "Близкие · ближайшие 7 дней": [
+    "Upcoming · next 7 days",
+    "近期 · 未来7天"
+  ],
+  "Далёкие · позже 7 дней": [
+    "Later · after 7 days",
+    "远期 · 7天之后"
+  ],
+  "Прошедшие": [
+    "Past",
+    "已过期"
+  ],
+  "Дедлайнов нет": [
+    "No deadlines",
+    "暂无截止日期"
+  ],
+  "Удалить дедлайн": [
+    "Delete deadline",
+    "删除截止日期"
+  ],
+  "Философия": [
+    "Philosophy",
+    "哲学"
+  ],
+  "Социология": [
+    "Sociology",
+    "社会学"
+  ],
+  "Администратор": [
+    "Administrator",
+    "管理员"
+  ],
+  "Напоминания": [
+    "Reminders",
+    "提醒"
+  ],
+  "Конфиденциальность": [
+    "Privacy",
+    "隐私政策"
+  ],
+  "Условия использования": [
+    "Terms of use",
+    "使用条款"
+  ],
+  "Хранение в браузере": [
+    "Browser storage",
+    "浏览器存储"
+  ],
+  "О сервисе": [
+    "About the service",
+    "关于服务"
+  ],
+  "Лицензии": [
+    "Licenses",
+    "许可证"
+  ],
+  "Документы сервиса": [
+    "Service documents",
+    "服务文件"
+  ],
+  "Перейти к содержимому": [
+    "Skip to content",
+    "跳转到正文"
+  ],
+  "Выберите возрастную категорию": [
+    "Choose your age category",
+    "选择年龄类别"
+  ],
+  "Мне 18 лет или больше": [
+    "I am 18 or older",
+    "我已满18岁"
+  ],
+  "Мне меньше 18 лет": [
+    "I am under 18",
+    "我未满18岁"
+  ],
+  "Возрастная категория": [
+    "Age category",
+    "年龄类别"
+  ],
+  "Для участника младше 18 лет администратор выдаёт специальный код после получения отдельного согласия представителя и проверки его полномочий.": [
+    "For participants under 18, the administrator issues a special code after receiving separate representative consent and verifying their authority.",
+    "对于未满18岁的参与者，管理员在收到代表的单独同意并核实其资格后发放专用代码。"
+  ],
+  "Согласие представителя": [
+    "Representative consent",
+    "代表同意书"
+  ],
+  "Принимаю условия использования": [
+    "I accept the terms of use",
+    "我接受使用条款"
+  ],
+  "Прочитать условия": [
+    "Read the terms",
+    "阅读条款"
+  ],
+  "Отдельно подтверждаю согласие на обработку данных согласно выбранной возрастной категории": [
+    "I separately confirm the data processing acknowledgment for my selected age category",
+    "我单独确认所选年龄类别的数据处理声明"
+  ],
+  "Прочитать согласие": [
+    "Read the consent",
+    "阅读同意书"
+  ],
+  "Администратор ещё не заполнил сведения о владельце сервиса. Регистрация временно недоступна.": [
+    "The administrator has not entered the service operator details. Registration is temporarily unavailable.",
+    "管理员尚未填写服务运营者信息，注册暂不可用。"
+  ],
+  "Для участника младше 18 лет нужен специальный код после подтверждения представителя.": [
+    "Participants under 18 need a special code after representative confirmation.",
+    "未满18岁的参与者需经代表确认后取得专用代码。"
+  ],
+  "Удалить аккаунт?": [
+    "Delete your account?",
+    "删除账户？"
+  ],
+  "Удалить личные записи?": [
+    "Delete personal records?",
+    "删除个人记录？"
+  ],
+  "Аккаунт, личные записи, закладки, отзывы и файлы с подтверждённым авторством будут удалены. Вы выйдете из аккаунта. Общие записи группы сохранятся без вашего имени. Восстановление аккаунта этой кнопкой невозможно.": [
+    "Your account, personal records, bookmarks, reviews and files with confirmed authorship will be deleted. You will be signed out. Shared group records remain without your name. This action cannot be undone.",
+    "将删除你的账户、个人记录、书签、评价及已确认作者归属的文件，并退出登录。班级共享记录将保留，但不显示你的姓名。此操作无法撤销。"
+  ],
+  "Личные записи, закладки, дополнительные пары и настройки уведомлений будут удалены. Аккаунт, отзывы и общие материалы сохранятся.": [
+    "Personal records, bookmarks, extra classes and notification settings will be deleted. Your account, reviews and shared materials remain.",
+    "将删除个人记录、书签、额外课程和通知设置。账户、评价及共享资料将保留。"
+  ],
+  "Понимаю последствия и подтверждаю удаление": [
+    "I understand the consequences and confirm deletion",
+    "我了解后果并确认删除"
+  ],
+  "Подтвердить удаление": [
+    "Confirm deletion",
+    "确认删除"
+  ],
+  "Удаление выполняется. Вход в этот аккаунт уже отключён.": [
+    "Deletion is in progress. Sign-in to this account is already disabled.",
+    "正在删除，此账户已无法登录。"
+  ],
+  "Удаление выполняется.": [
+    "Deletion is in progress.",
+    "正在删除。"
+  ],
+  "Аккаунт удалён.": [
+    "Account deleted.",
+    "账户已删除。"
+  ],
+  "Личные записи удалены.": [
+    "Personal records deleted.",
+    "个人记录已删除。"
+  ],
+  "Мои данные": [
+    "My data",
+    "我的数据"
+  ],
+  "Выгрузить мои данные": [
+    "Export my data",
+    "导出我的数据"
+  ],
+  "Удалить личные записи": [
+    "Delete personal records",
+    "删除个人记录"
+  ],
+  "Удалить аккаунт": [
+    "Delete account",
+    "删除账户"
+  ],
+  "Для удаления старого файла с неустановленным авторством обратитесь к владельцу сервиса. Контакт указан в политике конфиденциальности.": [
+    "To delete an older file with unknown authorship, contact the service operator listed in the privacy policy.",
+    "如需删除作者归属不明的旧文件，请联系隐私政策中列出的服务运营者。"
+  ],
+  "Получать общие объявления в Telegram": [
+    "Receive general announcements in Telegram",
+    "在Telegram接收公告"
+  ],
+  "Отключение общих объявлений не отключает напоминания о парах и дедлайнах.": [
+    "Turning off announcements does not turn off class and deadline reminders.",
+    "关闭公告不会关闭课程和截止日期提醒。"
+  ],
+  "Сведения о владельце сервиса": [
+    "Service operator details",
+    "服务运营者信息"
+  ],
+  "Укажите реальные сведения. Они появятся в публичных документах. Без обязательных сведений новая регистрация закрыта.": [
+    "Enter real details. They appear in public documents. New registration is disabled until required details are provided.",
+    "请填写真实信息，这些信息将出现在公开文件中。填写必填信息前，新注册保持关闭。"
+  ],
+  "ФИО владельца или название организации": [
+    "Operator full name or organisation name",
+    "运营者全名或组织名称"
+  ],
+  "Контакт: email или Telegram": [
+    "Contact: email or Telegram",
+    "联系方式：电子邮件或Telegram"
+  ],
+  "Адрес для обращений (необязательно)": [
+    "Contact address (optional)",
+    "联系地址（选填）"
+  ],
+  "Страна размещения VPS": [
+    "VPS hosting country",
+    "VPS服务器所在国家"
+  ],
+  "Хостинг-провайдер (необязательно)": [
+    "Hosting provider (optional)",
+    "托管服务商（选填）"
+  ],
+  "Сохранить сведения": [
+    "Save details",
+    "保存信息"
+  ],
+  "Сведения сохранены. Проверьте публичные документы.": [
+    "Details saved. Check the public documents.",
+    "信息已保存，请检查公开文件。"
+  ],
+  "Для участника младше 18 лет": [
+    "For a participant under 18",
+    "适用于未满18岁的参与者"
+  ],
+  "Получил отдельное согласие представителя, проверил его полномочия и сохранил подтверждение": [
+    "I obtained separate representative consent, verified their authority and kept the evidence",
+    "我已取得代表的单独同意、核实其资格并保存证明"
+  ],
+  "Midiary сохраняет сессию входа, язык и настройки в браузере. Аналитика и рекламные трекеры не используются.": [
+    "Midiary stores your sign-in session, language and settings in your browser. No analytics or advertising trackers are used.",
+    "Midiary在浏览器中保存登录会话、语言和设置，不使用分析或广告追踪器。"
+  ],
+  "Подробнее о хранении": [
+    "More about storage",
+    "了解存储详情"
+  ],
+  "Согласен публиковать моё имя рядом с отзывом для участников факультета": [
+    "I agree to display my name with this review to faculty participants",
+    "我同意向本院系参与者展示评价旁的姓名"
+  ],
+  "Отзывы отражают личный опыт участников. Оценки рассчитаны по опубликованным отзывам и не подтверждены университетом. Комментарии видны участникам выбранного факультета.": [
+    "Reviews reflect participants’ personal experience. Ratings are calculated from published reviews and are not verified by the university. Comments are visible to participants of the selected faculty.",
+    "评价反映参与者的个人体验。评分依据已发布的评价计算，未经大学认证。评论对所选院系的参与者可见。"
+  ],
+  "Общие объявления можно отключить: /unsubscribe": [
+    "Turn off general announcements: /unsubscribe",
+    "关闭公告：/unsubscribe"
+  ],
+  "Общие объявления выключены. Напоминания о парах и дедлайнах сохраняются.": [
+    "General announcements are off. Class and deadline reminders remain enabled.",
+    "公告已关闭，课程和截止日期提醒仍然保留。"
+  ],
+  "Общие объявления включены. Отключить: /unsubscribe": [
+    "General announcements are on. Turn off: /unsubscribe",
+    "公告已开启。关闭：/unsubscribe"
+  ],
+  "Сначала привяжите аккаунт Midiary командой /link и своим кодом.": [
+    "First link your Midiary account using /link and your access code.",
+    "请先使用/link和访问码关联Midiary账户。"
+  ],
+  "Сначала передайте права администратора. Здесь можно удалить личные записи.": [
+    "Transfer administrator access first. You can delete personal records here.",
+    "请先移交管理员权限。在此可删除个人记录。"
+  ],
+  "Отдельно согласен на обработку моих данных": [
+    "I separately consent to processing my personal data",
+    "我单独同意处理我的个人数据"
+  ],
+  "Ознакомился с порядком обработки данных. Для регистрации нужно отдельное согласие представителя.": [
+    "I have read how data is processed. Registration requires separate representative consent.",
+    "我已了解数据处理方式。注册需要代表的单独同意。"
+  ],
+  "Войти через MAX": [
+    "Sign in with MAX",
+    "通过MAX登录"
+  ],
+  "Подтвердить вход в MAX": [
+    "Confirm sign-in in MAX",
+    "在MAX确认登录"
+  ],
+  "Откройте бота MAX и подтвердите вход.": [
+    "Open the MAX bot and confirm sign-in.",
+    "打开MAX机器人并确认登录。"
+  ],
+  "MAX подтверждён. Для регистрации нужен код приглашения администратора.": [
+    "MAX identity confirmed. Registration requires an administrator invitation code.",
+    "MAX身份已确认。注册需要管理员邀请码。"
+  ],
+  "Введите код доступа существующего аккаунта или зарегистрируйтесь по приглашению администратора.": [
+    "Enter your existing account access code or register with an administrator invitation.",
+    "输入现有账户访问码或使用管理员邀请注册。"
+  ],
+  "Аккаунт MAX": [
+    "MAX account",
+    "MAX账户"
+  ],
+  "MAX подключён. Данные и права общие с Telegram.": [
+    "MAX is connected. Your data and permissions are shared with Telegram.",
+    "MAX已连接。数据和权限与Telegram共用。"
+  ],
+  "Для подключения откройте бота MAX и отправьте /link с кодом доступа Midiary.": [
+    "To connect, open the MAX bot and send /link with your Midiary access code.",
+    "要连接，请打开MAX机器人并发送/link及Midiary访问码。"
+  ],
+  "Открыть бота MAX": [
+    "Open MAX bot",
+    "打开MAX机器人"
+  ],
+  "Подключить этот аккаунт MAX": [
+    "Connect this MAX account",
+    "连接此MAX账户"
+  ],
+  "Отключить MAX": [
+    "Disconnect MAX",
+    "断开MAX连接"
+  ],
+  "MAX подключён к аккаунту и уведомлениям Midiary.": [
+    "MAX is connected to your Midiary account and notifications.",
+    "MAX已连接到Midiary账户和提醒。"
+  ],
+  "Аккаунт MAX уже привязан. Отвязать его можно в профиле Midiary.": [
+    "This MAX account is already connected. Disconnect it in your Midiary profile.",
+    "此MAX账户已绑定。可在Midiary个人资料中解除绑定。"
+  ],
+  "Привяжите Telegram или MAX командой /link и своим кодом доступа.": [
+    "Connect Telegram or MAX using /link and your access code.",
+    "使用/link及访问码连接Telegram或MAX。"
+  ],
+  "Можно выбрать несколько интервалов. Уведомления приходят в подключённые Telegram и MAX.": [
+    "Choose multiple intervals. Notifications go to your connected Telegram and MAX accounts.",
+    "可选择多个时间间隔。提醒发送至已连接的Telegram和MAX账户。"
+  ],
+  "Получать общие объявления в Telegram и MAX": [
+    "Receive general announcements in Telegram and MAX",
+    "在Telegram和MAX接收公告"
+  ],
+  "Файл готов. Нажмите «Скачать», чтобы сохранить его на устройство.": [
+    "File ready. Tap Download to save it to your device.",
+    "文件已准备好。点击“下载”保存到设备。"
+  ],
+  "Скачивание передано MAX. Проверьте файлы на устройстве.": [
+    "Download handed to MAX. Check the files on your device.",
+    "下载已交由MAX处理。请检查设备上的文件。"
+  ],
+  "Не удалось подключить MAX. Откройте дневник в браузере для скачивания.": [
+    "Could not connect to MAX. Open the diary in your browser to download.",
+    "无法连接MAX。请在浏览器打开日记进行下载。"
+  ],
+  "Не удалось скачать файл. Попробуйте ещё раз.": [
+    "Could not download the file. Please try again.",
+    "无法下载文件，请重试。"
+  ],
+  "Рассылка MAX #": [
+    "MAX announcement #",
+    "MAX公告#"
+  ],
+  "Отправлено: ": [
+    "Sent: ",
+    "已发送："
+  ],
+  "Ожидают: ": [
+    "Pending: ",
+    "待发送："
+  ],
+  "Пропущено: ": [
+    "Skipped: ",
+    "已跳过："
+  ],
+  "Ошибки: ": [
+    "Errors: ",
+    "错误："
+  ],
+  "Неопределённая доставка: ": [
+    "Delivery not confirmed: ",
+    "送达情况未确认："
+  ],
+  "Напиши: /broadcast Текст объявления\nДо 3600 символов. Сообщение получат активные участники, привязавшие MAX. Статус: /broadcast_status": [
+    "Use /broadcast Announcement text\nUp to 3600 characters. Active members connected to MAX will receive it. Status: /broadcast_status",
+    "使用/broadcast 公告内容\n最多3600字符。已连接MAX的活跃成员将收到公告。状态：/broadcast_status"
+  ],
+  "Всё для учёбы. В одном месте. Войдите через Telegram, MAX или по коду. Регистрация — по приглашению администратора.": [
+    "Everything for your studies, in one place. Sign in with Telegram, MAX or an access code. Registration requires an administrator invitation.",
+    "学习所需，尽在一处。通过Telegram、MAX或访问码登录。注册需管理员邀请。"
+  ],
+  "Регистрация через MAX": [
+    "Register with MAX",
+    "通过MAX注册"
+  ],
+  "Сначала подтвердите аккаунт MAX через бота.": [
+    "First confirm your MAX account through the bot.",
+    "请先通过机器人确认MAX账户。"
+  ],
+  "Регистрация в Midiary доступна по одноразовому приглашению администратора. Коды общие для Telegram, MAX и сайта. Если аккаунт уже есть, используйте его личный код доступа.": [
+    "Register for Midiary with a one-use administrator invitation. Codes are shared across Telegram, MAX and the website. If you already have an account, use its personal access code.",
+    "使用管理员的一次性邀请码注册Midiary。Telegram、MAX和网站共用代码。如已有账户，请使用其个人访问码。"
+  ],
+  "МГУ": [
+    "MSU",
+    "莫斯科国立大学"
+  ],
+  "Загрузить расписание из Excel": [
+    "Import schedule from Excel",
+    "从Excel导入课程表"
+  ],
+  "Уточнение расписания:": [
+    "Schedule note:",
+    "课程表备注："
+  ],
+  "Введите секретный ID от администратора для входа.": [
+    "Enter the access code supplied by the administrator.",
+    "请输入管理员提供的访问码。"
+  ],
+  "Открываем документ для чтения…": [
+    "Opening the document…",
+    "正在打开文档…"
+  ],
+  "Документ не удалось открыть за 30 секунд. Закройте его и попробуйте ещё раз.": [
+    "The document did not open within 30 seconds. Close it and try again.",
+    "文档未能在30秒内打开，请关闭后重试。"
+  ],
+  "Не удалось запустить просмотр документа. Обновите страницу и попробуйте ещё раз.": [
+    "Could not start the document viewer. Refresh the page and try again.",
+    "无法启动文档查看器，请刷新页面后重试。"
+  ],
+  "Содержимое документа": [
+    "Document content",
+    "文档内容"
+  ],
+  "Изображение в неподдерживаемом формате": [
+    "Unsupported image format",
+    "不支持的图片格式"
+  ],
+  "Большое изображение": [
+    "Large image",
+    "大图片"
+  ],
+  "Этот DOC повреждён, защищён паролем или создан в слишком старой версии Word.": [
+    "This DOC is damaged, password protected or created in an unsupported old Word version.",
+    "此DOC文件已损坏、受密码保护或由不支持的旧版Word创建。"
+  ],
+  "Сноски": [
+    "Footnotes",
+    "脚注"
+  ],
+  "Концевые сноски": [
+    "Endnotes",
+    "尾注"
+  ],
+  "Текстовые блоки": [
+    "Text blocks",
+    "文本块"
+  ],
+  "Колонтитулы": [
+    "Headers and footers",
+    "页眉和页脚"
+  ],
+  "Текст колонтитулов": [
+    "Header and footer text",
+    "页眉和页脚文本"
+  ],
+  "Не удалось прочитать этот формат документа.": [
+    "Could not read this document format.",
+    "无法读取此文档格式。"
+  ],
+  "Документ слишком большой для просмотра на этом устройстве.": [
+    "The document is too large to view on this device.",
+    "文档过大，无法在此设备查看。"
+  ],
+  "Не удалось прочитать документ.": [
+    "Could not read the document.",
+    "无法读取文档。"
+  ],
+  "Запрос истёк. Начните вход заново.": [
+    "The request expired. Start signing in again.",
+    "请求已过期，请重新登录。"
+  ],
+  "Вход отклонён.": [
+    "Sign-in declined.",
+    "登录已被拒绝。"
+  ],
+  "Сохранено для всех": [
+    "Saved for the group",
+    "已为小组保存"
+  ],
+  "МСК": [
+    "Moscow time",
+    "莫斯科时间"
+  ],
+  "Убрать «": [
+    "Remove “",
+    "移除“"
+  ],
+  "» из расписания всей группы?": [
+    "” from the whole group’s schedule?",
+    "”从全组课程表中？"
+  ],
+  "Язык / Language / 语言": [
+    "Language",
+    "语言"
+  ],
+  "Отмена": [
+    "Cancel",
+    "取消"
+  ],
+  "Дневник ФГУ": [
+    "Public administration diary",
+    "公共管理学院日记"
+  ],
+  "Дневник геофака": [
+    "Geography diary",
+    "地理学院日记"
+  ],
+  "Дневник истфака": [
+    "History diary",
+    "历史学院日记"
+  ],
+  "Мои напоминания в Telegram и MAX": [
+    "My reminders in Telegram and MAX",
+    "我的Telegram和MAX提醒"
+  ],
+  "Документы и соглашения": [
+    "Documents and agreements",
+    "文档及协议"
+  ],
+  "Midiary — личный независимый проект. Он не представляет МГУ, факультеты или руководство университета.": [
+    "Midiary is a personal, independent project. It does not represent MSU, its faculties or university management.",
+    "Midiary是个人独立项目，不代表莫斯科国立大学、其院系或校方。"
+  ],
+  "Какие данные хранятся, зачем и как их удалить.": [
+    "What data is stored, why and how to delete it.",
+    "存储哪些数据、用途及删除方法。"
+  ],
+  "Правила аккаунта, общих материалов и отзывов.": [
+    "Rules for accounts, shared materials and reviews.",
+    "账户、共享材料及评价的规则。"
+  ],
+  "Сессия входа и настройки языка и оформления.": [
+    "Sign-in session, language and appearance settings.",
+    "登录会话、语言及外观设置。"
+  ],
+  "Отдельное согласие при регистрации.": [
+    "Separate consent during registration.",
+    "注册时的单独同意。"
+  ],
+  "Порядок регистрации участников младше 18 лет.": [
+    "Registration procedure for members under 18.",
+    "未满18岁成员的注册流程。"
+  ],
+  "Права на материалы": [
+    "Material rights",
+    "材料权利"
+  ],
+  "Правила загрузки и обращения правообладателей.": [
+    "Upload rules and rights holder claims.",
+    "上传规则及权利人投诉。"
+  ],
+  "О проекте": [
+    "About the project",
+    "关于项目"
+  ],
+  "Владелец, контакты и независимый статус Midiary.": [
+    "Midiary’s owner, contacts and independent status.",
+    "Midiary的所有者、联系方式及独立地位。"
+  ],
+  "Источники и лицензии используемых компонентов.": [
+    "Sources and licenses of the components used.",
+    "所用组件的来源及许可证。"
+  ],
+  "Вернуться в профиль": [
+    "Back to profile",
+    "返回个人资料"
+  ],
+  "Бот ещё запускается. Попробуйте позже.": [
+    "The bot is starting. Please try again shortly.",
+    "机器人正在启动，请稍后重试。"
+  ],
+  "Загрузите файл .xlsx или .xls.": [
+    "Upload an .xlsx or .xls file.",
+    "请上传.xlsx或.xls文件。"
+  ],
+  "дата должна содержать день, месяц и год": [
+    "the date must include day, month and year",
+    "日期须包含年、月、日"
+  ],
+  "укажите время в формате ЧЧ:ММ": [
+    "use the HH:MM time format",
+    "请使用HH:MM时间格式"
+  ],
+  "Файл должен быть не больше 5 МБ.": [
+    "The file must be no larger than 5 MB.",
+    "文件不得大于5 MB。"
+  ],
+  "Лист не найден.": [
+    "Sheet not found.",
+    "未找到工作表。"
+  ],
+  "Строка заголовков не найдена.": [
+    "Header row not found.",
+    "未找到标题行。"
+  ],
+  "Некорректный номер строки заголовков.": [
+    "Invalid header row number.",
+    "标题行号无效。"
+  ],
+  "Выберите столбцы «Предмет», «Начало» и «Дата» или «День недели».": [
+    "Select the Subject and Start columns, and either Date or Day of week.",
+    "请选择“科目”“开始”及“日期”或“星期”列。"
+  ],
+  "Не найдено ни одного занятия.": [
+    "No classes found.",
+    "未找到课程。"
+  ],
+  "Не удалось прочитать XLSX. Сохраните файл в Excel заново.": [
+    "Could not read the XLSX file. Save it again in Excel.",
+    "无法读取XLSX文件，请在Excel中重新保存。"
+  ],
+  "В файле должно быть не больше 20 листов.": [
+    "The file must contain no more than 20 sheets.",
+    "文件最多可包含20个工作表。"
+  ],
+  "Не удалось прочитать XLS. Сохраните файл как XLSX.": [
+    "Could not read the XLS file. Save it as XLSX.",
+    "无法读取XLS文件，请另存为XLSX。"
+  ],
+  "Слишком много листов.": [
+    "Too many sheets.",
+    "工作表过多。"
+  ],
+  "Укажите период не длиннее года.": [
+    "Select a period no longer than one year.",
+    "请选择不超过一年的时间范围。"
+  ],
+  "Для ФГУ расписание загружается из «Мой ФГУ». Дополнительную пару можно добавить вручную.": [
+    "The public administration schedule is imported from My FGU. Add extra classes manually.",
+    "公共管理学院课程表从“Мой ФГУ”导入，可手动添加额外课程。"
+  ],
+  "Слишком большой файл после распаковки.": [
+    "The uncompressed file is too large.",
+    "解压后的文件过大。"
+  ],
+  "На листе должно быть не больше 5000 строк и 80 столбцов.": [
+    "A sheet must contain no more than 5,000 rows and 80 columns.",
+    "工作表最多可包含5000行和80列。"
+  ],
+  "Слишком большой лист.": [
+    "The sheet is too large.",
+    "工作表过大。"
+  ],
+  "Некорректное сопоставление столбцов.": [
+    "Invalid column mapping.",
+    "列映射无效。"
+  ],
+  "Для дней недели укажите дату начала и окончания периода.": [
+    "For recurring weekdays, specify the period’s start and end dates.",
+    "按星期导入时，请指定范围的起止日期。"
+  ],
+  "не указан предмет": [
+    "subject is missing",
+    "未填写科目"
+  ],
+  "слишком длинное название, ФИО или аудитория": [
+    "title, name or room is too long",
+    "名称、姓名或教室信息过长"
+  ],
+  "окончание должно быть позже начала": [
+    "end time must be later than start time",
+    "结束时间必须晚于开始时间"
+  ],
+  "номер пары — от 1 до 12": [
+    "class number must be between 1 and 12",
+    "课程编号须为1至12"
+  ],
+  "в одном импорте допускается не больше 2000 занятий": [
+    "one import may contain no more than 2,000 classes",
+    "每次导入最多可包含2000节课程"
+  ],
+  "Столбец": [
+    "Column",
+    "列"
+  ],
+  "Предпросмотр истёк. Загрузите файл ещё раз.": [
+    "The preview expired. Upload the file again.",
+    "预览已过期，请重新上传文件。"
+  ],
+  "неизвестный день недели": [
+    "unknown weekday",
+    "星期无法识别"
+  ],
+  "Файл": [
+    "File",
+    "文件"
+  ],
+  "Вручную": [
+    "Manual",
+    "手动"
+  ],
+  "Проверочное уведомление можно отправить раз в минуту.": [
+    "A test notification can be sent once per minute.",
+    "测试提醒每分钟可发送一次。"
+  ],
+  "Сервис уведомлений не подтвердил отправку. Попробуйте позже или подключите уведомления заново.": [
+    "Notification delivery was not confirmed. Try later or reconnect notifications.",
+    "提醒发送未得到确认，请稍后重试或重新连接提醒。"
+  ],
+  "Источник расписания временно недоступен. Попробуйте позже.": [
+    "The schedule source is temporarily unavailable. Please try later.",
+    "课程表来源暂时不可用，请稍后重试。"
+  ],
+  "Максимальный размер файла — 100 МБ": [
+    "Maximum file size: 100 MB",
+    "最大文件大小：100 MB"
+  ],
+  "Ошибка": [
+    "Error",
+    "错误"
+  ],
+  "Запрос истёк или у аккаунта нет доступа.": [
+    "The request expired or the account has no access.",
+    "请求已过期或账户无权访问。"
+  ],
+  "Вход подтверждён. Вернитесь в тот браузер, где начали вход.": [
+    "Sign-in confirmed. Return to the browser where you started signing in.",
+    "登录已确认，请返回开始登录的浏览器。"
+  ],
+  "Настройки сохранены": [
+    "Settings saved",
+    "设置已保存"
+  ],
+  "Участник не найден. Проверь ID или имя: /members": [
+    "Member not found. Check the ID or name: /members",
+    "未找到成员，请检查ID或姓名：/members"
+  ],
+  "Найдено несколько участников. Укажи ID:": [
+    "Several members found. Specify an ID:",
+    "找到多个成员，请指定ID："
+  ],
+  "Сначала открой дневник через /start и введи ID от администратора. Затем отправь /notifications.": [
+    "First open the diary with /start and enter your administrator-issued access code. Then send /notifications.",
+    "请先通过/start打开日记并输入管理员提供的访问码，然后发送/notifications。"
+  ],
+  "Нет доступа или неверная настройка.": [
+    "No access or invalid setting.",
+    "无权访问或设置无效。"
+  ],
+  "Запрос истёк. Начните вход на сайте заново.": [
+    "The request expired. Start signing in on the website again.",
+    "请求已过期，请在网站重新登录。"
+  ],
+  "Сначала выберите факультет и группу на сайте.": [
+    "First select your faculty and group on the website.",
+    "请先在网站选择院系和小组。"
+  ],
+  "Доступ к этому аккаунту отключён. Обратитесь к администратору.": [
+    "Access to this account is disabled. Contact the administrator.",
+    "此账户已被禁用，请联系管理员。"
+  ],
+  "Адрес ещё не получен. Попробуй через минуту.": [
+    "The address is not available yet. Try again in a minute.",
+    "地址尚未就绪，请一分钟后重试。"
+  ],
+  "Подтверждайте, только если сами начали вход в своём браузере. Запрос действует 5 минут.": [
+    "Confirm only if you started signing in in your own browser. The request is valid for 5 minutes.",
+    "仅在您本人于浏览器发起登录时确认，请求有效期为5分钟。"
+  ],
+  "Подтвердить вход на сайт": [
+    "Confirm website sign-in",
+    "确认网站登录"
+  ],
+  "Регистрация": [
+    "Registration",
+    "注册"
+  ],
+  "Текущий адрес дневника в браузере:": [
+    "Current diary address:",
+    "日记当前网址："
+  ],
+  "Слишком много попыток. Попробуйте через 15 минут.": [
+    "Too many attempts. Try again in 15 minutes.",
+    "尝试次数过多，请15分钟后重试。"
+  ],
+  "Управление доступно администратору. Дневник: /start. Напоминания: /notifications": [
+    "Management is available to the administrator. Diary: /start. Reminders: /notifications",
+    "管理功能仅限管理员。日记：/start。提醒：/notifications"
+  ],
+  "Подтвердить вход": [
+    "Confirm sign-in",
+    "确认登录"
+  ],
+  "Отклонить": [
+    "Decline",
+    "拒绝"
+  ],
+  "Одноразовый код регистрации (7 дней):": [
+    "One-use registration code (7 days):",
+    "一次性注册码（7天）："
+  ],
+  "Открыть сайт": [
+    "Open website",
+    "打开网站"
+  ],
+  "Задай код длиной 12–64 символа: латиница, цифры, - и _. Не используй свой Telegram ID.": [
+    "Set a 12–64 character code using Latin letters, digits, - and _. Do not use your Telegram ID.",
+    "请设置12至64个字符的代码，可用拉丁字母、数字、-和_。请勿使用Telegram ID。"
+  ],
+  "Этот код занят участником. Выбери другой.": [
+    "This code belongs to a member. Choose another.",
+    "此代码已被成员使用，请更换。"
+  ],
+  "Код входа администратора сохранён. Теперь его можно вводить на сайте.": [
+    "Administrator access code saved. You can now use it on the website.",
+    "管理员访问码已保存，现在可用于网站登录。"
+  ],
+  "ДЗ, файлы и личные записи публикуются без подтверждения.": [
+    "Homework, files and personal notes are saved without approval.",
+    "作业、文件和个人笔记无需批准即可保存。"
+  ],
+  "Создайте код командой /invite. Участник зарегистрируется сам и отдельно подтвердит условия и обработку данных. Для младше 18 лет создайте специальное приглашение в профиле сайта после подтверждения представителя.": [
+    "Create a code with /invite. The member registers and separately accepts the terms and data processing. For members under 18, create a special invitation in the website profile after guardian confirmation.",
+    "使用/invite创建代码，成员自行注册并单独同意条款及数据处理。未满18岁成员需在监护人确认后，于网站个人资料创建专用邀请。"
+  ],
+  "Подтверждение общих правок": [
+    "Approval of shared changes",
+    "共享修改审批"
+  ],
+  "включено": [
+    "enabled",
+    "已启用"
+  ],
+  "отключено": [
+    "disabled",
+    "已禁用"
+  ],
+  "Пока нет участников": [
+    "No members yet",
+    "暂无成员"
+  ],
+  "Доступ остаётся отключённым. Вернуть: /reset": [
+    "Access remains disabled. Restore with /reset",
+    "访问仍被禁用，恢复请使用/reset"
+  ],
+  "Группа не найдена. Выберите группу в профиле сайта.": [
+    "Group not found. Select a group in your website profile.",
+    "未找到小组，请在网站个人资料选择小组。"
+  ],
+  "Ваша группа изменена. Обновление запущено.": [
+    "Your group has changed. Updating the schedule.",
+    "您的小组已更改，课程表更新已启动。"
+  ],
+  "Имя исправлено:": [
+    "Name updated:",
+    "姓名已更新："
+  ],
+  "Обновление вашей группы запущено.": [
+    "Your group schedule update has started.",
+    "小组课程表更新已启动。"
+  ],
+  "Тема создана": [
+    "Topic created",
+    "主题已创建"
+  ],
+  "Доступ отключён:": [
+    "Access disabled:",
+    "访问已禁用："
+  ],
+  "Доступ восстановлен, Telegram и MAX отвязаны:": [
+    "Access restored, Telegram and MAX disconnected:",
+    "访问已恢复，Telegram和MAX已解除绑定："
+  ],
+  "активен": [
+    "active",
+    "正常"
+  ],
+  "отключён": [
+    "disabled",
+    "已禁用"
+  ],
+  "Последняя загрузка:": [
+    "Last import:",
+    "上次导入："
+  ],
+  "ещё не было": [
+    "not yet",
+    "尚未进行"
+  ],
+  "Нет изменений на подтверждение": [
+    "No changes awaiting approval",
+    "没有待审批修改"
+  ],
+  "Сохранено дней:": [
+    "Days saved:",
+    "已保存天数："
+  ],
+  "Заявка не найдена или уже обработана": [
+    "Request not found or already processed",
+    "请求不存在或已处理"
+  ],
+  "Подтверждено": [
+    "Approved",
+    "已批准"
+  ],
+  "Отклонено": [
+    "Declined",
+    "已拒绝"
+  ],
+  "ID ФГУ:": [
+    "FGU ID:",
+    "公共管理学院ID："
+  ],
+  "Группа:": [
+    "Group:",
+    "小组："
+  ],
+  "Финляндия": [
+    "Finland",
+    "芬兰"
+  ],
+  "понедельник": [
+    "Monday",
+    "星期一"
+  ],
+  "вторник": [
+    "Tuesday",
+    "星期二"
+  ],
+  "среда": [
+    "Wednesday",
+    "星期三"
+  ],
+  "четверг": [
+    "Thursday",
+    "星期四"
+  ],
+  "пятница": [
+    "Friday",
+    "星期五"
+  ],
+  "суббота": [
+    "Saturday",
+    "星期六"
+  ],
+  "воскресенье": [
+    "Sunday",
+    "星期日"
+  ],
+  "дата занятия": [
+    "class date",
+    "上课日期"
+  ],
+  "день недели": [
+    "day of week",
+    "星期"
+  ],
+  "номер пары": [
+    "class number",
+    "课程编号"
+  ],
+  "№ пары": [
+    "class number",
+    "课程编号"
+  ],
+  "дисциплина": [
+    "subject",
+    "科目"
+  ],
+  "время начала": [
+    "start time",
+    "开始时间"
+  ],
+  "время окончания": [
+    "end time",
+    "结束时间"
+  ],
+  "фио преподавателя": [
+    "teacher name",
+    "教师姓名"
+  ],
+  "вид занятия": [
+    "class type",
+    "课程类型"
+  ],
+  "дата": [
+    "date",
+    "日期"
+  ],
+  "день": [
+    "day",
+    "日"
+  ],
+  "номер": [
+    "number",
+    "编号"
+  ],
+  "предмет": [
+    "subject",
+    "科目"
+  ],
+  "название": [
+    "title",
+    "名称"
+  ],
+  "занятие": [
+    "class",
+    "课程"
+  ],
+  "начало": [
+    "start",
+    "开始"
+  ],
+  "время": [
+    "time",
+    "时间"
+  ],
+  "окончание": [
+    "end",
+    "结束"
+  ],
+  "конец": [
+    "end",
+    "结束"
+  ],
+  "преподаватель": [
+    "teacher",
+    "教师"
+  ],
+  "аудитория": [
+    "room",
+    "教室"
+  ],
+  "кабинет": [
+    "room",
+    "教室"
+  ],
+  "место": [
+    "location",
+    "地点"
+  ],
+  "тип": [
+    "type",
+    "类型"
+  ],
+  "Политика конфиденциальности": [
+    "Privacy policy",
+    "隐私政策"
+  ],
+  "Согласие на обработку данных": [
+    "Consent to data processing",
+    "数据处理同意书"
+  ],
+  "ДЗ на завтра": [
+    "Homework for tomorrow",
+    "明天的作业"
+  ],
+  "Напоминание приходит, только если для ваших завтрашних пар записано общее ДЗ. Время московское; настройки общие для Telegram, MAX и включённых уведомлений сайта.": [
+    "Reminders are sent only when shared homework is recorded for your classes tomorrow. Times use Moscow time; settings are shared by Telegram, MAX and enabled website notifications.",
+    "仅当您明天的课程记录了共享作业时发送提醒。时间为莫斯科时间；Telegram、MAX及已启用的网站提醒共用设置。"
+  ],
+  "Время напоминаний о ДЗ": [
+    "Homework reminder times",
+    "作业提醒时间"
+  ],
+  "Добавить своё время": [
+    "Add a custom time",
+    "添加自定义时间"
+  ],
+  "Добавить время": [
+    "Add time",
+    "添加时间"
+  ],
+  "Выберите время": [
+    "Choose a time",
+    "选择时间"
+  ],
+  "Можно выбрать до 4 времён.": [
+    "Choose up to 4 times.",
+    "最多可选择4个时间。"
+  ],
+  "Сохранить напоминания о ДЗ": [
+    "Save homework reminders",
+    "保存作业提醒"
+  ],
+  "Выключить напоминания о ДЗ": [
+    "Turn off homework reminders",
+    "关闭作业提醒"
+  ],
+  "Напоминания о ДЗ сохранены.": [
+    "Homework reminders saved.",
+    "作业提醒已保存。"
+  ],
+  "Напоминания о ДЗ выключены.": [
+    "Homework reminders are off.",
+    "作业提醒已关闭。"
+  ],
+  "Только если для ваших завтрашних пар записано общее ДЗ. Время московское.": [
+    "Only when shared homework is recorded for your classes tomorrow. Times use Moscow time.",
+    "仅当明天的课程记录了共享作业时提醒。时间为莫斯科时间。"
+  ],
+  "Своё время: /homework 19:30 22:00. Выключить: /homework off": [
+    "Custom times: /homework 19:30 22:00. Turn off: /homework off",
+    "自定义时间：/homework 19:30 22:00。关闭：/homework off"
+  ],
+  "Укажите время: /homework 19:30 22:00. Можно выбрать до 4 времён.": [
+    "Specify times: /homework 19:30 22:00. Choose up to 4 times.",
+    "请指定时间：/homework 19:30 22:00。最多可选择4个时间。"
+  ],
+  "Остальные задания — в дневнике.": [
+    "See the diary for the remaining homework.",
+    "其余作业请查看日记。"
+  ],
+  "время напоминаний о ДЗ на завтра": [
+    "homework reminder times for tomorrow",
+    "明天作业的提醒时间"
+  ],
+  "Куда присылать уведомления": [
+    "Notification destinations",
+    "提醒接收渠道"
+  ],
+  "Выбор действует для пар, дедлайнов и ДЗ на завтра. Общие объявления настраиваются отдельно.": [
+    "This applies to classes, deadlines and tomorrow’s homework. General announcements have a separate setting.",
+    "此设置适用于课程、截止日期及明天的作业。公告另行设置。"
+  ],
+  "Уведомления сайта": [
+    "Website notifications",
+    "网站提醒"
+  ],
+  "ещё не подключено": [
+    "not connected yet",
+    "尚未连接"
+  ],
+  "Сохранить каналы уведомлений": [
+    "Save notification destinations",
+    "保存提醒渠道"
+  ],
+  "Каналы уведомлений сохранены.": [
+    "Notification destinations saved.",
+    "提醒渠道已保存。"
+  ],
+  "Не удалось открыть бота.": [
+    "Could not open the bot.",
+    "无法打开机器人。"
+  ],
+  "Подтвердите вход в боте. Эта страница войдёт автоматически.": [
+    "Confirm sign-in in the bot. This page will sign you in automatically.",
+    "请在机器人中确认登录，此页面将自动登录。"
+  ],
+  "Свяжите аккаунт по Telegram ID в боте MAX или зарегистрируйтесь там по коду администратора.": [
+    "Link your account using your Telegram ID in the MAX bot, or register there with an administrator invitation.",
+    "请在MAX机器人中使用Telegram ID关联账户，或使用管理员邀请码注册。"
+  ],
+  "Завершите регистрацию по коду администратора в боте Telegram.": [
+    "Complete registration with an administrator invitation in the Telegram bot.",
+    "请在Telegram机器人中使用管理员邀请码完成注册。"
+  ],
+  "Регистрация через бота": [
+    "Register in a bot",
+    "通过机器人注册"
+  ],
+  "Регистрация через Telegram": [
+    "Register with Telegram",
+    "通过Telegram注册"
+  ],
+  "Новый аккаунт создаётся в боте только по коду администратора. Существующий аккаунт MAX можно связать по Telegram ID с подтверждением в Telegram.": [
+    "Create a new account in the bot with an administrator invitation. Link an existing account to MAX using your Telegram ID and confirmation in Telegram.",
+    "新账户仅可在机器人中通过管理员邀请码创建。现有账户可使用Telegram ID关联MAX，并在Telegram中确认。"
+  ],
+  "Перед первым входом": [
+    "Before your first visit",
+    "首次进入前"
+  ],
+  "Прочитайте документы и подтвердите согласие. Чекбоксы не отмечены заранее. Подтверждение сохранится для вашего аккаунта в Telegram, MAX и на сайте.": [
+    "Read the documents and confirm your consent. Checkboxes are not preselected. Your confirmation is shared by your account in Telegram, MAX and on the website.",
+    "请阅读文档并确认同意，复选框不会预先勾选。Telegram、MAX及网站中的同一账户共用此确认。"
+  ],
+  "Согласен, открыть дневник": [
+    "I agree, open diary",
+    "同意并打开日记"
+  ],
+  "Код после подтверждения представителя": [
+    "Code after guardian confirmation",
+    "监护人确认后的代码"
+  ],
+  "У вас уже есть аккаунт. Войдите через бота или откройте дневник.": [
+    "You already have an account. Sign in through the bot or open the diary.",
+    "您已有账户，请通过机器人登录或打开日记。"
+  ],
+  "Выберите язык регистрации": [
+    "Choose a registration language",
+    "选择注册语言"
+  ],
+  "Подтвердите условия и обработку данных отдельно. Согласия не отмечены заранее. Для завершения нужны оба подтверждения.": [
+    "Accept the terms and data processing separately. Neither is preselected. Both confirmations are required to finish.",
+    "请分别同意条款及数据处理，两者均不会预先勾选。完成注册需要两项确认。"
+  ],
+  "Завершить регистрацию": [
+    "Finish registration",
+    "完成注册"
+  ],
+  "Подтвердите актуальные условия и согласие.": [
+    "Accept the current terms and consent.",
+    "请同意当前条款及数据处理。"
+  ],
+  "Условия изменились. Начните регистрацию заново командой /register.": [
+    "The terms have changed. Restart registration with /register.",
+    "条款已更改，请使用/register重新注册。"
+  ],
+  "Регистрация отменена.": [
+    "Registration cancelled.",
+    "注册已取消。"
+  ],
+  "Введите одноразовый код приглашения администратора.": [
+    "Enter your one-use administrator invitation code.",
+    "请输入管理员的一次性邀请码。"
+  ],
+  "Введите одноразовый код приглашения администратора. Коды общие для Telegram, MAX и сайта. Отмена: /cancel": [
+    "Enter your one-use administrator invitation code. Codes are shared by Telegram, MAX and the website. Cancel: /cancel",
+    "请输入管理员的一次性邀请码。Telegram、MAX及网站共用代码。取消：/cancel"
+  ],
+  "Напишите имя и фамилию для дневника.": [
+    "Enter your first and last name for the diary.",
+    "请输入日记中使用的姓名。"
+  ],
+  "Имя должно содержать от 2 до 200 символов.": [
+    "Your name must contain 2 to 200 characters.",
+    "姓名须包含2至200个字符。"
+  ],
+  "Продолжите регистрацию кнопками выше. Отмена: /cancel": [
+    "Continue registration using the buttons above. Cancel: /cancel",
+    "请使用上方按钮继续注册。取消：/cancel"
+  ],
+  "Запрос истёк. Начните регистрацию заново командой /register.": [
+    "The request expired. Restart registration with /register.",
+    "请求已过期，请使用/register重新注册。"
+  ],
+  "Регистрация завершена. Откройте дневник и выберите факультет и группу. Для входа с сайта подтвердите запрос в этом боте.": [
+    "Registration complete. Open the diary and choose your faculty and group. To sign in from the website, confirm the request in this bot.",
+    "注册完成。请打开日记并选择院系和小组。从网站登录时，请在此机器人中确认请求。"
+  ],
+  "Ваш MAX уже подключён. Откройте дневник.": [
+    "Your MAX account is already connected. Open the diary.",
+    "您的MAX账户已连接，请打开日记。"
+  ],
+  "Аккаунт не найден. Проверьте Telegram ID командой /myid в Telegram. Новый аккаунт создаётся командой /register по приглашению.": [
+    "Account not found. Check your Telegram ID using /myid in Telegram. Create a new account with /register and an invitation.",
+    "未找到账户，请在Telegram中使用/myid检查ID。新账户需使用/register及邀请码创建。"
+  ],
+  "Подтверждение уже отправлено в Telegram. Проверьте сообщения бота.": [
+    "Confirmation has already been sent to Telegram. Check the bot’s messages.",
+    "确认已发送至Telegram，请查看机器人消息。"
+  ],
+  "Подключить MAX к вашему аккаунту Midiary?": [
+    "Connect MAX to your Midiary account?",
+    "将MAX关联至您的Midiary账户？"
+  ],
+  "Подтвердите, только если сами начали привязку. Данные и права будут общими. Запрос действует 5 минут.": [
+    "Confirm only if you started linking. Data and permissions will be shared. The request is valid for 5 minutes.",
+    "仅在您本人发起关联时确认。数据和权限将共用，请求有效期为5分钟。"
+  ],
+  "Подключить MAX": [
+    "Connect MAX",
+    "连接MAX"
+  ],
+  "Не удалось доставить подтверждение в Telegram. Откройте там бота и отправьте /start, затем повторите привязку.": [
+    "Could not deliver confirmation to Telegram. Open the bot there and send /start, then try linking again.",
+    "无法向Telegram发送确认。请在Telegram中打开机器人并发送/start，再尝试关联。"
+  ],
+  "Подтверждение отправлено в Telegram. Нажмите «Подключить MAX» в сообщении бота, затем вернитесь в MAX.": [
+    "Confirmation sent to Telegram. Tap Connect MAX in the bot’s message, then return to MAX.",
+    "确认已发送至Telegram。请在机器人消息中点击“连接MAX”，然后返回MAX。"
+  ],
+  "Привязка MAX отклонена.": [
+    "MAX linking declined.",
+    "MAX关联已被拒绝。"
+  ],
+  "MAX подключён к вашему аккаунту Midiary. Данные и права общие с Telegram.": [
+    "MAX is connected to your Midiary account. Data and permissions are shared with Telegram.",
+    "MAX已关联至您的Midiary账户，数据和权限与Telegram共用。"
+  ],
+  "MAX уже привязан к другому аккаунту. Ничего не изменено.": [
+    "MAX is already linked to another account. Nothing changed.",
+    "MAX已关联至其他账户，未作任何更改。"
+  ],
+  "MAX подключён. Теперь можно подтвердить вход или открыть дневник.": [
+    "MAX connected. You can now confirm sign-in or open the diary.",
+    "MAX已连接，现在可以确认登录或打开日记。"
+  ],
+  "Уже пользуетесь Midiary в Telegram? Напишите сюда свой Telegram ID из команды /myid в Telegram. Привязку нужно подтвердить в Telegram; нового аккаунта не будет.": [
+    "Already using Midiary in Telegram? Enter your Telegram ID from /myid in Telegram here. Confirm linking in Telegram; no new account will be created.",
+    "已在Telegram使用Midiary？请在此输入Telegram中/myid提供的ID。须在Telegram确认关联，不会创建新账户。"
+  ],
+  "Если аккаунта ещё нет, регистрация — по коду администратора.": [
+    "If you do not have an account, register with an administrator invitation.",
+    "如尚无账户，请使用管理员邀请码注册。"
+  ],
+  "Проверьте Telegram ID командой /myid в Telegram.": [
+    "Check your Telegram ID using /myid in Telegram.",
+    "请在Telegram中使用/myid检查您的ID。"
+  ],
+  "/homework — время напоминаний о ДЗ на завтра\n/register — регистрация по приглашению администратора\n/invite — одноразовый код регистрации (7 дней)\n/link КОД — привязать уведомления Telegram и MAX\n/site — текущий адрес дневника в браузере\n/notifications — кнопки настройки напоминаний\n/unsubscribe — отключить общие объявления\n/subscribe — включить общие объявления\n/add — используйте /invite и самостоятельную регистрацию\n/rename ID Новое ФИО — исправить имя\n/rename Старое ФИО | Новое ФИО — исправить по имени\n/mycode СЕКРЕТНЫЙ_КОД — задать код входа администратора на сайт\n/moderation ID on — включить подтверждение общих правок участника\n/moderation ID off — отключить подтверждение\n/broadcast Текст — объявление всем активным участникам\n/broadcast_status — результат последней рассылки\n/members — список участников\n/revoke ID или имя — закрыть доступ\n/reset ID или имя — отвязать мессенджеры и восстановить доступ\n/group 1457 107пб — выбрать расписание\n/sync — обновить расписание\n/status — состояние загрузки расписания\n/topic Название — создать тему литературы\n/pending — изменения на подтверждение\n/approve НОМЕР — подтвердить\n/reject НОМЕР — отклонить\n/myid — ID в этом мессенджере": [
+    "/homework — reminder times for tomorrow's homework\n/register — register with an administrator invitation\n/invite — one-use registration code (7 days)\n/link CODE — link Telegram and MAX notifications\n/site — current diary website address\n/notifications — reminder settings\n/unsubscribe — disable general announcements\n/subscribe — enable general announcements\n/add — use /invite and bot registration\n/rename ID NEW_NAME — update a name\n/rename OLD_NAME | NEW_NAME — find and update by name\n/mycode SECRET_CODE — set the administrator website access code\n/moderation ID on — require approval of shared edits\n/moderation ID off — disable approval\n/broadcast TEXT — announcement to all active participants\n/broadcast_status — latest announcement delivery results\n/members — participant list\n/revoke ID or name — disable access\n/reset ID or name — unlink messengers and restore access\n/group 1457 107пб — select the schedule\n/sync — update the schedule\n/status — schedule import status\n/topic TITLE — create a literature topic\n/pending — edits awaiting approval\n/approve NUMBER — approve\n/reject NUMBER — decline\n/myid — your ID in this messenger",
+    "/homework — 设置明日作业提醒时间\n/register — 使用管理员邀请注册\n/invite — 一次性注册码（有效期7天）\n/link CODE — 关联Telegram和MAX通知\n/site — 当前日记网站地址\n/notifications — 提醒设置\n/unsubscribe — 关闭公共公告\n/subscribe — 开启公共公告\n/add — 请使用/invite和机器人注册\n/rename ID NEW_NAME — 修改姓名\n/rename OLD_NAME | NEW_NAME — 按原姓名修改\n/mycode SECRET_CODE — 设置管理员网站访问码\n/moderation ID on — 开启共享修改审核\n/moderation ID off — 关闭审核\n/broadcast TEXT — 向所有活跃成员发送公告\n/broadcast_status — 最近一次公告的发送结果\n/members — 成员名单\n/revoke ID或姓名 — 禁用访问\n/reset ID或姓名 — 解除聊天软件关联并恢复访问\n/group 1457 107пб — 选择课程表\n/sync — 更新课程表\n/status — 课程表导入状态\n/topic TITLE — 创建文献主题\n/pending — 待审核修改\n/approve NUMBER — 批准\n/reject NUMBER — 拒绝\n/myid — 你在当前聊天软件中的ID"
+  ],
+  "Откройте дневник. Если аккаунта ещё нет, нажмите «Регистрация» и введите приглашение администратора. Для привязки существующего аккаунта используйте /link КОД_ДОСТУПА.": [
+    "Open the diary. If you do not have an account, choose Register and enter an administrator invitation. To link an existing account, use /link ACCESS_CODE.",
+    "打开日记。如果还没有账户，请点击“注册”并输入管理员邀请码。关联已有账户请使用/link ACCESS_CODE。"
+  ],
+  "Преподаватели предмета": [
+    "Subject teachers",
+    "课程教师"
+  ],
+  "Добавить преподавателя": [
+    "Add teacher",
+    "添加教师"
+  ],
+  "Убрать преподавателя": [
+    "Remove teacher",
+    "移除教师"
+  ],
+  "Сохранить преподавателей": [
+    "Save teachers",
+    "保存教师"
+  ],
+  "Вернуть преподавателей из расписания": [
+    "Restore teachers from the timetable",
+    "恢复课表中的教师"
+  ],
+  "Список общий для группы и применяется ко всем занятиям этого предмета.": [
+    "This list is shared with your group and applies to all classes of this subject.",
+    "此名单与班级共享，适用于该课程的所有课堂。"
+  ],
+  "Настройки занятия": [
+    "Class settings",
+    "课堂设置"
+  ],
+  "Действия с занятием": [
+    "Class actions",
+    "课堂操作"
+  ],
+  "Убрать пару у меня на эту дату": [
+    "Hide this class for me on this date",
+    "仅为我隐藏此日期的课堂"
+  ],
+  "Убрать из расписания всей группы": [
+    "Remove from the whole group timetable",
+    "从全班课表中移除"
+  ],
+  "Открыть календарь": [
+    "Open calendar",
+    "打开日历"
+  ],
+  "Укажите не больше 10 преподавателей.": [
+    "Enter up to 10 teachers.",
+    "最多输入10位教师。"
+  ],
+  "Имя преподавателя должно быть не длиннее 200 символов.": [
+    "A teacher name must be no longer than 200 characters.",
+    "教师姓名不得超过200个字符。"
+  ],
+  "Учебную группу назначает администратор.": [
+    "Your study group is assigned by the administrator.",
+    "班级由管理员指定。"
+  ],
+  "Группу назначает только администратор.": [
+    "Only the administrator assigns groups.",
+    "只有管理员可以指定班级。"
+  ],
+  "Группа ещё не назначена администратором.": [
+    "The administrator has not assigned a group yet.",
+    "管理员尚未指定班级。"
+  ],
+  "Моё имя и фамилия": [
+    "My first and last name",
+    "我的姓名"
+  ],
+  "Сохранить имя": [
+    "Save name",
+    "保存姓名"
+  ],
+  "Имя сохранено.": [
+    "Name saved.",
+    "姓名已保存。"
+  ],
+  "Доступ и приглашения": [
+    "Access and invitations",
+    "访问权限与邀请"
+  ],
+  "Количество регистраций": [
+    "Number of registrations",
+    "注册名额"
+  ],
+  "Факультет для назначения": [
+    "Faculty to assign",
+    "指定院系"
+  ],
+  "Группа для назначения": [
+    "Group to assign",
+    "指定班级"
+  ],
+  "Для участников младше 18 лет": [
+    "For participants under 18",
+    "未满18岁的成员"
+  ],
+  "Получил и сохранил отдельное согласие представителя каждого приглашённого несовершеннолетнего": [
+    "I obtained and saved separate guardian consent for each invited minor.",
+    "我已获得并保存每位受邀未成年人的监护人单独同意。"
+  ],
+  "Разрешение по Telegram ID": [
+    "Permission by Telegram ID",
+    "按Telegram ID授权"
+  ],
+  "Разрешить регистрацию": [
+    "Allow registration",
+    "允许注册"
+  ],
+  "Выданные разрешения": [
+    "Issued permissions",
+    "已授予的权限"
+  ],
+  "Отозвать разрешение": [
+    "Revoke permission",
+    "撤销权限"
+  ],
+  "Приглашение создано. Сохраните код: он показывается только сейчас.": [
+    "Invitation created. Save the code: it is shown only now.",
+    "邀请已创建，请保存邀请码；它仅显示一次。"
+  ],
+  "Скопировать код": [
+    "Copy code",
+    "复制邀请码"
+  ],
+  "Код скопирован.": [
+    "Code copied.",
+    "邀请码已复制。"
+  ],
+  "Выданных разрешений пока нет.": [
+    "No permissions have been issued yet.",
+    "尚未授予权限。"
+  ],
+  "Группы участников": [
+    "Participant groups",
+    "成员班级"
+  ],
+  "Участник": [
+    "Participant",
+    "成员"
+  ],
+  "Назначить группу": [
+    "Assign group",
+    "指定班级"
+  ],
+  "Группа назначена. Участнику нужно обновить дневник.": [
+    "Group assigned. The participant should reload the diary.",
+    "班级已指定，成员需要刷新日记。"
+  ],
+  "Текущая группа:": [
+    "Current group:",
+    "当前班级："
+  ],
+  "Токен @midiarybot": [
+    "Token for @midiarybot",
+    "@midiarybot令牌"
+  ],
+  "Бот поддержки @midiarybot": [
+    "Support bot @midiarybot",
+    "支持机器人@midiarybot"
+  ],
+  "Получатель обращений": [
+    "Support recipient",
+    "咨询接收人"
+  ],
+  "Подключить поддержку": [
+    "Connect support",
+    "连接支持机器人"
+  ],
+  "Введите токен здесь. После сохранения он не отображается. Пустое поле сохраняет уже подключённого бота.": [
+    "Enter the token here. It is hidden after saving. Leave this field empty to keep the connected bot.",
+    "在此输入令牌，保存后不会显示。留空可保留已连接的机器人。"
+  ],
+  "Настройки сохранены. Следите за состоянием доставки ниже.": [
+    "Settings saved. Check the delivery status below.",
+    "设置已保存，请查看下方的投递状态。"
+  ],
+  "Обновить состояние": [
+    "Refresh status",
+    "刷新状态"
+  ],
+  "Повторить доставку с ошибкой": [
+    "Retry failed deliveries",
+    "重试投递失败的消息"
+  ],
+  "Отключить поддержку": [
+    "Disconnect support",
+    "断开支持机器人"
+  ],
+  "Подключение настроено.": [
+    "Connection configured.",
+    "连接已配置。"
+  ],
+  "Бот поддержки отключён.": [
+    "Support bot is disconnected.",
+    "支持机器人已断开。"
+  ],
+  "Подписка": [
+    "Subscription",
+    "订阅"
+  ],
+  "Подписки и персональные цены": [
+    "Subscriptions and personal prices",
+    "订阅与个人价格"
+  ],
+  "Базовая цена в рублях": [
+    "Base price in rubles",
+    "基础价格（卢布）"
+  ],
+  "Сохранить базовую цену": [
+    "Save base price",
+    "保存基础价格"
+  ],
+  "Базовая цена сохранена. Приём платежей отключён.": [
+    "Base price saved. Payments are disabled.",
+    "基础价格已保存，支付尚未启用。"
+  ],
+  "Участник для персональной цены": [
+    "Participant for a personal price",
+    "选择个人定价的成员"
+  ],
+  "Персональная цена в рублях": [
+    "Personal price in rubles",
+    "个人价格（卢布）"
+  ],
+  "Пустая цена использует базовую. Персональная цена может быть ниже базовой.": [
+    "Leave the price empty to use the base price. A personal price can be lower than the base price.",
+    "价格留空将采用基础价格。个人价格可以低于基础价格。"
+  ],
+  "Выдать бесплатный доступ": [
+    "Grant free access",
+    "授予免费访问权限"
+  ],
+  "Бесплатный доступ до (необязательно)": [
+    "Free access until (optional)",
+    "免费访问截止日期（可选）"
+  ],
+  "Сохранить условия": [
+    "Save terms",
+    "保存条件"
+  ],
+  "Вернуть базовые условия": [
+    "Restore base terms",
+    "恢复基础条件"
+  ],
+  "Персональные условия убраны.": [
+    "Personal terms removed.",
+    "个人条件已移除。"
+  ],
+  "Условия сохранены. Приём платежей отключён.": [
+    "Terms saved. Payments are disabled.",
+    "条件已保存，支付尚未启用。"
+  ],
+  "Назначен бесплатный доступ.": [
+    "Free access granted.",
+    "已授予免费访问权限。"
+  ],
+  "Вам назначен бесплатный доступ.": [
+    "You have been granted free access.",
+    "您已获得免费访问权限。"
+  ],
+  "ФГУ — бесплатный доступ. Оплата не требуется.": [
+    "The Faculty of Public Administration has free access. No payment is required.",
+    "公共管理学院免费使用，无需付费。"
+  ],
+  "Подписка готовится. Сейчас все функции доступны, платежи не принимаются.": [
+    "Subscriptions are being prepared. All features are currently available; payments are not accepted.",
+    "订阅正在准备中。目前所有功能开放，暂不接受付款。"
+  ],
+  "Цена пока не установлена": [
+    "Price has not been set yet",
+    "价格尚未设置"
+  ],
+  "Участников других факультетов пока нет.": [
+    "There are no participants from other faculties yet.",
+    "尚无其他院系的成员。"
+  ],
+  "Будущая цена:": [
+    "Future price:",
+    "未来价格："
+  ],
+  "Добавить ДЗ": [
+    "Add homework",
+    "添加作业"
+  ],
+  "Изменить ДЗ": [
+    "Edit homework",
+    "修改作业"
+  ],
+  "Изменить преподавателей": [
+    "Edit teachers",
+    "修改教师"
+  ],
+  "История моих пар": [
+    "My class history",
+    "我的课程记录"
+  ],
+  "История пока пуста.": [
+    "History is empty.",
+    "暂无记录。"
+  ],
+  "Обновить историю": [
+    "Refresh history",
+    "刷新记录"
+  ],
+  "Вернуть эту версию": [
+    "Restore this version",
+    "恢复此版本"
+  ],
+  "Восстановить пару": [
+    "Restore class",
+    "恢复课程"
+  ],
+  "Пара восстановлена в расписании.": [
+    "Class restored to the timetable.",
+    "课程已恢复到课表。"
+  ],
+  "Создана": [
+    "Created",
+    "已创建"
+  ],
+  "Сохранённая версия": [
+    "Saved version",
+    "已保存的版本"
+  ],
+  "До изменения": [
+    "Before change",
+    "修改前"
+  ],
+  "Изменена": [
+    "Changed",
+    "已修改"
+  ],
+  "Удалена": [
+    "Deleted",
+    "已删除"
+  ],
+  "Скрыта на дату": [
+    "Hidden on date",
+    "在指定日期隐藏"
+  ],
+  "Восстановлена": [
+    "Restored",
+    "已恢复"
+  ],
+  "Изменить свою пару или событие": [
+    "Edit my class or event",
+    "修改我的课程或活动"
+  ],
+  "Завершите регистрацию в боте по приглашению или разрешению администратора.": [
+    "Complete registration in the bot with an administrator invitation or permission.",
+    "请在机器人中使用管理员邀请或权限完成注册。"
+  ],
+  "Завершите регистрацию в боте Telegram по коду или разрешению администратора для вашего ID.": [
+    "Complete registration in the Telegram bot with a code or administrator permission for your ID.",
+    "请在Telegram机器人中使用邀请码或管理员对您的ID授予的权限完成注册。"
+  ],
+  "Введите код приглашения администратора. Отмена: /cancel": [
+    "Enter the administrator invitation code. Cancel: /cancel",
+    "请输入管理员邀请码。取消：/cancel"
+  ],
+  "Введите код приглашения администратора.": [
+    "Enter the administrator invitation code.",
+    "请输入管理员邀请码。"
+  ],
+  "Администратор разрешил регистрацию вашему Telegram ID. Напишите имя и фамилию для дневника.": [
+    "The administrator has allowed your Telegram ID to register. Enter your name for the diary.",
+    "管理员已允许您的Telegram ID注册，请输入用于日记的姓名。"
+  ],
+  "Регистрация завершена. Группа назначена администратором. Откройте дневник. Для входа с сайта подтвердите запрос в этом боте.": [
+    "Registration complete. Your group was assigned by the administrator. Open the diary. Confirm website sign-in requests in this bot.",
+    "注册完成，班级由管理员指定。请打开日记；网站登录请求需在此机器人中确认。"
+  ],
+  "Код приглашения недействителен, отозван или его лимит исчерпан.": [
+    "The invitation code is invalid, revoked, or has no registrations left.",
+    "邀请码无效、已撤销或名额已用完。"
+  ],
+  "Вы задаёте число регистраций по коду или разрешаете регистрацию конкретному Telegram ID. Доступ действует 7 дней. По умолчанию назначается 107пб.": [
+    "Set a code registration limit or allow a specific Telegram ID to register. Permission lasts 7 days. Group 107пб is assigned by default.",
+    "设置邀请码的注册名额，或允许特定Telegram ID注册。权限有效期为7天，默认指定107пб班。"
+  ],
+  "Участник узнаёт свой ID командой /myid. После разрешения он отправляет /register боту дневника; код вводить не нужно.": [
+    "Participants can find their ID with /myid. Once allowed, they send /register to the diary bot without an invitation code.",
+    "成员可通过/myid查询ID。获准后向日记机器人发送/register即可，无需邀请码。"
+  ],
+  "Участник меняет своё имя в профиле. Факультет и учебную группу назначаете вы.": [
+    "Participants can edit their name in their profile. You assign their faculty and study group.",
+    "成员可以在个人资料中修改姓名。院系和班级由您指定。"
+  ],
+  "Обращения будут приходить вам в @midiarybot. Ответьте на полученное сообщение, чтобы отправить ответ человеку. Сначала отправьте этому боту /start.": [
+    "Support messages arrive in @midiarybot. Reply to a received message to answer the sender. First send /start to that bot.",
+    "咨询将通过@midiarybot发送给您。回复收到的消息即可答复发送者，请先向该机器人发送/start。"
+  ],
+  "ФГУ всегда бесплатно. Для остальных факультетов можно подготовить месячную цену и персональные условия. Приём платежей пока отключён; доступ к функциям открыт.": [
+    "The Faculty of Public Administration is always free. Set future monthly prices and personal terms for other faculties. Payments are disabled and features remain available.",
+    "公共管理学院始终免费。可以为其他院系准备月费和个人条件。目前支付尚未启用，所有功能开放。"
+  ],
+  "История созданных вами занятий в текущей учебной группе. Можно вернуть удалённую пару или прежнюю версию. Восстановление общих записей сохраняет правила подтверждения администратором.": [
+    "History of classes you created in your current study group. Restore a deleted class or an earlier version. Shared entries still follow administrator approval rules.",
+    "查看您在当前班级创建的课程记录，可恢复已删除的课程或先前版本。共享课程的恢复仍遵守管理员审核规则。"
+  ],
+  "Регистрация — по коду администратора или его разрешению для вашего Telegram ID. Учебную группу назначает администратор; по умолчанию — 107пб. Существующий аккаунт MAX можно связать по Telegram ID с подтверждением в Telegram.": [
+    "Register with an administrator code or permission for your Telegram ID. The administrator assigns your group; the default is 107пб. Link an existing MAX account by Telegram ID and confirm in Telegram.",
+    "凭管理员邀请码或对Telegram ID的授权注册。班级由管理员指定，默认为107пб。现有MAX账户可通过Telegram ID关联并在Telegram中确认。"
+  ],
+  "/homework — время напоминаний о ДЗ на завтра\n/register — регистрация по приглашению администратора\n/invite КОЛИЧЕСТВО [ГРУППА] — код на заданное число регистраций (7 дней)\n/allow TELEGRAM_ID [ГРУППА] — разрешить регистрацию без кода (7 дней)\n/disallow TELEGRAM_ID — отозвать разрешение регистрации\n/groupfor ID ГРУППА — назначить участнику другую группу\n/subscription — мой доступ и будущая подписка\n/subscriptionprice ЦЕНА — базовая цена в рублях (оплата пока отключена)\n/discount ID ЦЕНА — персональная цена участника в рублях\n/free ID [ДНИ] — бесплатный доступ; без срока, если дни не указаны\n/subscriptionreset ID — убрать персональные условия\n/link КОД — привязать уведомления Telegram и MAX\n/site — текущий адрес дневника в браузере\n/notifications — кнопки настройки напоминаний\n/unsubscribe — отключить общие объявления\n/subscribe — включить общие объявления\n/add — используйте /invite и самостоятельную регистрацию\n/rename ID Новое ФИО — исправить имя\n/rename Старое ФИО | Новое ФИО — исправить по имени\n/mycode СЕКРЕТНЫЙ_КОД — задать код входа администратора на сайт\n/moderation ID on — включить подтверждение общих правок участника\n/moderation ID off — отключить подтверждение\n/broadcast Текст — объявление всем активным участникам\n/broadcast_status — результат последней рассылки\n/members — список участников\n/revoke ID или имя — закрыть доступ\n/reset ID или имя — отвязать мессенджеры и восстановить доступ\n/group 1457 107пб — выбрать расписание\n/sync — обновить расписание\n/status — состояние загрузки расписания\n/topic Название — создать тему литературы\n/pending — изменения на подтверждение\n/approve НОМЕР — подтвердить\n/reject НОМЕР — отклонить\n/myid — ID в этом мессенджере": [
+    "/homework — reminder times for tomorrow's homework\n/register — register with an administrator invitation\n/invite COUNT [GROUP] — code with a registration limit (7 days)\n/allow TELEGRAM_ID [GROUP] — allow one registration without a code (7 days)\n/disallow TELEGRAM_ID — revoke registration permission\n/groupfor ID GROUP — assign a participant group\n/subscription — my access and future subscription\n/subscriptionprice PRICE — future base price in rubles\n/discount ID PRICE — personal price in rubles\n/free ID [DAYS] — free access, unlimited if DAYS omitted\n/subscriptionreset ID — remove personal terms\n/link CODE — link Telegram and MAX notifications\n/site — current diary website address\n/notifications — reminder settings\n/unsubscribe — disable general announcements\n/subscribe — enable general announcements\n/add — use /invite and bot registration\n/rename ID NEW_NAME — update a name\n/rename OLD_NAME | NEW_NAME — find and update by name\n/mycode SECRET_CODE — set the administrator website access code\n/moderation ID on — require approval of shared edits\n/moderation ID off — disable approval\n/broadcast TEXT — announcement to all active participants\n/broadcast_status — latest announcement delivery results\n/members — participant list\n/revoke ID or name — disable access\n/reset ID or name — unlink messengers and restore access\n/group 1457 107пб — select the schedule\n/sync — update the schedule\n/status — schedule import status\n/topic TITLE — create a literature topic\n/pending — edits awaiting approval\n/approve NUMBER — approve\n/reject NUMBER — decline\n/myid — your ID in this messenger",
+    "/homework — 设置明日作业提醒时间\n/register — 使用管理员邀请注册\n/invite COUNT [GROUP] — 指定注册名额的邀请码（7天）\n/allow TELEGRAM_ID [GROUP] — 允许无需邀请码注册（7天）\n/disallow TELEGRAM_ID — 撤销注册权限\n/groupfor ID GROUP — 指定成员班级\n/subscription — 我的权限与未来订阅\n/subscriptionprice PRICE — 未来基础价格（卢布）\n/discount ID PRICE — 个人价格（卢布）\n/free ID [DAYS] — 免费权限，未指定天数则不限期\n/subscriptionreset ID — 移除个人条件\n/link CODE — 关联Telegram和MAX通知\n/site — 当前日记网站地址\n/notifications — 提醒设置\n/unsubscribe — 关闭公共公告\n/subscribe — 开启公共公告\n/add — 请使用/invite和机器人注册\n/rename ID NEW_NAME — 修改姓名\n/rename OLD_NAME | NEW_NAME — 按原姓名修改\n/mycode SECRET_CODE — 设置管理员网站访问码\n/moderation ID on — 开启共享修改审核\n/moderation ID off — 关闭审核\n/broadcast TEXT — 向所有活跃成员发送公告\n/broadcast_status — 最近一次公告的发送结果\n/members — 成员名单\n/revoke ID或姓名 — 禁用访问\n/reset ID或姓名 — 解除聊天软件关联并恢复访问\n/group 1457 107пб — 选择课程表\n/sync — 更新课程表\n/status — 课程表导入状态\n/topic TITLE — 创建文献主题\n/pending — 待审核修改\n/approve NUMBER — 批准\n/reject NUMBER — 拒绝\n/myid — 你在当前聊天软件中的ID"
+  ],
+  "Дата изменения не сохранена": [
+    "The change date was not recorded",
+    "修改日期未记录"
+  ],
+  "Ваше расписание": [
+    "Your schedule",
+    "你的课表"
+  ],
+  "Загрузка расписания": [
+    "Loading schedule",
+    "正在加载课表"
+  ],
+  "Знакомство с расписанием": [
+    "Schedule guide",
+    "课表使用指南"
+  ],
+  "Открыть расписание": [
+    "Open schedule",
+    "打开课表"
+  ],
+  "Вернуться к расписанию": [
+    "Return to schedule",
+    "返回课表"
+  ],
+  "Управление сервисом": [
+    "Service administration",
+    "服务管理"
+  ],
+  "Пользователи и уведомления": [
+    "Users and notifications",
+    "用户和通知"
+  ],
+  "Обновления и каналы": [
+    "Updates and channels",
+    "更新与频道"
+  ]
+}

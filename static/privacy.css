@@ -1,0 +1,33 @@
+html{scroll-padding-top:100px;scroll-padding-bottom:120px}
+#fgu-diary-design{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+#fgu-diary-design :is(button,input,select,textarea){font-family:inherit}
+#fgu-diary-design :is(button,a,summary,input,select,textarea,[tabindex]):focus-visible{outline:3px solid var(--fd-text);outline-offset:4px;scroll-margin:100px 0 130px}
+#fgu-diary-design :is(.muted,.rating-count,.rating-rank,.review-criterion){color:var(--fd-muted);opacity:1}
+#fgu-diary-design :is(.rating-recommend,.success){color:#86efac}
+#fgu-diary-design[data-theme=light] :is(.rating-recommend,.success){color:#166534}
+#fgu-diary-design :is(.danger,.event-remove,.delete-button){color:#fda4af}
+#fgu-diary-design[data-theme=light] :is(.danger,.event-remove,.delete-button){color:#9f1239}
+#fgu-diary-design .fd-teacher-link{color:var(--fd-text);text-decoration:underline;text-underline-offset:3px}
+#fgu-diary-design .fd-bottom-nav button:is(:hover,:focus-visible,[aria-current=page]){background:var(--glass-input);color:var(--fd-text)}
+#fgu-diary-design .fd-bottom-nav,#fgu-diary-design .fd-bottom-nav button{transition-property:transform,opacity,box-shadow}
+#fgu-diary-design input::placeholder,#fgu-diary-design textarea::placeholder{color:var(--fd-muted);opacity:1}
+.skip-link{position:fixed;top:8px;left:8px;z-index:10000;transform:translateY(-160%);background:#fff;color:#18181b;padding:12px 18px;border-radius:12px}
+.skip-link:focus{transform:none}
+#legal-footer{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;padding:24px 20px 120px;max-width:760px;margin:auto;font-size:13px}
+#fgu-diary-design .legal-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin:16px 0}
+#fgu-diary-design :is(#legal-footer,.legal-links,.privacy-check,.storage-notice) a{color:var(--fd-text);text-decoration:underline;text-underline-offset:3px;padding:8px 0;display:inline-block}
+#fgu-diary-design .privacy-panel{border-top:1px solid var(--fd-border);margin:24px 0;padding:20px 0}
+#fgu-diary-design .privacy-panel>button{margin:8px 8px 8px 0}
+#fgu-diary-design .privacy-check{display:flex;align-items:flex-start;flex-wrap:wrap;gap:10px;margin:18px 0;font-size:14px;line-height:1.5}
+#fgu-diary-design .privacy-check input{flex:0 0 20px;margin-top:2px;min-width:20px;min-height:20px}
+#fgu-diary-design .privacy-check span{flex:1;min-width:160px}
+#fgu-diary-design .privacy-check a{flex-basis:100%;margin-left:30px}
+#fgu-diary-design .privacy-check[hidden]{display:none}
+#fgu-diary-design .privacy-age{display:block;margin:14px 0}
+#fgu-diary-design .storage-notice{max-width:700px;margin:20px auto;padding:20px;background:var(--fd-surface);border:1px solid var(--fd-border);border-radius:18px;font-size:14px;line-height:1.6}
+#fgu-diary-design .storage-notice button{margin-left:16px}
+#fgu-diary-design .privacy-dialog{max-width:560px;width:calc(100% - 48px);max-height:calc(100dvh - 60px);overflow:auto;border:1px solid var(--fd-border);border-radius:22px;padding:22px;background:var(--fd-surface);color:var(--fd-text);font:inherit;line-height:1.6}
+#fgu-diary-design .privacy-dialog::backdrop{background:#000a}
+#fgu-diary-design .privacy-dialog button{margin:8px}
+@media(max-width:600px){#fgu-diary-design .storage-notice{margin:20px}#fgu-diary-design :is(.fd-detail-page,.fd-stage){overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design *,#fgu-diary-design *::before,#fgu-diary-design *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

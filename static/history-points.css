@@ -1,0 +1,30 @@
+#fgu-diary-design[data-theme][data-page] .brand-capsule {
+ --button-radius:999px;min-width:0;width:max-content;min-height:36px;margin:0;
+ padding:5px 19px;border-radius:999px;line-height:24px;font-size:17px;font-weight:600;
+ color:var(--fd-text);touch-action:manipulation;
+}
+#fgu-diary-design .brand-capsule.floating-brand {pointer-events:auto;cursor:pointer;transition:background .18s ease,box-shadow .18s ease}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) .brand-capsule.floating-brand {backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+#fgu-diary-design .brand-capsule.is-pressing .brand-label {filter:brightness(1.2)}
+#fgu-diary-design .history-points-summary {
+ display:flex;align-items:baseline;gap:12px;margin:18px 0 0;padding:0;
+}
+#fgu-diary-design .history-points-total {font-size:32px;line-height:1.2;font-variant-numeric:tabular-nums}
+#fgu-diary-design .history-points-form {display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end;max-width:420px;margin:0}
+#fgu-diary-design .history-points-form .fd-label {margin:0;min-width:0}
+#fgu-diary-design .history-points-form .fd-input {min-width:0;width:100%;box-sizing:border-box}
+#fgu-diary-design[data-theme][data-page] .history-points-form>button {width:auto;margin:0}
+#fgu-diary-design .history-points-status {grid-column:1/-1;margin:0}
+#fgu-diary-design .history-points-status:empty {display:none}
+#fgu-diary-design[data-theme][data-page] .lesson-card-heading .history-points-badge {
+ width:auto;min-width:0;min-height:28px;margin:0;padding:3px 8px;flex:none;
+ font-size:12px;line-height:20px;border-radius:9px;color:var(--fd-text);
+ background:var(--fd-surface);border:1px solid var(--fd-border);font-variant-numeric:tabular-nums;
+}
+#fgu-diary-design .icon-points-bars {transform-box:view-box;transform-origin:12px 18px}
+#fgu-diary-design #nav button.is-icon-animating .icon-points-bars {animation:points-bars-rise .6s cubic-bezier(.2,.7,.2,1)}
+@keyframes points-bars-rise {0%,100%{transform:scaleY(1)}30%{transform:scaleY(.55)}65%{transform:scaleY(1.14)}}
+@media(max-width:600px){
+ #fgu-diary-design[data-theme][data-page] .brand-capsule {font-size:15px;padding:4px 14px;min-height:34px}
+}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design #nav button.is-icon-animating .icon-points-bars {animation:none}}

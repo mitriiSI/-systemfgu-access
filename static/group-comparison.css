@@ -1,0 +1,84 @@
+#fgu-diary-design .group-comparison {position:relative;width:max-content;max-width:100%;margin:0 0 7px auto;z-index:12}
+#fgu-diary-design .comparison-toggle {display:flex;align-items:center;gap:10px;width:auto;max-width:218px;min-height:44px;margin:0;padding:6px 10px;--button-radius:14px;font-size:12px;text-align:left}
+#fgu-diary-design .comparison-summary {display:flex;flex-direction:column;min-width:0;line-height:1.4}
+#fgu-diary-design .comparison-controls {display:flex;align-items:flex-start;gap:5px}
+#fgu-diary-design .comparison-date-hint {display:block;max-width:218px;margin:4px 37px 0 0;color:var(--fd-muted);font-size:11px;line-height:1.4;text-align:right}
+#fgu-diary-design .comparison-date-hint[hidden] {display:none}
+#fgu-diary-design .comparison-controls>.comparison-settings-button {width:32px;height:32px;min-height:32px;padding:6px;--button-radius:11px;margin:0;flex:none}
+#fgu-diary-design .comparison-settings-button svg {width:18px;height:18px}
+#fgu-diary-design .comparison-note {max-width:240px;margin-top:5px;padding:7px 9px;border:1px solid var(--fd-border);border-radius:12px;background:var(--fd-surface);font-size:12px;line-height:1.4;overflow-wrap:anywhere}
+#fgu-diary-design .comparison-note[hidden] {display:none}
+#fgu-diary-design .comparison-note-copy {margin:0;white-space:pre-wrap;font:inherit;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#fgu-diary-design .comparison-note.is-expanded .comparison-note-copy {display:block}
+#fgu-diary-design .comparison-note>.comparison-note-more {width:auto;min-height:26px;padding:3px 6px;margin:4px 0 0;font-size:11px;--button-radius:8px}
+#fgu-diary-design .comparison-note-more[hidden] {display:none}
+#fgu-diary-design .comparison-summary>span,#fgu-diary-design .comparison-summary>small {max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#fgu-diary-design .comparison-summary>small {color:var(--fd-muted);font-size:11px}
+#fgu-diary-design .comparison-toggle {touch-action:pan-y;align-items:flex-start}
+#fgu-diary-design[data-theme][data-page]:not([data-page=""]) button.comparison-toggle {touch-action:pan-y}
+#fgu-diary-design .comparison-toggle>.comparison-chevron {align-self:center}
+#fgu-diary-design .comparison-brief-heading {margin-bottom:3px}
+#fgu-diary-design .comparison-summary>.comparison-brief-row {display:flex;justify-content:space-between;gap:10px;max-width:180px;line-height:1.55;font-size:11px;border-left:2px solid var(--comparison-edge,transparent);padding-left:4px;color:var(--comparison-ink,var(--fd-muted))}
+#fgu-diary-design .comparison-brief-row>time {flex:none;font-variant-numeric:tabular-nums}
+#fgu-diary-design .comparison-brief-row>small {min-width:0;overflow:hidden;text-overflow:ellipsis;font:inherit}
+#fgu-diary-design .comparison-brief-row[data-state=idle] {--comparison-ink:var(--fd-muted);--comparison-edge:transparent;--comparison-wash:transparent}
+#fgu-diary-design .comparison-lessons {touch-action:pan-y}
+#fgu-diary-design .comparison-toggle>svg {width:15px;height:15px;flex:none;transition:transform .22s ease}
+#fgu-diary-design .comparison-toggle[aria-expanded=true]>.comparison-chevron {transform:rotate(90deg)}
+#fgu-diary-design .comparison-panel {position:absolute;top:calc(100% + 7px);right:0;width:360px;max-width:calc(100vw - 48px);max-height:min(480px,55dvh);overflow:auto;overscroll-behavior:contain;box-sizing:border-box;padding:12px;border:1px solid var(--fd-border);border-radius:20px;background:var(--glass-opaque,var(--fd-surface));box-shadow:0 12px 36px #0004;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);transform-origin:top right}
+#fgu-diary-design .comparison-panel[hidden] {display:none}
+#fgu-diary-design .comparison-panel.opens-up {top:auto;bottom:calc(100% + 7px);transform-origin:bottom right}
+#fgu-diary-design :is(.comparison-toggle,.comparison-lesson,.comparison-brief-row)[data-state=common] {--comparison-ink:#95dcaf;--comparison-edge:#55946b;--comparison-wash:#64b77e16}
+#fgu-diary-design :is(.comparison-toggle,.comparison-lesson,.comparison-brief-row)[data-state=live] {--comparison-ink:#a3cbff;--comparison-edge:#6495cb;--comparison-wash:#64a8ff16}
+#fgu-diary-design :is(.comparison-toggle,.comparison-lesson,.comparison-brief-row)[data-state=next] {--comparison-ink:#f4ce96;--comparison-edge:#b28c50;--comparison-wash:#e7b96516}
+#fgu-diary-design[data-theme=light] :is(.comparison-toggle,.comparison-lesson,.comparison-brief-row)[data-state=common] {--comparison-ink:#17653b;--comparison-edge:#74a789}
+#fgu-diary-design[data-theme=light] :is(.comparison-toggle,.comparison-lesson,.comparison-brief-row)[data-state=live] {--comparison-ink:#23578d;--comparison-edge:#6f9fc5}
+#fgu-diary-design[data-theme=light] :is(.comparison-toggle,.comparison-lesson,.comparison-brief-row)[data-state=next] {--comparison-ink:#82501a;--comparison-edge:#bc9864}
+#fgu-diary-design .comparison-toggle[data-state]:not([data-state=idle]) {--button-ink:var(--comparison-ink);--button-edge:var(--comparison-edge);--button-glass:var(--comparison-wash)}
+#fgu-diary-design .comparison-lesson[data-state]:not([data-state=idle]) {border-left:3px solid var(--comparison-edge);padding-left:8px;background:var(--comparison-wash)}
+#fgu-diary-design .comparison-lesson[data-state]:not([data-state=idle]) .comparison-lesson-meta {color:var(--comparison-ink)}
+#fgu-diary-design .comparison-toolbar {display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 8px}
+#fgu-diary-design .comparison-toolbar>strong {font-size:14px;overflow-wrap:anywhere}
+#fgu-diary-design .comparison-toolbar>strong:empty {display:none}
+#fgu-diary-design .comparison-panel .comparison-filter {width:auto;flex:none;margin:0 0 0 auto;min-height:30px;padding:4px 7px;font-size:11px;--button-radius:10px}
+#fgu-diary-design .comparison-panel .comparison-close {width:30px;height:30px;min-height:30px;padding:0;margin:0;font-size:20px;--button-radius:10px}
+#fgu-diary-design .comparison-modes {display:flex;gap:5px;margin-bottom:8px}
+#fgu-diary-design .comparison-modes>button {width:auto;flex:1;min-height:32px;padding:5px 9px;margin:0;font-size:12px;--button-radius:10px}
+#fgu-diary-design .comparison-dates {display:flex;gap:7px;align-items:center;margin-bottom:10px}
+#fgu-diary-design .comparison-dates>.fd-icon-button {flex:none;width:32px;height:32px;min-height:32px;padding:0;--button-radius:10px}
+#fgu-diary-design .comparison-dates>.fd-icon-button svg {width:20px;height:20px}
+#fgu-diary-design .comparison-date {min-width:0;flex:1;min-height:34px;padding:5px 8px;font-size:13px;border-radius:10px}
+#fgu-diary-design .comparison-day>h3 {font-size:12px;margin:12px 0 5px}
+#fgu-diary-design .comparison-lesson {position:relative;border-bottom:1px solid var(--fd-line);padding:8px 0}
+#fgu-diary-design .comparison-lesson-meta {display:flex;justify-content:space-between;gap:8px;align-items:start;font-size:12px}
+#fgu-diary-design .comparison-lesson-meta>span {text-align:right;overflow-wrap:anywhere}
+#fgu-diary-design .comparison-subject {font-size:13px;margin:4px 0 0;line-height:1.35}
+#fgu-diary-design .comparison-teachers {font-size:11px;color:var(--fd-muted);margin:4px 0 0;line-height:1.35}
+#fgu-diary-design .comparison-state-badge {display:inline-block;font-size:10px;color:var(--comparison-ink,var(--fd-muted));border:1px solid var(--comparison-edge,var(--fd-line));border-radius:7px;padding:2px 5px;margin-top:4px;background:var(--comparison-wash,var(--fd-accent-soft))}
+#fgu-diary-design .comparison-settings {margin-top:10px;font-size:12px}
+#fgu-diary-design .comparison-settings>summary {font-size:12px}
+#fgu-diary-design .comparison-form .fd-label {font-size:12px;margin-top:10px}
+#fgu-diary-design .comparison-form .fd-input {min-height:38px;padding:7px 9px;font-size:14px}
+#fgu-diary-design .comparison-check {display:flex;align-items:center;gap:8px;margin:10px 0;font-size:12px}
+#fgu-diary-design .comparison-check input {width:16px;height:16px;accent-color:var(--fd-accent)}
+#fgu-diary-design .comparison-form .reminder-offsets {padding:8px;gap:6px;margin:10px 0;font-size:12px}
+#fgu-diary-design .comparison-form .offset-chip {padding:5px;font-size:11px}
+#fgu-diary-design .comparison-form>.fd-primary {margin-top:8px;min-height:36px;font-size:12px;padding:7px 10px}
+#fgu-diary-design .comparison-status {font-size:12px;margin:7px 0 0;line-height:1.4}
+#fgu-diary-design .comparison-status:empty {display:none}
+#fgu-diary-design .comparison-settings-page :is(.comparison-form,.comparison-message-form) {margin:0}
+#fgu-diary-design .comparison-settings-page .comparison-check {font-size:14px;min-height:30px;margin:8px 0}
+#fgu-diary-design .comparison-settings-page .comparison-form .fd-label {font-size:14px}
+#fgu-diary-design .comparison-settings-page .comparison-form>.fd-primary {font-size:14px;min-height:44px}
+#fgu-diary-design .comparison-message-form .fd-textarea {min-height:88px;resize:vertical}
+#fgu-diary-design .comparison-message-form .comparison-duration-presets {display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+#fgu-diary-design .comparison-duration-presets>button {width:auto;margin:0;min-height:34px;padding:6px 10px;font-size:12px;--button-radius:11px}
+#fgu-diary-design .comparison-notice {font-size:14px}
+@media(min-width:900px){
+ #fgu-diary-design .day-page.has-comparison {display:grid;grid-template-columns:1fr auto;column-gap:12px}
+ #fgu-diary-design .day-page.has-comparison>.eyebrow {grid-column:1;grid-row:1}
+ #fgu-diary-design .day-page.has-comparison>h1 {grid-column:1;grid-row:2;align-self:start}
+ #fgu-diary-design .day-page>.group-comparison {grid-column:2;grid-row:1/span 2;align-self:start;margin:0 0 7px}
+ #fgu-diary-design .day-page.has-comparison>:not(.group-comparison,.eyebrow,h1) {grid-column:1/-1}
+}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design .comparison-toggle>svg {transition:none}}

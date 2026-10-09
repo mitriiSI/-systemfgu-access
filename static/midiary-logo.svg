@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Midiary">
+  <rect width="512" height="512" rx="120" fill="#09090b"/>
+  <path d="M100 362V143c61-5 112 15 156 59 44-44 95-64 156-59v219c-61-4-112 13-156 47-44-34-95-51-156-47Z" fill="#242428" stroke="#b9b9c1" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M151 311V194l105 99 105-99v117M256 293v82" fill="none" stroke="#f4f4f5" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

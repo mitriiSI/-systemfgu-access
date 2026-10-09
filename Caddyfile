@@ -1,0 +1,4 @@
+{$SITE_DOMAIN:localhost} {
+    encode zstd gzip
+    reverse_proxy edge:8080
+}

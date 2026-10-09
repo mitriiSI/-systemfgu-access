@@ -1,0 +1,442 @@
+[
+  {
+    "id": "fgp:101",
+    "faculty": "fgp",
+    "source_id": "fgp:101",
+    "name": "101",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:102",
+    "faculty": "fgp",
+    "source_id": "fgp:102",
+    "name": "102",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:103",
+    "faculty": "fgp",
+    "source_id": "fgp:103",
+    "name": "103",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:104",
+    "faculty": "fgp",
+    "source_id": "fgp:104",
+    "name": "104",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:105",
+    "faculty": "fgp",
+    "source_id": "fgp:105",
+    "name": "105",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:106",
+    "faculty": "fgp",
+    "source_id": "fgp:106",
+    "name": "106",
+    "level": "Бакалавриат",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:211гэу",
+    "faculty": "fgp",
+    "source_id": "fgp:211гэу",
+    "name": "211гэу",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:221гид",
+    "faculty": "fgp",
+    "source_id": "fgp:221гид",
+    "name": "221гид",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:222гид",
+    "faculty": "fgp",
+    "source_id": "fgp:222гид",
+    "name": "222гид",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:231мгс",
+    "faculty": "fgp",
+    "source_id": "fgp:231мгс",
+    "name": "231мгс",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:241гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:241гэмб",
+    "name": "241гэмб",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:242гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:242гэмб",
+    "name": "242гэмб",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:251гэу_ин",
+    "faculty": "fgp",
+    "source_id": "fgp:251гэу_ин",
+    "name": "251гэу_ин",
+    "level": "Бакалавриат",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:311гэу",
+    "faculty": "fgp",
+    "source_id": "fgp:311гэу",
+    "name": "311гэу",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:312гэу",
+    "faculty": "fgp",
+    "source_id": "fgp:312гэу",
+    "name": "312гэу",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:321гид",
+    "faculty": "fgp",
+    "source_id": "fgp:321гид",
+    "name": "321гид",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:322гид",
+    "faculty": "fgp",
+    "source_id": "fgp:322гид",
+    "name": "322гид",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:331гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:331гэмб",
+    "name": "331гэмб",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:332гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:332гэмб",
+    "name": "332гэмб",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:341гэу_ин",
+    "faculty": "fgp",
+    "source_id": "fgp:341гэу_ин",
+    "name": "341гэу_ин",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:351гид_ин",
+    "faculty": "fgp",
+    "source_id": "fgp:351гид_ин",
+    "name": "351гид_ин",
+    "level": "Бакалавриат",
+    "course": 3,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:411гэу",
+    "faculty": "fgp",
+    "source_id": "fgp:411гэу",
+    "name": "411гэу",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:421гид",
+    "faculty": "fgp",
+    "source_id": "fgp:421гид",
+    "name": "421гид",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:431мгс",
+    "faculty": "fgp",
+    "source_id": "fgp:431мгс",
+    "name": "431мгс",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:441гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:441гэмб",
+    "name": "441гэмб",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:442гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:442гэмб",
+    "name": "442гэмб",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:451гид_ин",
+    "faculty": "fgp",
+    "source_id": "fgp:451гид_ин",
+    "name": "451гид_ин",
+    "level": "Бакалавриат",
+    "course": 4,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:501гппд",
+    "faculty": "fgp",
+    "source_id": "fgp:501гппд",
+    "name": "501гппд",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:502гэу",
+    "faculty": "fgp",
+    "source_id": "fgp:502гэу",
+    "name": "502гэу",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:503гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:503гэмб",
+    "name": "503гэмб",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:511игпп",
+    "faculty": "fgp",
+    "source_id": "fgp:511игпп",
+    "name": "511игпп",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:512игэп",
+    "faculty": "fgp",
+    "source_id": "fgp:512игэп",
+    "name": "512игэп",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:513мпфмб",
+    "faculty": "fgp",
+    "source_id": "fgp:513мпфмб",
+    "name": "513мпфмб",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:515игпп_ин",
+    "faculty": "fgp",
+    "source_id": "fgp:515игпп_ин",
+    "name": "515игпп_ин",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:516игэп_иг",
+    "faculty": "fgp",
+    "source_id": "fgp:516игэп_иг",
+    "name": "516игэп_иг",
+    "level": "Магистратура",
+    "course": 1,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:601гппд",
+    "faculty": "fgp",
+    "source_id": "fgp:601гппд",
+    "name": "601гппд",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:602гэу",
+    "faculty": "fgp",
+    "source_id": "fgp:602гэу",
+    "name": "602гэу",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:603гэмб",
+    "faculty": "fgp",
+    "source_id": "fgp:603гэмб",
+    "name": "603гэмб",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:611игпп",
+    "faculty": "fgp",
+    "source_id": "fgp:611игпп",
+    "name": "611игпп",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:612игэп",
+    "faculty": "fgp",
+    "source_id": "fgp:612игэп",
+    "name": "612игэп",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:613мпфмб",
+    "faculty": "fgp",
+    "source_id": "fgp:613мпфмб",
+    "name": "613мпфмб",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:615игпп_ин",
+    "faculty": "fgp",
+    "source_id": "fgp:615игпп_ин",
+    "name": "615игпп_ин",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:616игэп_иг",
+    "faculty": "fgp",
+    "source_id": "fgp:616игэп_иг",
+    "name": "616игэп_иг",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  },
+  {
+    "id": "fgp:614моги",
+    "faculty": "fgp",
+    "source_id": "fgp:614моги",
+    "name": "614моги",
+    "level": "Магистратура",
+    "course": 2,
+    "program": "",
+    "source": "excel"
+  }
+]

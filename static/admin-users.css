@@ -1,0 +1,16 @@
+#fgu-diary-design .admin-users-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+#fgu-diary-design .admin-users-metric{display:flex;flex-direction:column;gap:6px;text-align:center;padding:16px 8px;border:1px solid var(--fd-border);border-radius:20px;background:var(--fd-surface)}
+#fgu-diary-design .admin-users-metric strong{font-size:28px;line-height:1.2}
+#fgu-diary-design .admin-users-metric span{font-size:13px;color:var(--fd-muted)}
+#fgu-diary-design .admin-users-tools{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+#fgu-diary-design .admin-users-tools .fd-input{flex:1;min-width:160px;width:auto;box-sizing:border-box}
+#fgu-diary-design .admin-users-tools button{width:auto;margin:0}
+#fgu-diary-design .admin-user-row{padding:16px;margin:12px 0;border:1px solid var(--fd-border);border-radius:22px;background:var(--fd-surface);overflow-wrap:anywhere}
+#fgu-diary-design .admin-user-heading{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+#fgu-diary-design .admin-user-heading strong{font-size:16px}
+#fgu-diary-design .admin-user-row .muted{font-size:12px;margin:5px 0;line-height:1.5}
+#fgu-diary-design .admin-user-channels{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+#fgu-diary-design .admin-user-channel{padding:6px 8px;font-size:12px;border:1px solid var(--fd-line);border-radius:10px;color:var(--fd-muted)}
+#fgu-diary-design .admin-user-channel.is-available{color:var(--fd-text);background:var(--fd-accent-soft)}
+#fgu-diary-design .admin-users-entry{margin:0 0 16px}
+@media(max-width:599px){#fgu-diary-design .admin-users-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}

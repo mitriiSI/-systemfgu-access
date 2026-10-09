@@ -1,0 +1,72 @@
+services:
+  app:
+    build: .
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    read_only: true
+    pids_limit: 128
+    mem_limit: 768m
+    cpus: 1.0
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=512m,mode=1777
+    env_file:
+      - .env
+      - path: ./data/runtime-network.env
+        required: false
+        format: raw
+    environment:
+      REQUESTS_CA_BUNDLE: /run/system-ca.pem
+    volumes:
+      - ./data:/app/data
+      - /etc/ssl/certs/ca-certificates.crt:/run/system-ca.pem:ro
+
+  edge:
+    image: nginx@sha256:0985e772fb9f729e6fa0980da05fca5d9c468e870eed43071545afa9d2e27d94
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    read_only: true
+    user: "101:101"
+    entrypoint: ["nginx", "-g", "daemon off;"]
+    mem_limit: 64m
+    cpus: 0.25
+    pids_limit: 32
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m,mode=1777
+    volumes:
+      - ./edge/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./static:/srv/static:ro
+    depends_on:
+      - app
+
+  caddy:
+    image: caddy:alpine
+    restart: always
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+      - edge
+
+volumes:
+  caddy_data:
+  caddy_config:

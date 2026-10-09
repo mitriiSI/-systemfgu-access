@@ -1,0 +1,27 @@
+async function adminChannelsPage(host){
+ if(!me.admin)return go('profile',false);
+ host.classList.add('admin-channels-page');host.append(node('h1',null,'Обновления и каналы'));
+ const intro=node('p','muted','Обновления Midiary публикуются в обоих каналах после установки новой версии. Текстовые сообщения, которые вы отправляете отдельному Telegram-боту, публикуются в канале MAX.'),form=node('form','fd-card admin-channel-form'),status=node('p','muted'),history=node('section','admin-channel-history');status.setAttribute('role','status');host.append(intro,form,status,history);
+ let data;
+ function checkbox(label,value){const wrap=node('label','admin-channel-switch'),input=node('input');input.type='checkbox';input.checked=value;wrap.append(input,document.createTextNode(label));form.append(wrap);return input;}
+ function tokenField(label,configured){const input=inputField(form,label,'password');input.autocomplete='new-password';input.maxLength=300;input.spellcheck=false;input.placeholder=configured?'Токен сохранён. Оставьте пустым, чтобы сохранить его.':'Вставьте токен';return input;}
+ function render(){
+  form.replaceChildren();const enabled=checkbox('Включить отправку в каналы',data.enabled),automatic=checkbox('Публиковать обновления сервера',data.automatic_updates),forward=checkbox('Пересылать мои текстовые сообщения из Telegram в MAX',data.forward_messages);
+  form.append(node('h2',null,'Telegram'),node('p','muted','Создайте отдельного бота через BotFather. Добавьте его администратором своего канала с правом публикации. Пересылать сообщения могут администраторы Midiary.'));
+  const botfather=node('a','admin-channel-setup-link','Открыть BotFather');botfather.href='https://t.me/BotFather';botfather.target='_blank';botfather.rel='noopener noreferrer';form.append(botfather);
+  const telegramToken=tokenField('Токен Telegram-бота',data.telegram_configured),telegramChannel=inputField(form,'Канал Telegram: @имя или ID');telegramChannel.value=data.telegram_channel;telegramChannel.placeholder='@my_channel';telegramChannel.maxLength=100;
+  form.append(node('h2',null,'MAX'),node('p','muted','Можно использовать существующего бота для моста. Добавьте его администратором канала и укажите числовой chat_id.'));
+  const maxToken=tokenField('Токен MAX-бота',data.max_configured),maxChannel=inputField(form,'chat_id канала MAX');maxChannel.value=data.max_channel;maxChannel.inputMode='numeric';maxChannel.maxLength=20;
+  const save=node('button','fd-primary','Сохранить подключение');save.type='submit';form.append(save,node('p','muted','Пока отправка выключена, сервер не обращается к API этих ботов. Пустое поле токена сохраняет уже подключённый токен. После включения текущее обновление отправится автоматически.'));
+  form.onsubmit=async event=>{event.preventDefault();save.disabled=true;status.textContent='Сохраняем…';try{data=await post('admin/channel-bridge',{enabled:enabled.checked,automatic_updates:automatic.checked,forward_messages:forward.checked,telegram_token:telegramToken.value,telegram_channel:telegramChannel.value,max_token:maxToken.value,max_channel:maxChannel.value});if(!host.isConnected)return;telegramToken.value=maxToken.value='';render();status.textContent=data.enabled?'Настройки сохранены. Бот включён.':'Настройки сохранены. Отправка выключена.';}catch(error){status.textContent=error.message;}finally{save.disabled=false;}};
+  history.replaceChildren(node('h2',null,'Текст текущего обновления'));const preview=node('pre','admin-channel-release',data.release.text);preview.dataset.noTranslate='';history.append(preview,node('h2',null,'История отправок'));
+  const actions=node('div','admin-channel-actions');actions.append(button('Обновить историю',load),button('Повторить неподтверждённые отправки',async()=>{try{data=await post('admin/channel-bridge/retry',{});if(host.isConnected){render();status.textContent='Неотправленные сообщения возвращены в очередь.';}}catch(error){status.textContent=error.message;}}));history.append(actions,node('p','muted','Перед повтором проверьте канал: если сервис не подтвердил отправку, сообщение могло уже появиться. Отправки с подтверждением не повторяются.'));
+  if(data.health.error)history.append(node('p','admin-channel-error',data.health.error));
+  if(!data.history.length)history.append(node('p','muted','Отправок пока нет. Подключите ботов и включите отправку.'));
+  for(const post of data.history){const card=node('article','fd-card admin-channel-job');card.append(node('strong',null,post.title),node('p','muted',new Date(post.created*1000).toLocaleString(uiLocale(),{timeZone:'Europe/Moscow',dateStyle:'short',timeStyle:'short'})+' (МСК)'));
+   for(const platform of ['telegram','max']){const rows=post.deliveries.filter(row=>row.platform===platform);if(!rows.length)continue;const sent=rows.every(row=>row.state==='sent'),errors=rows.filter(row=>row.error),state=sent?'Опубликовано':rows.some(row=>['failed','uncertain'].includes(row.state))?'Требует проверки':rows.some(row=>row.state==='sending')?'Отправляется':'В очереди';card.append(node('p','admin-channel-delivery'+(sent?' is-sent':''),(platform==='telegram'?'Telegram':'MAX')+' · '+state));for(const error of [...new Set(errors.map(row=>row.error))])card.append(node('p','muted',error));}history.append(card);
+  }
+ }
+ async function load(){try{data=await api('admin/channel-bridge');if(host.isConnected){render();status.textContent='';}}catch(error){status.textContent=error.message;}}
+ await load();
+}

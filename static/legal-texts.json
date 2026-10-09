@@ -1,0 +1,860 @@
+{
+  "ru": {
+    "skip": "Перейти к документу",
+    "languages": "Язык документа",
+    "version": "Редакция от",
+    "draft": "Документ пока является проектом: владелец не заполнил все сведения об операторе и размещении данных. Регистрация новых аккаунтов до заполнения этих сведений недоступна.",
+    "operator": "Владелец и контакты",
+    "fields": {
+      "operator": "Оператор",
+      "contact": "Контакт для обращений",
+      "address": "Адрес для обращений",
+      "hosting_country": "Страна размещения VPS",
+      "hosting_provider": "Провайдер VPS"
+    },
+    "back": "Вернуться в Midiary",
+    "documents_label": "Документы Midiary",
+    "print": "Распечатать отдельное согласие",
+    "guardian_form": "Подтверждение представителя",
+    "guardian_fields": [
+      "ФИО представителя",
+      "Основание полномочий представителя",
+      "Имя участника, для которого даётся согласие",
+      "Дата и подпись представителя"
+    ],
+    "guardian_note": "Эта форма заполняется отдельно от условий использования. Данные из полей не отправляются на сайт и не сохраняются браузером автоматически. Передайте согласие администратору через согласованный канал. Администратор проверяет полномочия представителя и выдаёт отдельное приглашение.",
+    "documents": {
+      "privacy": {
+        "title": "Политика обработки персональных данных",
+        "sections": [
+          {
+            "title": "Для чего нужны данные",
+            "paragraphs": [
+              "Midiary — самостоятельный сервис расписаний. Оператор использует данные для предоставления доступа по приглашению, выбора факультета и группы, работы с расписанием, домашними заданиями, материалами и добровольно подключёнными уведомлениями."
+            ]
+          },
+          {
+            "title": "Какие данные обрабатываются",
+            "paragraphs": [
+              "В аккаунте хранится выбранное имя, код доступа, факультет и группа. При добровольной привязке Telegram сохраняется числовой Telegram ID. Сохраняются добавленные пользователем записи, отзывы, файлы, настройки языка, темы и напоминаний. Для Web Push хранятся адрес подписки и технические ключи устройства.",
+              "Сервис не запрашивает паспорт, банковские реквизиты, телефон или точную дату рождения. Для защиты входа кратковременно сохраняется хеш сетевого адреса и счётчик попыток. Сервер и провайдер могут вести собственные технические журналы соединений.",
+              "Для статистики посещений сохраняется время последнего успешного обращения к сайту из аккаунта. Администратору доступны имя, учебная группа, активность аккаунта и состояние каналов уведомлений. Эти данные входят в выгрузку аккаунта; время посещения удаляется при удалении аккаунта."
+            ]
+          },
+          {
+            "title": "Кто видит информацию",
+            "paragraphs": [
+              "Расписание, общие ДЗ и учебные файлы доступны участникам выбранной группы. Отзывы преподавателей доступны пользователям соответствующего факультета; имя автора показывается только при отдельном выборе автора. Личные заметки, характеристики преподавателей и закладки доступны владельцу аккаунта через интерфейс сервиса. Владелец сервера имеет технический доступ к хранимым данным для сопровождения сервиса.",
+              "Не размещайте в общих файлах и отзывах чужие контакты, сведения о здоровье и другие чувствительные данные."
+            ]
+          },
+          {
+            "title": "Telegram, push и перевод",
+            "paragraphs": [
+              "Вход через код не требует Telegram. При выборе Telegram используется его сервис авторизации; напоминания отправляются через Telegram только после привязки аккаунта и выбора интервалов. Web Push подключается по запросу пользователя и проходит через push-провайдера браузера. Его доставка зависит от устройства и разрешений.",
+              "Если на VPS включён локальный переводчик, отображаемые названия и тексты могут временно обрабатываться им и кэшироваться в том же сервисе. Содержимое скачиваемых файлов не переводится. Данные не отправляются в публичный сторонний переводчик.",
+              "MAX подключается добровольно: сохраняется числовой ID MAX и его привязка к существующему аккаунту Midiary. Вход мини-приложения проверяется по подписанным стартовым данным; неизвестному аккаунту нужен код администратора. Команды доставляются через MAX, кратковременно хранятся в зашифрованной очереди и удаляются из неё после обработки. Для мини-приложения по требованию подключается официальная библиотека MAX Bridge. Отключить привязку можно в профиле. Для скачивания создаётся временная ссылка на выбранный файл сроком до пяти минут; она перестаёт работать при отзыве доступа."
+            ]
+          },
+          {
+            "title": "Размещение данных",
+            "paragraphs": [
+              "Страна основного VPS указана в сведениях о владельце выше. На этом сервере размещены база аккаунтов, базы учебных групп и загруженные файлы. Место хранения исторических копий и сведения провайдера необходимо уточнить у владельца.",
+              "Telegram и сервисы доставки push могут обрабатывать переданные им данные в других странах. Согласие участника не отменяет требования закона к локализации и передаче данных; заполненные сведения владельца не означают подтверждения выполнения этих требований."
+            ]
+          },
+          {
+            "title": "Сроки хранения и удаление",
+            "paragraphs": [
+              "Рабочие данные хранятся, пока нужен аккаунт. В профиле можно скачать свои данные, удалить личные записи или удалить обычный аккаунт. Удаление аккаунта прекращает доступ, удаляет личные записи, закладки, личные дополнительные пары, отзывы, настройки и подписки на уведомления. Принадлежащие аккаунту файлы удаляются, общие текстовые правки теряют подпись автора.",
+              "Старые файлы, для которых невозможно достоверно определить автора, и персональные сведения внутри общих документов требуют отдельного обращения к владельцу. Исторические резервные копии обслуживает владелец; они не используются для текущего доступа. Защитный хеш удалённого аккаунта препятствует его повторному включению при восстановлении копии. Условия хранения и уничтожения старых копий необходимо уточнить у владельца."
+            ]
+          },
+          {
+            "title": "Ваш выбор и обращения",
+            "paragraphs": [
+              "Согласие на обработку данных запрашивается отдельно от условий использования. По контакту владельца можно попросить исправить сведения, ограничить обработку, отозвать согласие или удалить данные. После отзыва дальнейшая обработка возможна только при самостоятельном законном основании. Удаление аккаунта не удаляет уже скачанные копии файлов или сообщения в Telegram."
+            ]
+          },
+          {
+            "title": "Участники младше 18 лет",
+            "paragraphs": [
+              "Для нового аккаунта несовершеннолетнего требуется отдельное согласие представителя и приглашение, которое администратор выдаёт после проверки полномочий представителя. Точная дата рождения и документы представителя в форме регистрации не собираются."
+            ]
+          },
+          {
+            "title": "Регистрация и привязка в ботах",
+            "paragraphs": [
+              "Новые участники вводят приглашение администратора, имя и возрастную категорию в Telegram или MAX и отдельно подтверждают условия и обработку данных. Незавершённая регистрация хранится на сервере в зашифрованном виде не более 15 минут после последнего шага; отменить её можно командой /cancel.",
+              "Telegram ID, введённый в MAX, используется для отправки запроса владельцу существующего аккаунта. Один ввод ID не даёт доступа: привязку подтверждает владелец в своём Telegram. Запрос действителен 5 минут.",
+              "При первом открытии дневника пользователь отдельно подтверждает документы пустыми чекбоксами. Подтверждение связано с общим аккаунтом и текущей версией документов. Изменение версии потребует нового подтверждения.",
+              "Участник выбирает каналы напоминаний: Telegram, MAX и уведомления сайта, а также время и интервалы. ДЗ на завтра отправляется только при наличии общего задания в доступном участнику расписании. Системное разрешение на уведомления сайта запрашивается отдельно на устройстве."
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "title": "Условия использования",
+        "sections": [
+          {
+            "title": "Личный независимый проект",
+            "paragraphs": [
+              "Midiary — самостоятельный сервис расписаний, заданий и учебных материалов. Проект принадлежит владельцу, указанному в этих документах. Учебные организации и факультеты упоминаются для выбора расписания.",
+              "Оформление и символы факультетов в Midiary созданы для этого проекта. Они не являются официальными гербами, логотипами или знаками университета."
+            ]
+          },
+          {
+            "title": "Доступ и статус сервиса",
+            "paragraphs": [
+              "Midiary — самостоятельный сервис расписаний. Доступ выдаётся по приглашению администратора. Храните код доступа в тайне и подтверждайте вход в Telegram только по своему запросу."
+            ]
+          },
+          {
+            "title": "Стоимость и возвраты",
+            "paragraphs": [
+              "Веб-приложение не принимает платежи, не продаёт подписки и не начисляет комиссии. Поэтому платёжная политика возврата для текущей версии не применяется. Если появятся платные функции, их стоимость и условия должны быть опубликованы заранее."
+            ]
+          },
+          {
+            "title": "Расписание и уведомления",
+            "paragraphs": [
+              "Расписание импортируется из источников факультета или загружается участниками группы. Возможны ошибки источника и задержки синхронизации. Сверяйте важные изменения с официальными объявлениями. Уведомления зависят от подключения и разрешений; гарантии доставки в определённый момент нет."
+            ]
+          },
+          {
+            "title": "Материалы и отзывы",
+            "paragraphs": [
+              "Загружайте материалы, которые вы вправе предоставлять участникам группы. Учебное назначение само по себе не подтверждает право распространять чужой файл. Отзывы должны описывать личный опыт и не содержать вымышленных фактов, угроз, чужих персональных данных или оскорблений.",
+              "Оценки являются мнением пользователей Midiary и не представляют официального рейтинга преподавателей. Владелец может удалять публикации после рассмотрения обращения, нарушения правил или прав третьих лиц. Обращение можно направить по контакту владельца."
+            ]
+          },
+          {
+            "title": "Прекращение использования",
+            "paragraphs": [
+              "Можно отключить уведомления, выйти из аккаунта, скачать свои данные и удалить аккаунт в профиле. Отказ от необязательных уведомлений не закрывает доступ к дневнику. Права администратора перед удалением его аккаунта необходимо передать отдельно."
+            ]
+          }
+        ]
+      },
+      "cookies": {
+        "title": "Cookie и хранение в браузере",
+        "sections": [
+          {
+            "title": "Необходимая сессия",
+            "paragraphs": [
+              "Cookie session поддерживает вход и защиту запросов. Он ограничен доменом сервиса, доступен серверу, защищён флагами Secure и HttpOnly; срок обычной авторизованной сессии — до 7 дней. Выйти и удалить его можно через кнопку выхода или настройки браузера."
+            ]
+          },
+          {
+            "title": "Локальные настройки",
+            "paragraphs": [
+              "В localStorage сохраняются язык, тема, настройки чтения и технические настройки уведомлений. sessionStorage используется для запоминания выхода в текущем окне. Браузер также может хранить service worker для установки приложения и получения Web Push. Эти настройки можно очистить в разделе данных сайта браузера."
+            ]
+          },
+          {
+            "title": "Без рекламного отслеживания",
+            "paragraphs": [
+              "В проверенной версии нет аналитических счётчиков, рекламных пикселей и сторонних рекламных cookie. Информационный баннер объясняет необходимое хранение; его закрытие не означает согласия на рекламу или обработку новых категорий данных. При добавлении необязательных трекеров они должны быть выключены до отдельного выбора пользователя."
+            ]
+          }
+        ]
+      },
+      "consent": {
+        "title": "Отдельное согласие на обработку данных",
+        "sections": [
+          {
+            "title": "Что подтверждает участник",
+            "paragraphs": [
+              "Я разрешаю указанному владельцу Midiary обработку имени, сведений аккаунта и учебной группы, добровольно связанных идентификаторов Telegram и push-подписки, моих записей, материалов и настроек для работы учебного дневника. Действия включают получение, сохранение, использование, изменение, предоставление участникам в выбранной области видимости и удаление данных.",
+              "При выбранном подключении MAX согласие также распространяется на числовой ID MAX и доставку команд и уведомлений через эту платформу. Подключение остаётся добровольным."
+            ]
+          },
+          {
+            "title": "Область действия",
+            "paragraphs": [
+              "Согласие действует до удаления аккаунта или отзыва через контакт владельца. Оно не включает рекламные рассылки, продажу данных, сбор сведений о здоровье или паспорте. Подключение Telegram и push остаётся отдельным выбором. Условия использования подтверждаются другим пунктом формы."
+            ]
+          },
+          {
+            "title": "Отзыв",
+            "paragraphs": [
+              "До удаления можно скачать свои данные. Отозвать согласие и попросить уточнить или удалить сведения можно по указанному контакту владельца. Дальнейшая обработка без согласия допускается только при наличии самостоятельного законного основания."
+            ]
+          },
+          {
+            "title": "Регистрация и привязка в ботах",
+            "paragraphs": [
+              "Новые участники вводят приглашение администратора, имя и возрастную категорию в Telegram или MAX и отдельно подтверждают условия и обработку данных. Незавершённая регистрация хранится на сервере в зашифрованном виде не более 15 минут после последнего шага; отменить её можно командой /cancel.",
+              "Telegram ID, введённый в MAX, используется для отправки запроса владельцу существующего аккаунта. Один ввод ID не даёт доступа: привязку подтверждает владелец в своём Telegram. Запрос действителен 5 минут.",
+              "При первом открытии дневника пользователь отдельно подтверждает документы пустыми чекбоксами. Подтверждение связано с общим аккаунтом и текущей версией документов. Изменение версии потребует нового подтверждения.",
+              "Участник выбирает каналы напоминаний: Telegram, MAX и уведомления сайта, а также время и интервалы. ДЗ на завтра отправляется только при наличии общего задания в доступном участнику расписании. Системное разрешение на уведомления сайта запрашивается отдельно на устройстве."
+            ]
+          }
+        ]
+      },
+      "guardian": {
+        "title": "Отдельное согласие представителя",
+        "sections": [
+          {
+            "title": "Для чего используется подтверждение",
+            "paragraphs": [
+              "Представитель разрешает указанному оператору обработку данных участника младше 18 лет для создания аккаунта и работы учебного дневника в объёме, описанном в отдельном согласии и политике. Представитель подтверждает свои полномочия администратору до выдачи приглашения."
+            ]
+          },
+          {
+            "title": "Как получить доступ",
+            "paragraphs": [
+              "Передайте администратору отдельное согласие и подтвердите полномочия через согласованный канал. Администратор отмечает получение подтверждения и выдаёт одноразовый код для несовершеннолетнего. Обычный код или самостоятельная галочка несовершеннолетнего это подтверждение не заменяют."
+            ]
+          },
+          {
+            "title": "Отзыв и видимость",
+            "paragraphs": [
+              "Представитель может обратиться к владельцу для отзыва согласия, исправления или удаления данных. Личные записи ребёнка не становятся общими; загружаемые в группу материалы видны группе. Не загружайте паспорт и документы о полномочиях в общие учебные материалы."
+            ]
+          }
+        ]
+      },
+      "about": {
+        "title": "О Midiary",
+        "sections": [
+          {
+            "title": "Личный независимый проект",
+            "paragraphs": [
+              "Midiary — самостоятельный сервис расписаний, заданий и учебных материалов. Проект принадлежит владельцу, указанному в этих документах. Учебные организации и факультеты упоминаются для выбора расписания.",
+              "Оформление и символы факультетов в Midiary созданы для этого проекта. Они не являются официальными гербами, логотипами или знаками университета."
+            ]
+          },
+          {
+            "title": "Сервис расписаний",
+            "paragraphs": [
+              "Midiary объединяет расписание, домашние задания, учебные материалы и напоминания. Это самостоятельный проект, не представляющий университет или факультет. Владелец и контакт для вопросов, удаления данных, нарушений авторских прав и доступности указаны выше."
+            ]
+          }
+        ]
+      },
+      "licenses": {
+        "title": "Компоненты и права на материалы",
+        "sections": [
+          {
+            "title": "Интерфейс",
+            "paragraphs": [
+              "Логотип Midiary и тематические значки факультетов созданы для проекта. Интерфейс использует системные шрифты устройства и не загружает внешний шрифт. Для фотографий преподавателей без подтверждённого источника и разрешения используется текстовый аватар."
+            ]
+          },
+          {
+            "title": "Программные компоненты",
+            "paragraphs": [
+              "Используется локальная копия Telegram Web App SDK. В проекте сохранены сведения об источниках, лицензии PDF.js (Apache-2.0), Mammoth, DOMPurify и компонента чтения DOC. Библиотеки распространяются со своими условиями; эта страница не изменяет их лицензии. Перечень источников доступен в /static/vendor/SOURCES.txt и /static/vendor/documents/SOURCES.txt."
+            ]
+          },
+          {
+            "title": "Пользовательские файлы",
+            "paragraphs": [
+              "Авторские права на книги, изображения и другие загруженные материалы остаются у правообладателей. Midiary не выдаёт лицензию на чужие материалы. По спорному файлу обратитесь к владельцу, указав его название и основание обращения."
+            ]
+          }
+        ]
+      },
+      "copyright": {
+        "title": "Права на материалы и обращения правообладателей",
+        "sections": [
+          {
+            "title": "Что можно загружать",
+            "paragraphs": [
+              "Материалы могут загружать зарегистрированные участники, допущенные по приглашению администратора. Загружайте свои работы либо материалы, на использование и предоставление доступа к которым у вас есть законные основания. Учебная цель сама по себе не даёт разрешения распространять чужие книги, изображения или другие произведения.",
+              "Загрузивший материал отвечает за наличие необходимых прав и достоверность предоставленных им сведений. Права на произведения остаются у их правообладателей; загрузка не передаёт их администрации Midiary."
+            ]
+          },
+          {
+            "title": "Роль администрации",
+            "paragraphs": [
+              "Администрация предоставляет техническую возможность хранения и обмена пользовательскими материалами и не становится их автором или правообладателем. Ответственность пользователей и администрации определяется применимым законодательством. Этот документ не отменяет предусмотренную законом ответственность администрации и не обещает безусловного освобождения от неё."
+            ]
+          },
+          {
+            "title": "Сообщить о нарушении",
+            "paragraphs": [
+              "Направьте обращение по контакту владельца, указанному выше: @midiarybot. Укажите название произведения, ссылку на страницу или сетевой адрес спорного материала, описание нарушения, сведения о своих правах или полномочиях и контакт для ответа. Не отправляйте избыточные персональные данные.",
+              "Администрация рассматривает обращение и своевременно принимает необходимые меры, включая ограничение доступа или удаление материала при наличии оснований. Для уточнения может быть запрошена дополнительная информация. Обнаружение нарушения не даёт участникам права повторно загружать удалённый материал без законных оснований."
+            ]
+          }
+        ]
+      }
+    },
+    "sources": "источники",
+    "license": "лицензия"
+  },
+  "en": {
+    "skip": "Skip to document",
+    "languages": "Document language",
+    "version": "Version dated",
+    "draft": "This document is a draft: the owner has not completed the operator and hosting details. New account registration is unavailable until those details are completed.",
+    "operator": "Owner and contact details",
+    "fields": {
+      "operator": "Data operator",
+      "contact": "Contact for requests",
+      "address": "Correspondence address",
+      "hosting_country": "VPS hosting country",
+      "hosting_provider": "VPS provider"
+    },
+    "back": "Return to Midiary",
+    "documents_label": "Midiary documents",
+    "print": "Print the separate consent",
+    "guardian_form": "Representative confirmation",
+    "guardian_fields": [
+      "Representative full name",
+      "Basis of representative authority",
+      "Name of the participant covered by this consent",
+      "Date and representative signature"
+    ],
+    "guardian_note": "Complete this form separately from the terms of use. These fields are not sent to the website or saved automatically. Send the consent to the administrator through an agreed channel. The administrator verifies the representative authority and issues a separate invitation.",
+    "documents": {
+      "privacy": {
+        "title": "Privacy policy",
+        "sections": [
+          {
+            "title": "Purpose",
+            "paragraphs": [
+              "Midiary is an independent schedule service. The operator uses data to provide invitation-based access, faculty and group selection, schedules, homework, materials and optional notifications."
+            ]
+          },
+          {
+            "title": "Data processed",
+            "paragraphs": [
+              "An account stores a chosen name, access code, faculty and group. An optional Telegram connection stores the numeric Telegram ID. User records, reviews, files, language, theme and reminder preferences are stored. Web Push requires a subscription endpoint and device keys.",
+              "The service does not request a passport, bank details, telephone number or exact date of birth. Login protection temporarily stores a network-address hash and attempt counter. The server and hosting provider may keep their own connection logs.",
+              "The time of the most recent successful authenticated website request is stored for activity statistics. Administrators can see names, study groups, account activity and notification channel status. Activity data is included in the account export and removed when the account is deleted."
+            ]
+          },
+          {
+            "title": "Visibility",
+            "paragraphs": [
+              "Schedules, shared homework and study files are available to the selected group. Teacher reviews are available within the faculty; an author name is shown only when the author separately chooses this option. Personal notes, teacher descriptions and bookmarks are private in the app. The server owner has technical access for service maintenance.",
+              "Do not place other people’s contacts, health information or sensitive data in shared files or reviews."
+            ]
+          },
+          {
+            "title": "Telegram, push and translation",
+            "paragraphs": [
+              "Access-code sign-in does not require Telegram. Choosing Telegram uses its login service. Telegram reminders require an account connection and selected intervals. Web Push is enabled by the user and passes through the browser’s push provider; delivery depends on the device and permissions.",
+              "If a local translator is enabled on the VPS, displayed titles and text may be processed and cached by the same service. Downloaded file contents are not translated. Data is not sent to a public third-party translator.",
+              "MAX is optional: Midiary stores a numeric MAX ID linked to the existing account. Mini-app sign-in verifies signed launch data; unknown accounts need an administrator invitation. MAX delivers commands, which are briefly stored in an encrypted queue and cleared after processing. The mini-app loads the official MAX Bridge library when needed. Disconnect MAX in your profile. Downloads use a temporary link to the selected file for up to five minutes; access revocation invalidates it."
+            ]
+          },
+          {
+            "title": "Data location",
+            "paragraphs": [
+              "The main VPS country is shown in the owner details above. This server stores the account database, study-group databases and uploaded files. Ask the owner for the provider details and locations of historical backups.",
+              "Telegram and push delivery services may process the data they receive in other countries. Participant consent does not remove statutory requirements for data localization and transfers; completed owner details do not certify that those requirements have been met."
+            ]
+          },
+          {
+            "title": "Retention and deletion",
+            "paragraphs": [
+              "Working data is kept while an account is needed. The profile provides data export, personal-record deletion and regular-account deletion. Account deletion stops access and removes personal notes, bookmarks, personal extra classes, reviews, preferences and notification subscriptions. Attributable uploaded files are removed; shared text edits lose their author attribution.",
+              "Older files without a reliably identifiable owner and personal data inside shared documents require a separate request. The owner manages historical backups; they are not used for current access. A protective account digest prevents reactivation after restoring a backup. Ask the owner about historical backup retention and destruction."
+            ]
+          },
+          {
+            "title": "Your choices",
+            "paragraphs": [
+              "Consent to data processing is separate from the terms of use. Contact the owner to request correction, restriction, withdrawal or deletion. Continued processing after withdrawal requires an independent lawful basis. Account deletion does not remove previously downloaded files or Telegram messages."
+            ]
+          },
+          {
+            "title": "Participants under 18",
+            "paragraphs": [
+              "A new minor account requires separate representative consent and an invitation issued after the administrator checks representative authority. The signup form does not collect an exact birth date or representative documents."
+            ]
+          },
+          {
+            "title": "Registration and account linking in bots",
+            "paragraphs": [
+              "New members enter an administrator invitation, their name and age category in Telegram or MAX and separately accept the terms and data processing. Unfinished registration is encrypted on the server and retained for no more than 15 minutes after the latest step. Cancel it with /cancel.",
+              "A Telegram ID entered in MAX is used to send a request to the owner of an existing account. Entering an ID alone never grants access: the owner confirms linking in their own Telegram. Requests expire after 5 minutes.",
+              "On the first diary visit, users separately confirm the documents using initially empty checkboxes. Confirmation is tied to the shared account and current document version. A version change requires a new confirmation.",
+              "Members choose reminder destinations: Telegram, MAX and website notifications, as well as times and intervals. Tomorrow’s homework is sent only when shared homework exists for classes visible to the member. Device permission for website notifications is requested separately."
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "title": "Terms of use",
+        "sections": [
+          {
+            "title": "A personal, independent project",
+            "paragraphs": [
+              "Midiary is an independent service for schedules, assignments and study materials, operated by the owner listed in these documents. Educational organisations and faculties are listed to help users select a schedule.",
+              "The faculty designs and symbols in Midiary were created for this project. They are not official university coats of arms, logos or marks."
+            ]
+          },
+          {
+            "title": "Access and status",
+            "paragraphs": [
+              "Midiary is an independent student service, not an official university or faculty website. Access requires an administrator invitation. Keep your access code private and confirm Telegram sign-in only when you initiated it."
+            ]
+          },
+          {
+            "title": "Cost and refunds",
+            "paragraphs": [
+              "The web app does not accept payments, sell subscriptions or charge fees. A payment-refund policy therefore does not apply to the current version. Any future paid features must have their prices and terms published in advance."
+            ]
+          },
+          {
+            "title": "Schedules and notifications",
+            "paragraphs": [
+              "Schedules come from faculty sources or group uploads. Source errors and synchronization delays can occur. Verify important changes against official announcements. Notification delivery depends on connectivity and permissions; delivery at a particular time is not guaranteed."
+            ]
+          },
+          {
+            "title": "Materials and reviews",
+            "paragraphs": [
+              "Upload only materials you may share with your group. Educational use alone does not establish redistribution rights. Reviews should describe personal experience without invented facts, threats, other people’s personal data or abuse.",
+              "Ratings reflect Midiary users’ opinions and are not an official teacher ranking. The owner may remove posts following a report or a breach of rules or third-party rights. Reports can be sent to the owner contact."
+            ]
+          },
+          {
+            "title": "Stopping use",
+            "paragraphs": [
+              "You may disable notifications, sign out, export your data and delete your account in the profile. Declining optional notifications does not remove diary access. Administrator rights must be transferred separately before deleting an administrator account."
+            ]
+          }
+        ]
+      },
+      "cookies": {
+        "title": "Cookies and browser storage",
+        "sections": [
+          {
+            "title": "Essential session",
+            "paragraphs": [
+              "The session cookie supports login and request protection. It is restricted to the service domain, uses Secure and HttpOnly flags, and an ordinary authenticated session lasts up to 7 days. Sign out or use browser settings to remove it."
+            ]
+          },
+          {
+            "title": "Local settings",
+            "paragraphs": [
+              "localStorage stores language, theme, reader and technical notification preferences. sessionStorage remembers a sign-out in the current window. A service worker supports app installation and Web Push. These settings can be removed through the browser’s site-data controls."
+            ]
+          },
+          {
+            "title": "No advertising tracking",
+            "paragraphs": [
+              "The reviewed version contains no analytics counters, advertising pixels or third-party advertising cookies. The information banner explains necessary storage; dismissing it does not consent to advertising or new data categories. Future optional trackers must remain disabled until a separate user choice."
+            ]
+          }
+        ]
+      },
+      "consent": {
+        "title": "Separate data-processing consent",
+        "sections": [
+          {
+            "title": "Participant decision",
+            "paragraphs": [
+              "I allow the identified Midiary owner to process my chosen name, account and study-group information, optionally connected Telegram and push identifiers, records, materials and preferences to operate the diary. Processing includes collection, storage, use, correction, sharing within the selected visibility area and deletion.",
+              "If I choose MAX, this consent also covers my numeric MAX ID and command and notification delivery through that platform. Connection remains optional."
+            ]
+          },
+          {
+            "title": "Scope",
+            "paragraphs": [
+              "Consent lasts until account deletion or withdrawal through the owner contact. It does not cover advertising, data sales, health information or passport collection. Telegram and push remain separate choices. The terms of use are accepted through a different form item."
+            ]
+          },
+          {
+            "title": "Withdrawal",
+            "paragraphs": [
+              "You can export your data before deletion. Contact the owner to withdraw consent or request correction or deletion. Further processing without consent requires an independent lawful basis."
+            ]
+          },
+          {
+            "title": "Registration and account linking in bots",
+            "paragraphs": [
+              "New members enter an administrator invitation, their name and age category in Telegram or MAX and separately accept the terms and data processing. Unfinished registration is encrypted on the server and retained for no more than 15 minutes after the latest step. Cancel it with /cancel.",
+              "A Telegram ID entered in MAX is used to send a request to the owner of an existing account. Entering an ID alone never grants access: the owner confirms linking in their own Telegram. Requests expire after 5 minutes.",
+              "On the first diary visit, users separately confirm the documents using initially empty checkboxes. Confirmation is tied to the shared account and current document version. A version change requires a new confirmation.",
+              "Members choose reminder destinations: Telegram, MAX and website notifications, as well as times and intervals. Tomorrow’s homework is sent only when shared homework exists for classes visible to the member. Device permission for website notifications is requested separately."
+            ]
+          }
+        ]
+      },
+      "guardian": {
+        "title": "Separate representative consent",
+        "sections": [
+          {
+            "title": "Purpose",
+            "paragraphs": [
+              "The representative allows the named operator to process data of a participant under 18 to create an account and operate the study diary as described in the separate consent and privacy policy. Representative authority must be checked before an invitation is issued."
+            ]
+          },
+          {
+            "title": "Access",
+            "paragraphs": [
+              "Provide separate consent and evidence of authority to the administrator through an agreed channel. The administrator records confirmation and issues a one-use minor invitation. An ordinary code or the minor’s own checkbox does not replace this confirmation."
+            ]
+          },
+          {
+            "title": "Withdrawal and visibility",
+            "paragraphs": [
+              "The representative may contact the owner to withdraw consent or request correction or deletion. Personal notes remain private; group uploads are visible to the group. Do not upload passports or representative-authority documents as shared study materials."
+            ]
+          }
+        ]
+      },
+      "about": {
+        "title": "About Midiary",
+        "sections": [
+          {
+            "title": "A personal, independent project",
+            "paragraphs": [
+              "Midiary is an independent service for schedules, assignments and study materials, operated by the owner listed in these documents. Educational organisations and faculties are listed to help users select a schedule.",
+              "The faculty designs and symbols in Midiary were created for this project. They are not official university coats of arms, logos or marks."
+            ]
+          },
+          {
+            "title": "Schedule service",
+            "paragraphs": [
+              "Midiary combines schedules, homework, materials and reminders. It is an independent project and does not represent a university or faculty. Owner contacts for support, deletion, copyright and accessibility requests are listed above."
+            ]
+          }
+        ]
+      },
+      "licenses": {
+        "title": "Components and material rights",
+        "sections": [
+          {
+            "title": "Interface",
+            "paragraphs": [
+              "The Midiary logo and faculty symbols were created for the project. The interface uses device system fonts and does not download an external font. Teacher photographs without verified provenance and permission use a text avatar instead."
+            ]
+          },
+          {
+            "title": "Software",
+            "paragraphs": [
+              "A local Telegram Web App SDK is used. Source notices and licenses for PDF.js (Apache-2.0), Mammoth, DOMPurify and the DOC reader are retained. Each component keeps its own terms; this page does not change them. Source lists are at /static/vendor/SOURCES.txt and /static/vendor/documents/SOURCES.txt."
+            ]
+          },
+          {
+            "title": "User files",
+            "paragraphs": [
+              "Books, images and other uploads remain the property of their rights holders. Midiary does not grant a license for another person’s materials. Report disputed files to the owner with the filename and basis of your request."
+            ]
+          }
+        ]
+      },
+      "copyright": {
+        "title": "Material rights and copyright claims",
+        "sections": [
+          {
+            "title": "Uploading materials",
+            "paragraphs": [
+              "Registered members admitted by administrator invitation may upload materials. Upload your own work or materials you are legally entitled to use and share. An educational purpose alone does not grant permission to distribute someone else’s books, images or other works.",
+              "The uploader is responsible for having the necessary rights and providing accurate information. Copyright remains with the rights holders; uploading does not transfer those rights to the Midiary administration."
+            ]
+          },
+          {
+            "title": "The administration’s role",
+            "paragraphs": [
+              "The administration provides technical storage and sharing facilities for user uploads and does not become their author or rights holder. User and administration liability is governed by applicable law. These terms do not waive statutory administration liability or promise unconditional exemption."
+            ]
+          },
+          {
+            "title": "Reporting an infringement",
+            "paragraphs": [
+              "Send a claim to the owner contact above: @midiarybot. Include the work’s title, the page link or network address of the disputed material, a description of the infringement, evidence of your rights or authority and a reply contact. Do not send unnecessary personal data.",
+              "The administration reviews claims and takes the necessary measures promptly, including restricting access or removing material where justified. Additional information may be requested. Members must not re-upload removed material without a lawful basis."
+            ]
+          }
+        ]
+      }
+    },
+    "sources": "sources",
+    "license": "license"
+  },
+  "zh": {
+    "skip": "跳到文档",
+    "languages": "文档语言",
+    "version": "版本日期",
+    "draft": "本文档为草稿：所有者尚未填写完整的数据处理者与服务器信息。填写完成前，暂停新账户注册。",
+    "operator": "所有者与联系方式",
+    "fields": {
+      "operator": "数据处理者",
+      "contact": "请求联系渠道",
+      "address": "通信地址",
+      "hosting_country": "VPS所在国家",
+      "hosting_provider": "VPS服务商"
+    },
+    "back": "返回Midiary",
+    "documents_label": "Midiary文档",
+    "print": "打印单独同意书",
+    "guardian_form": "代表人确认",
+    "guardian_fields": [
+      "代表人姓名",
+      "代表权限的依据",
+      "同意书所涉及参与者的姓名",
+      "日期与代表人签名"
+    ],
+    "guardian_note": "本表与使用条款分别填写。字段内容不会发送到网站或自动保存。请通过约定渠道向管理员提供同意书。管理员核实代表权限后发放单独邀请码。",
+    "documents": {
+      "privacy": {
+        "title": "个人数据处理政策",
+        "sections": [
+          {
+            "title": "处理目的",
+            "paragraphs": [
+              "Midiary是独立的课表服务。数据用于邀请注册、选择院系与班级、课表、作业、学习资料和自愿开启的通知。"
+            ]
+          },
+          {
+            "title": "处理的数据",
+            "paragraphs": [
+              "账户保存用户选择的姓名、访问码、院系和班级。自愿关联Telegram时保存数字Telegram ID。还保存用户的记录、评价、文件、语言、主题和提醒设置。网页推送需要订阅地址和设备密钥。",
+              "服务不要求护照、银行资料、电话号码或准确出生日期。登录保护暂时保存网络地址哈希和尝试次数。服务器与托管服务商可能另行记录连接日志。",
+              "系统记录账户最近一次成功访问网站的时间，用于访问统计。管理员可查看姓名、班级、账户活跃情况和通知渠道状态。访问记录包含在账户数据导出中，并在删除账户时删除。"
+            ]
+          },
+          {
+            "title": "可见范围",
+            "paragraphs": [
+              "课表、共享作业和资料对所选班级开放。教师评价在院系范围内可见；只有作者单独选择公开时才显示姓名。个人笔记、教师记录和书签在应用中仅账户所有者可见。服务器所有者为维护服务具有技术访问权限。",
+              "请勿在共享文件和评价中上传他人联系方式、健康信息或敏感数据。"
+            ]
+          },
+          {
+            "title": "Telegram、推送与翻译",
+            "paragraphs": [
+              "使用访问码登录无需Telegram。选择Telegram登录会使用其认证服务。Telegram提醒需先关联账户并选择时间间隔。网页推送由用户开启并通过浏览器推送服务商发送；送达取决于设备和权限。",
+              "VPS启用本地翻译服务时，显示的标题与文字可在同一服务内处理并缓存。下载文件的内容不翻译，也不发送到公共第三方翻译器。",
+              "MAX为自愿连接：Midiary保存数字MAX ID与现有账户的关联。小程序登录会校验签名启动数据，未知账户需要管理员邀请码。MAX传递的命令暂存于加密队列，处理后清除。小程序按需加载官方MAX Bridge库。可在个人资料中解除MAX关联。下载使用所选文件最长五分钟的临时链接，访问权被撤销时链接失效。"
+            ]
+          },
+          {
+            "title": "数据存放地点",
+            "paragraphs": [
+              "主VPS所在国家见上方所有者信息。账户数据库、学习小组数据库和上传文件保存在该服务器上。历史备份所在地和服务商信息请向所有者确认。",
+              "Telegram和推送服务可能在其他国家处理收到的数据。参与者同意不能免除法律关于数据本地化和传输的要求；填写完整所有者信息并不代表这些要求已经得到满足。"
+            ]
+          },
+          {
+            "title": "保存与删除",
+            "paragraphs": [
+              "工作数据在账户使用期间保存。个人资料中可以导出数据、删除个人记录或删除普通账户。删除账户会停止访问，清除个人笔记、书签、个人额外课程、评价、设置和通知订阅。可归属账户的上传文件会删除，共享文字修改会移除作者署名。",
+              "无法可靠确定作者的旧文件，以及共享文件内部的个人信息，需要单独向所有者提出请求。历史备份由所有者管理，不用于当前访问。删除账户的保护性摘要可防止恢复备份后重新启用账户。旧备份的保存和销毁方式请向所有者确认。"
+            ]
+          },
+          {
+            "title": "选择与请求",
+            "paragraphs": [
+              "数据处理同意与使用条款分别确认。可联系所有者请求更正、限制处理、撤回同意或删除数据。撤回后继续处理需要独立的合法依据。删除账户不会删除已下载文件或Telegram历史消息。"
+            ]
+          },
+          {
+            "title": "未满18岁的参与者",
+            "paragraphs": [
+              "未成年人新账户需要代表人的单独同意，以及管理员核实代表权限后发放的邀请码。注册表不收集准确出生日期或代表人证件。"
+            ]
+          },
+          {
+            "title": "机器人注册及账户关联",
+            "paragraphs": [
+              "新成员在Telegram或MAX中输入管理员邀请码、姓名及年龄类别，并分别同意条款与数据处理。未完成注册的信息在服务器上加密存储，最长保留至最后一步后的15分钟。可使用/cancel取消。",
+              "在MAX输入的Telegram ID用于向现有账户所有者发送请求。仅输入ID不会获得访问权：所有者须在自己的Telegram中确认关联。请求有效期为5分钟。",
+              "首次打开日记时，用户通过初始为空的复选框单独确认文档。确认关联至共享账户及当前文档版本。版本改变时需要重新确认。",
+              "成员可选择Telegram、MAX及网站提醒渠道，并设置时间与间隔。仅在成员可见的课程表中存在共享作业时发送明天的作业提醒。网站提醒另需设备系统授权。"
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "title": "使用条款",
+        "sections": [
+          {
+            "title": "个人独立项目",
+            "paragraphs": [
+              "Midiary 是独立的课表、作业和学习资料服务，由本文所列的所有者运营。教育机构和院系名称仅用于帮助用户选择课表。",
+              "Midiary中的院系设计和图标为本项目原创，并非大学的官方徽章、标志或商标。"
+            ]
+          },
+          {
+            "title": "访问与服务身份",
+            "paragraphs": [
+              "Midiary是独立的学生服务，并非大学或院系官方网站。使用需要管理员邀请。请保密访问码，只确认由自己发起的Telegram登录。"
+            ]
+          },
+          {
+            "title": "费用与退款",
+            "paragraphs": [
+              "当前应用不接受付款、不出售订阅、不收取手续费，因此付款退款政策不适用。未来如有付费功能，必须事先公布价格和条件。"
+            ]
+          },
+          {
+            "title": "课表与通知",
+            "paragraphs": [
+              "课表来自院系来源或班级上传。来源可能出错，同步可能延迟。重要变动请核对官方通知。提醒送达取决于连接与权限，不保证在特定时刻送达。"
+            ]
+          },
+          {
+            "title": "资料与评价",
+            "paragraphs": [
+              "仅上传你有权在班级分享的资料。用于学习并不自动赋予传播他人文件的权利。评价应描述个人经历，不得包含虚构事实、威胁、他人个人信息或侮辱。",
+              "评分反映Midiary用户意见，并非官方教师排名。所有者可根据投诉、规则违规或第三方权利移除发布内容。请通过所有者联系方式提交请求。"
+            ]
+          },
+          {
+            "title": "停止使用",
+            "paragraphs": [
+              "可以关闭通知、退出、导出数据并在个人资料中删除账户。拒绝可选通知不影响日记访问。删除管理员账户前需先单独转交管理权限。"
+            ]
+          }
+        ]
+      },
+      "cookies": {
+        "title": "Cookie与浏览器存储",
+        "sections": [
+          {
+            "title": "必要会话",
+            "paragraphs": [
+              "session Cookie用于登录和请求保护，仅限服务域名，设置Secure与HttpOnly标志。普通登录会话最长7天。可退出登录或在浏览器设置中移除。"
+            ]
+          },
+          {
+            "title": "本地设置",
+            "paragraphs": [
+              "localStorage保存语言、主题、阅读和通知技术设置。sessionStorage记住当前窗口的退出状态。浏览器还可保存用于安装应用和网页推送的service worker。可通过浏览器网站数据设置清除。"
+            ]
+          },
+          {
+            "title": "无广告跟踪",
+            "paragraphs": [
+              "已检查版本不含分析计数器、广告像素或第三方广告Cookie。提示条说明必要存储；关闭提示不代表同意广告或新增数据类别。未来可选跟踪器应在用户单独选择前保持关闭。"
+            ]
+          }
+        ]
+      },
+      "consent": {
+        "title": "单独的数据处理同意",
+        "sections": [
+          {
+            "title": "参与者决定",
+            "paragraphs": [
+              "我允许上述Midiary所有者处理我选择的姓名、账户与班级信息、自愿关联的Telegram与推送标识、记录、资料和设置，以提供学习日记。处理包括收集、保存、使用、更正、按所选可见范围分享和删除。",
+              "若我选择MAX，本同意也涵盖数字MAX ID及通过该平台传递命令和提醒。连接仍为自愿。"
+            ]
+          },
+          {
+            "title": "范围",
+            "paragraphs": [
+              "同意持续至删除账户或通过所有者联系方式撤回。它不包括广告、出售数据、收集健康信息或护照。Telegram与推送仍是单独选择。使用条款通过另一项分别确认。"
+            ]
+          },
+          {
+            "title": "撤回",
+            "paragraphs": [
+              "删除前可以导出数据。可联系所有者撤回同意或请求更正、删除信息。未经同意继续处理需要独立的合法依据。"
+            ]
+          },
+          {
+            "title": "机器人注册及账户关联",
+            "paragraphs": [
+              "新成员在Telegram或MAX中输入管理员邀请码、姓名及年龄类别，并分别同意条款与数据处理。未完成注册的信息在服务器上加密存储，最长保留至最后一步后的15分钟。可使用/cancel取消。",
+              "在MAX输入的Telegram ID用于向现有账户所有者发送请求。仅输入ID不会获得访问权：所有者须在自己的Telegram中确认关联。请求有效期为5分钟。",
+              "首次打开日记时，用户通过初始为空的复选框单独确认文档。确认关联至共享账户及当前文档版本。版本改变时需要重新确认。",
+              "成员可选择Telegram、MAX及网站提醒渠道，并设置时间与间隔。仅在成员可见的课程表中存在共享作业时发送明天的作业提醒。网站提醒另需设备系统授权。"
+            ]
+          }
+        ]
+      },
+      "guardian": {
+        "title": "代表人的单独同意",
+        "sections": [
+          {
+            "title": "目的",
+            "paragraphs": [
+              "代表人允许上述处理者为未满18岁的参与者创建账户并提供学习日记，处理范围见单独同意与隐私政策。发放邀请码前需核实代表权限。"
+            ]
+          },
+          {
+            "title": "获得访问",
+            "paragraphs": [
+              "通过约定渠道向管理员提供单独同意并证明代表权限。管理员记录确认后发放未成年人一次性邀请码。普通邀请码或未成年人自行勾选不能替代此确认。"
+            ]
+          },
+          {
+            "title": "撤回与可见范围",
+            "paragraphs": [
+              "代表人可以联系所有者撤回同意、请求更正或删除数据。个人笔记保持私密，班级上传资料对班级可见。请勿将护照或代表权限证明上传为共享学习资料。"
+            ]
+          }
+        ]
+      },
+      "about": {
+        "title": "关于Midiary",
+        "sections": [
+          {
+            "title": "个人独立项目",
+            "paragraphs": [
+              "Midiary 是独立的课表、作业和学习资料服务，由本文所列的所有者运营。教育机构和院系名称仅用于帮助用户选择课表。",
+              "Midiary中的院系设计和图标为本项目原创，并非大学的官方徽章、标志或商标。"
+            ]
+          },
+          {
+            "title": "课表服务",
+            "paragraphs": [
+              "Midiary集合课表、作业、学习资料和提醒。这是独立项目，不代表大学或院系。支持、删除数据、版权和无障碍请求的所有者联系方式见上方。"
+            ]
+          }
+        ]
+      },
+      "licenses": {
+        "title": "组件与资料权利",
+        "sections": [
+          {
+            "title": "界面",
+            "paragraphs": [
+              "Midiary标志和院系图标为本项目创作。界面使用设备系统字体，不下载外部字体。未确认来源与授权的教师照片以文字头像替代。"
+            ]
+          },
+          {
+            "title": "软件",
+            "paragraphs": [
+              "项目使用本地Telegram Web App SDK，并保留PDF.js（Apache-2.0）、Mammoth、DOMPurify和DOC阅读组件的来源与许可信息。各组件保持原有条款，本页面不改变其许可。来源列表见/static/vendor/SOURCES.txt与/static/vendor/documents/SOURCES.txt。"
+            ]
+          },
+          {
+            "title": "用户文件",
+            "paragraphs": [
+              "图书、图片和其他上传资料的版权属于各权利人。Midiary不为他人的资料授予许可。对有争议的文件，请联系所有者并提供文件名与请求依据。"
+            ]
+          }
+        ]
+      },
+      "copyright": {
+        "title": "材料权利及版权投诉",
+        "sections": [
+          {
+            "title": "可上传的材料",
+            "paragraphs": [
+              "经管理员邀请注册的成员可以上传材料。请上传自己的作品，或有合法依据使用及分享的材料。教学目的本身不构成传播他人书籍、图片或其他作品的授权。",
+              "上传者须确保拥有必要权利，并对所提供信息的准确性负责。作品权利仍属于权利人；上传不会将权利转让给Midiary管理方。"
+            ]
+          },
+          {
+            "title": "管理方的角色",
+            "paragraphs": [
+              "管理方为用户材料提供存储和分享的技术服务，并不因此成为作者或权利人。用户及管理方的责任依适用法律确定。本文档不免除法律规定的管理方责任，也不承诺无条件免责。"
+            ]
+          },
+          {
+            "title": "举报侵权",
+            "paragraphs": [
+              "请通过上述所有者联系方式@midiarybot提交投诉，说明作品名称、相关页面链接或材料网络地址、侵权情况、您的权利或授权证明，以及回复联系方式。请勿发送多余的个人数据。",
+              "管理方将审核投诉并及时采取必要措施，包括在有依据时限制访问或删除材料。必要时可能要求补充信息。成员不得在缺乏合法依据时重新上传已删除的材料。"
+            ]
+          }
+        ]
+      }
+    },
+    "sources": "来源",
+    "license": "许可证"
+  }
+}

@@ -1,0 +1,12 @@
+.profile-name-form,.admin-panel-body form{display:grid;gap:12px;margin:18px 0}
+.admin-panel-body{padding:8px 0;min-width:0}
+.admin-panel-body h2{font-size:1.1rem;margin:14px 0 4px}
+.admin-panel-body .fd-label,.admin-panel-body .admin-group-picker{min-width:0}
+.admin-group-picker{display:grid;gap:12px}
+.admin-panel-body select,.admin-panel-body input,.profile-name-form input{width:100%;max-width:100%;min-width:0;box-sizing:border-box}
+.admin-invite-result:empty{display:none}
+.admin-access-row{padding:14px 0;border-bottom:1px solid var(--glass-border);overflow-wrap:anywhere}
+.admin-access-row p{margin:6px 0}
+.admin-panel-body .account-code{display:block;overflow-wrap:anywhere;white-space:normal;margin:12px 0}
+.admin-panel-body .privacy-check{align-items:flex-start;flex-wrap:wrap}
+.admin-panel-body .privacy-check input{width:auto;flex-shrink:0}

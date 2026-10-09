@@ -1,0 +1,11 @@
+/* Glass-HQ/liquid-glass renders an explicit, bounded decorative DOM layer. */
+.midiary-glass-scene{position:fixed!important;inset:0;isolation:isolate;pointer-events:none;z-index:0;overflow:hidden;contain:layout paint}
+.midiary-glass-content,.midiary-glass-motif{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.midiary-glass-surface{position:absolute;pointer-events:none}
+.midiary-glass-scene{visibility:hidden}
+body:has(#fgu-diary-design[data-liquid-glass=active]) .midiary-glass-scene{visibility:visible}
+body:has(#fgu-diary-design[data-liquid-glass=active])::before{visibility:hidden}
+#fgu-diary-design[data-liquid-glass=active] .midiary-glass-target{background:#ffffff03!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+#fgu-diary-design[data-liquid-glass=active][data-theme=light] .midiary-glass-target{border-color:#77777740;box-shadow:inset 0 1px 0 #ffffffcc,0 8px 24px #0000000a}
+#fgu-diary-design[data-liquid-glass=active][data-theme=dark] .midiary-glass-target{border-color:#ffffff35;box-shadow:inset 0 1px 0 #ffffff20,0 8px 24px #00000033}
+@media(prefers-reduced-transparency:reduce),(forced-colors:active){.midiary-glass-scene{display:none!important}}

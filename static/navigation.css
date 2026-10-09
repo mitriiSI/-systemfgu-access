@@ -1,0 +1,88 @@
+/* Keep control/font sizes, reducing only space around the day navigation. */
+#fgu-diary-design[data-theme] .fd-telegram {
+ position:relative;top:auto;
+ background:rgba(12,12,12,.26);
+ -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+}
+#fgu-diary-design[data-theme="light"] .fd-telegram {background:rgba(255,255,255,.38)}
+#fgu-diary-design[data-theme="dark"][data-page]:not([data-liquid-glass="active"]) .fd-telegram {background:rgba(12,12,12,.26);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+#fgu-diary-design .fd-telegram-title {display:flex;flex-direction:column;align-items:center;gap:3px}
+#fgu-diary-design .fd-telegram-title>span {margin-top:0}
+#fgu-diary-design .brand-capsule {
+ display:flex;align-items:center;justify-content:center;width:max-content;
+ min-height:36px;padding:5px 19px;border:1px solid rgba(210,210,220,.22);
+ border-radius:999px;line-height:24px;font-size:17px;font-weight:600;
+ background:rgba(28,28,30,.24);box-shadow:inset 0 1px 0 rgba(255,255,255,.07);
+}
+#fgu-diary-design[data-theme="light"] .brand-capsule {background:rgba(255,255,255,.44);border-color:rgba(35,35,40,.18)}
+#fgu-diary-design .floating-brand {
+ --brand-safe-top:calc(12px + env(safe-area-inset-top,0px));
+ position:fixed;z-index:35;top:var(--brand-safe-top);left:0;pointer-events:none;
+ will-change:transform;transform-origin:50% 50%;
+ -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+}
+#fgu-diary-design .floating-brand[hidden] {display:none}
+#fgu-diary-design .brand-anchor {flex:none}
+#fgu-diary-design .brand-label {display:block;color:inherit;font:inherit;transform-origin:50% 50%}
+#fgu-diary-design .fd-detail-page.day-page {padding-top:9px}
+#fgu-diary-design .day-page>.eyebrow {margin:0 0 4px}
+#fgu-diary-design .day-page>h1 {margin:4px 0 10px}
+#fgu-diary-design .day-hints:empty {display:none}
+#fgu-diary-design .day-hints>* {margin:4px 0 6px}
+#fgu-diary-design .day-page .week-tools {margin:4px 0 8px}
+#fgu-diary-design .day-calendar-controls {display:flex;flex:1;min-width:0;align-items:center;justify-content:center;gap:6px;padding:0}
+#fgu-diary-design .day-calendar-controls svg {width:21px;height:21px;flex:none}
+#fgu-diary-design .fd-lesson-card .fd-lesson-name {width:fit-content;max-width:100%}
+#fgu-diary-design[data-theme][data-page] .week-tools .week-align {--button-radius:12px;width:auto;min-width:0;height:40px;min-height:40px;flex:0 1 auto;font-size:12px;padding:0 10px;border-radius:12px;background:var(--fd-surface);border:1px solid var(--fd-border);box-shadow:var(--glass-inset)}
+#fgu-diary-design[data-theme][data-page] .day-calendar-controls>.fd-icon-button {--button-radius:12px;flex:0 0 40px;width:40px;min-width:40px;height:40px;min-height:40px;border-radius:12px;background:var(--fd-surface);border:1px solid var(--fd-border);box-shadow:var(--glass-inset)}
+#fgu-diary-design .day-page .week.day-strip {display:block;margin:0 0 12px;padding:8px;overflow:hidden}
+#fgu-diary-design .day-viewport {
+ width:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;
+ scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+ touch-action:pan-x pan-y;cursor:grab;
+}
+#fgu-diary-design .day-viewport::-webkit-scrollbar {display:none}
+#fgu-diary-design .day-viewport.is-dragging {cursor:grabbing;scroll-snap-type:none;user-select:none}
+#fgu-diary-design .day-track {display:flex;width:max-content;gap:0}
+#fgu-diary-design .day-strip .day-cell {
+ flex:0 0 var(--day-width,48px);width:var(--day-width,48px);min-width:0;
+ scroll-snap-align:center;scroll-snap-stop:normal;min-height:70px;
+}
+#fgu-diary-design .day-strip .day-cell.active {position:relative}
+#fgu-diary-design .day-page .day-return-today {margin:0 0 10px;min-height:40px}
+#fgu-diary-design .day-page .day-return-today[hidden] {display:none}
+#fgu-diary-design .day-page .section-heading {margin:0 2px 8px}
+#fgu-diary-design .day-details[aria-busy="true"] {opacity:.6}
+#fgu-diary-design .day-details {transition:opacity .12s ease}
+#fgu-diary-design :is(#nav,#theme,#logout) svg {overflow:visible}
+#fgu-diary-design .icon-question {display:inline-block;font-weight:600}
+.icon-sun-rays,.icon-sun-disc,.icon-clock-hands,.icon-moon {transform-box:view-box;transform-origin:12px 12px}
+.icon-cap {transform-box:view-box;transform-origin:12px 8px}
+.icon-tassel {transform-box:view-box;transform-origin:22px 8px}
+.icon-folder {transform-box:view-box;transform-origin:12px 20px}
+#fgu-diary-design .is-icon-animating .icon-sun-rays {animation:sun-rays .65s cubic-bezier(.2,.7,.2,1)}
+#fgu-diary-design .is-icon-animating .icon-sun-disc {animation:sun-disc .65s ease}
+#fgu-diary-design .is-icon-animating .icon-cap {animation:cap-bounce .65s cubic-bezier(.2,.7,.2,1)}
+#fgu-diary-design .is-icon-animating .icon-tassel {animation:tassel-swing .65s ease}
+#fgu-diary-design .is-icon-animating .icon-folder {animation:folder-open .65s ease}
+#fgu-diary-design .is-icon-animating .icon-clock-hands {animation:clock-tick .65s cubic-bezier(.2,.7,.2,1)}
+#fgu-diary-design .is-icon-animating .icon-moon {animation:moon-turn .65s ease}
+#fgu-diary-design .is-icon-animating .icon-question {animation:question-bounce .65s ease}
+#fgu-diary-design .is-icon-animating .icon-exit-arrow {animation:exit-arrow .65s ease}
+@keyframes sun-rays {0%,100%{transform:scale(1)}40%{transform:scale(1.34) rotate(12deg)}70%{transform:scale(1.08) rotate(-5deg)}}
+@keyframes sun-disc {0%,100%{transform:scale(1)}40%{transform:scale(1.08)}}
+@keyframes cap-bounce {0%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-3px) rotate(-9deg)}65%{transform:translateY(1px) rotate(5deg)}}
+@keyframes tassel-swing {0%,100%{transform:rotate(0)}35%{transform:rotate(-24deg)}65%{transform:rotate(16deg)}}
+@keyframes folder-open {0%,100%{transform:skewX(0) scaleY(1)}40%{transform:skewX(-12deg) scaleY(1.15)}70%{transform:skewX(5deg) scaleY(.96)}}
+@keyframes clock-tick {0%{transform:rotate(0)}60%{transform:rotate(390deg)}100%{transform:rotate(360deg)}}
+@keyframes moon-turn {0%,100%{transform:rotate(0) scale(1)}40%{transform:rotate(-28deg) scale(1.16)}70%{transform:rotate(9deg) scale(1.04)}}
+@keyframes question-bounce {0%,100%{transform:translateY(0) rotate(0)}30%{transform:translateY(-4px) rotate(-14deg)}65%{transform:translateY(1px) rotate(10deg)}}
+@keyframes exit-arrow {0%,100%{transform:translateX(0);opacity:1}40%{transform:translateX(5px);opacity:.3}41%{transform:translateX(-3px);opacity:0}70%{transform:translateX(1px);opacity:1}}
+@media(max-width:599px){
+ #fgu-diary-design .brand-capsule {font-size:15px;padding:4px 14px;min-height:34px}
+ #fgu-diary-design .fd-detail-page.day-page {padding-top:7px}
+}
+@media(prefers-reduced-motion:reduce){
+ #fgu-diary-design .is-icon-animating :is(svg,path,circle,b),#fgu-diary-design .floating-brand {animation:none}
+ #fgu-diary-design .day-details {transition:none}
+}

@@ -1,0 +1,3 @@
+JSDoc: https://github.com/Alpaq92/JSDoc/tree/821695a884e0c0bb8592a635d9524bb3e116cd67
+mammoth 1.12.3: https://registry.npmjs.org/mammoth/-/mammoth-1.12.3.tgz
+dompurify 3.4.15: https://registry.npmjs.org/dompurify/-/dompurify-3.4.15.tgz

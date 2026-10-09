@@ -1,0 +1,67 @@
+/* Faculty backgrounds: political motifs, map contours and archival ruled lines. */
+#fgu-diary-design[data-faculty=fgu],.faculty-card[data-faculty=fgu]{--faculty-accent:#d4d4d4;--faculty-ink:#202020;--faculty-light:#ededed;--faculty-edge:#ffffff26;--faculty-wash:#ffffff09}
+#fgu-diary-design[data-faculty=geo],.faculty-card[data-faculty=geo],#fgu-diary-design[data-faculty=ffl],.faculty-card[data-faculty=ffl],#fgu-diary-design[data-faculty=fgp],.faculty-card[data-faculty=fgp]{--faculty-accent:#d4d4d4;--faculty-ink:#202020;--faculty-light:#ededed;--faculty-edge:#ffffff26;--faculty-wash:#ffffff09}
+#fgu-diary-design[data-faculty=hist],.faculty-card[data-faculty=hist]{--faculty-accent:#dcc7a6;--faculty-ink:#49321a;--faculty-light:#f4ebde;--faculty-edge:#856c4b;--faculty-wash:#dcc7a60c}
+#fgu-diary-design[data-faculty=fgu]{background-color:transparent;background-image:none;position:relative;z-index:1}
+body:has(#fgu-diary-design[data-faculty=fgu])::before{content:"";position:fixed;inset:0;pointer-events:none;background:url('/static/fgu-politics.svg') center 10vh/min(1440px,160vw) auto no-repeat;opacity:.12;z-index:0}
+html[data-fgu-theme=light] body:has(#fgu-diary-design[data-faculty=fgu]){background-color:#f2f2f2;background-image:none}
+html[data-fgu-theme=dark] body:has(#fgu-diary-design[data-faculty=fgu]){background-color:#080808;background-image:radial-gradient(ellipse at 4% 18%,#17171780,transparent 55%),radial-gradient(ellipse at 100% 75%,#12121280,transparent 60%)}
+#fgu-diary-design:is([data-faculty=geo],[data-faculty=ffl],[data-faculty=fgp]){background-color:transparent;background-image:none;position:relative;z-index:1}
+body:has(#fgu-diary-design:is([data-faculty=geo],[data-faculty=ffl],[data-faculty=fgp]))::before{content:"";position:fixed;inset:0;pointer-events:none;background-position:center 3vh;background-size:min(1440px,180vw) auto;background-repeat:no-repeat;opacity:.11;z-index:0}
+body:has(#fgu-diary-design[data-faculty=geo])::before{background-image:url('/static/geo-maps.svg')}
+body:has(#fgu-diary-design[data-faculty=ffl])::before{background-image:url('/static/ffl-languages.svg');opacity:.09}
+body:has(#fgu-diary-design[data-faculty=fgp])::before{background-image:url('/static/fgp-globe.svg');opacity:.10}
+html[data-fgu-theme=dark] body:has(#fgu-diary-design:is([data-faculty=geo],[data-faculty=ffl],[data-faculty=fgp])){background-color:#080808;background-image:radial-gradient(ellipse at 4% 18%,#17171780,transparent 55%),radial-gradient(ellipse at 100% 75%,#12121280,transparent 60%)}
+html[data-fgu-theme=light] body:has(#fgu-diary-design:is([data-faculty=geo],[data-faculty=ffl],[data-faculty=fgp])){background-color:#f2f2f2;background-image:none}
+#fgu-diary-design[data-faculty=hist]{background-image:linear-gradient(0deg,transparent 97%,var(--faculty-wash) 97%);background-size:100% 48px}
+#fgu-diary-design[data-faculty]:not([data-faculty=""]){--fd-accent:var(--faculty-accent);--fd-accent-soft:var(--faculty-wash)}
+#fgu-diary-design[data-faculty]:not([data-faculty=""]) :is(.fd-primary,.fd-date.today,.week button.active){background:var(--faculty-accent);color:var(--faculty-ink);border-color:var(--faculty-edge)}
+#fgu-diary-design[data-faculty]:not([data-faculty=""]) :is(.identity-avatar,.rating-avatar){background:var(--faculty-ink);color:var(--faculty-accent);border:1px solid var(--faculty-edge)}
+#fgu-diary-design[data-faculty]:not([data-faculty=""]) .fd-bottom-nav button[aria-current=page]{color:var(--faculty-accent)}
+#fgu-diary-design[data-faculty]:not([data-faculty=""]) :is(.fd-lesson-card,.rating-overview,.identity-row){border-top-color:var(--faculty-edge)}
+#fgu-diary-design .faculty-card{position:relative;overflow:hidden;isolation:isolate;border-top:3px solid var(--faculty-edge)}
+#fgu-diary-design .faculty-card::after{content:"";position:absolute;inset:auto -35px -42px auto;width:110px;height:110px;border:1px solid var(--faculty-edge);border-radius:50%;opacity:.25;z-index:-1}
+#fgu-diary-design .faculty-card[data-faculty=fgu]::after{border-radius:8px;transform:rotate(30deg)}
+#fgu-diary-design .faculty-card[data-faculty=hist]::after{border-radius:8px;transform:rotate(45deg)}
+#fgu-diary-design .faculty-card[aria-pressed=true]{background:var(--faculty-light);color:var(--faculty-ink);border-color:var(--faculty-edge);box-shadow:0 8px 24px #0003}
+#fgu-diary-design[data-theme=light][data-faculty]:not([data-faculty=""]){--fd-accent:var(--faculty-ink)}
+#fgu-diary-design[data-theme=light][data-faculty]:not([data-faculty=""]) .fd-bottom-nav button[aria-current=page]{color:var(--faculty-ink)}
+#fgu-diary-design[data-theme=light][data-faculty]:not([data-faculty=""]) :is(.fd-primary,.fd-date.today,.week button.active){background:var(--faculty-ink);color:#fff}
+.documents-intro{padding:20px;border:1px solid var(--fd-border);border-radius:20px;background:var(--fd-surface)}
+.documents-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin:20px 0}
+.document-link{display:flex;flex-direction:column;gap:8px;padding:20px;border-radius:20px;border:1px solid var(--fd-border);background:var(--fd-surface);color:var(--fd-text);text-decoration:none;overflow-wrap:anywhere}
+.document-link span{font-size:14px;color:var(--fd-muted);line-height:1.5}
+.document-link:hover{border-color:var(--faculty-edge,var(--fd-muted))}
+
+/* Enlarging the numeral preserves one selected day without boxing every date. */
+#fgu-diary-design[data-theme] .week button strong{transition:font-size .2s ease;font-variant-numeric:tabular-nums}
+#fgu-diary-design[data-theme] .week button.active strong{color:var(--fd-text);font-size:24px;font-weight:600}
+#fgu-diary-design[data-theme] .week button.active small{color:var(--fd-muted)}
+@media(prefers-reduced-motion:reduce){#fgu-diary-design[data-theme] .week button strong{transition:none}}
+
+/* Black glass surfaces let the political motifs show through the blur. */
+#fgu-diary-design[data-theme=dark]{
+ --fd-bg:#080808;--fd-surface:#101010b8;--fd-header:#0d0d0dc9;--fd-text:#f5f5f5;--fd-muted:#ababab;
+ --fd-accent:#d4d4d4;--fd-accent-soft:#ffffff09;--fd-border:#ffffff21;--fd-line:#ffffff17;
+ --glass-input:#ffffff08;--glass-opaque:#141414;--glass-border:#ffffff21;
+ --glass-shadow:0 16px 36px #00000055,inset 0 1px 0 #ffffff13;
+ --glass-inset:inset 0 1px 0 #ffffff12;--glass-highlight:#ffffff08;
+}
+#fgu-diary-design[data-theme=dark][data-faculty=fgu]{--faculty-edge:#ffffff26;--faculty-ink:#202020}
+#fgu-diary-design[data-theme=dark][data-page] :is(.fd-telegram,.fd-bottom-nav,.week,.fd-lesson-card,.fd-hw-editor,.fd-calendar-month,.lesson-settings-panel,.subject-teachers-dialog){
+ background:linear-gradient(145deg,#ffffff07 0%,#ffffff01 42%,#00000018 100%),var(--fd-surface);
+ border-color:#ffffff24;border-top-color:#ffffff32;
+ box-shadow:inset 0 1px 0 #ffffff12,inset 0 -1px 0 #00000050,0 14px 36px #00000055;
+ backdrop-filter:blur(24px) saturate(100%);-webkit-backdrop-filter:blur(24px) saturate(100%);
+}
+#fgu-diary-design[data-theme=dark][data-page] :is(.fd-telegram,.fd-bottom-nav,.lesson-settings-panel){background-color:#0c0c0cc9}
+#fgu-diary-design[data-theme=dark]:is([data-faculty=fgu],[data-faculty=geo],[data-faculty=ffl],[data-faculty=fgp]) .lesson-badge{color:#bdbdbd;background:#ffffff08;border-color:#ffffff15}
+#fgu-diary-design[data-theme=dark] :is(.identity-avatar,.rating-avatar){background:#202020;color:#d4d4d4;border-color:#ffffff24}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+ #fgu-diary-design[data-theme=dark][data-page] :is(.fd-telegram,.fd-bottom-nav,.week,.fd-lesson-card,.fd-hw-editor,.lesson-settings-panel,.subject-teachers-dialog){background:#141414}
+}
+.subgroup-settings,.faculty-placeholder,.schedule-status{padding:18px;margin:16px 0;border:1px solid var(--fd-border);border-radius:22px;background:var(--fd-surface);box-shadow:inset 0 1px 0 #ffffff12;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+.subgroup-settings h2{margin-top:0}.subgroup-form{display:grid;gap:12px}.subgroup-form .fd-label{display:grid;gap:7px}.subgroup-form select{width:100%;min-width:0;max-width:100%}
+.schedule-status:empty{display:none}.faculty-placeholder{line-height:1.6}
+
+.import-review-days{display:grid;gap:12px;margin:16px 0}.import-lesson-review{padding:16px;margin:12px 0;border:1px solid var(--fd-border);border-radius:18px;background:var(--fd-surface)}.import-lesson-review .fd-label{display:grid;gap:6px;margin:10px 0}.import-time-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.import-time-fields input{min-width:0;width:100%}.import-lesson-details{margin-top:10px}.import-lesson-details summary{font-size:13px;color:var(--fd-muted);cursor:pointer}.import-subgroups{display:grid;gap:10px}.import-subgroups .fd-label{display:grid;gap:6px}.import-review-day>summary{cursor:pointer}.import-lesson-review[hidden]{display:none}.schedule-import-result>.fd-label{display:grid;gap:7px;margin:20px 0}.schedule-import-result .fd-input{max-width:100%}
